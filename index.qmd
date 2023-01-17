@@ -1,3 +1,9 @@
 ---
-title: "cnbsguide"
+title: "Welcome!"
+sidebar: false
+about:
+  template: jolla
 ---
+
+In this lab guide you will find all you need to know to get started as a member of the **Center for Non-Invasive Brain Stimulation Munich-Augsburg**.
+

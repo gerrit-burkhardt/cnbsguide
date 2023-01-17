@@ -1,13 +1,33 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "cnbsguide"
+  title: "Lab Guide"
+  
+  page-navigation: true
+  
   navbar:
+    background: light
+    search: true
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "Home"
+        file: index.qmd
+      - text: "Ressources"
+        file: re.qmd
+        
+  sidebar:
+    - title: "Ressources"
+      style: "docked"
+      background: light
+      contents:
+        - re_courses.qmd
+        - re_paper.qmd
+
+  page-footer: 
+    left: "© Copyright 2023, Gerrit Burkhardt" 
+    right: "This page is built with ❤️ and Quarto."
+
 
 format:
   html:
