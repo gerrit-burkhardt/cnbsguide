@@ -13,16 +13,25 @@ website:
     left:
       - text: "Home"
         file: index.qmd
+      - text: "SOPs"
+        file: sop.qmd
       - text: "Ressources"
         file: re.qmd
         
   sidebar:
-    - title: "Ressources"
-      style: "docked"
-      background: light
-      contents:
-        - re_courses.qmd
-        - re_paper.qmd
+      - title: "SOPs"
+        style: "docked"
+        background: light
+        contents:
+          - sop.qmd
+          - sop_clipp.qmd
+      - title: "Ressources"
+        style: "docked"
+        background: light
+        contents:
+          - re.qmd
+          - re_courses.qmd
+          - re_paper.qmd
 
   page-footer: 
     left: "© Copyright 2023, Gerrit Burkhardt" 
@@ -31,7 +40,9 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: cosmo
+      dark: darkly
     css: styles.css
     toc: true
 

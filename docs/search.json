@@ -21,6 +21,34 @@
     "text": "In this lab guide you will find all you need to know to get started as a member of the Center for Non-Invasive Brain Stimulation Munich-Augsburg."
   },
   {
+    "objectID": "sop_clipp.html",
+    "href": "sop_clipp.html",
+    "title": "Clinical Phenotyping Platform (CLIPP)",
+    "section": "",
+    "text": "Das CLIPP ist ein Phänotypisierungs–Tool zur Erfassung von Patient*innen-Daten in der klinischen Versorgung.\nEntwickler: Gerrit Burkhardt, Janos Kalman, Clemens Scherer\nWesentliche Merkmale:\n\nIntegration mit dem KAS: Import von Stammdaten, Export eines Arztbriefs als .pdf\nAlle Daten werden im sogenannten FHIR-Format in einer gesicherten Datenbank gespeichert\nNutzung im Browser innerhalb des MedVer-Netzes (d.h. nicht von außerhalb der Klinik)"
+  },
+  {
+    "objectID": "sop_clipp.html#fall-registrierung",
+    "href": "sop_clipp.html#fall-registrierung",
+    "title": "Clinical Phenotyping Platform (CLIPP)",
+    "section": "Fall-Registrierung",
+    "text": "Fall-Registrierung\nRegistrierung einer*s neuen Patient*in"
+  },
+  {
+    "objectID": "sop_clipp.html#fragebogen-bibliothek",
+    "href": "sop_clipp.html#fragebogen-bibliothek",
+    "title": "Clinical Phenotyping Platform (CLIPP)",
+    "section": "Fragebogen-Bibliothek",
+    "text": "Fragebogen-Bibliothek\nAnlegen und Auswählen von Fragebögen"
+  },
+  {
+    "objectID": "sop_clipp.html#vorgehen-am-cnbsma",
+    "href": "sop_clipp.html#vorgehen-am-cnbsma",
+    "title": "Clinical Phenotyping Platform (CLIPP)",
+    "section": "Vorgehen am CNBSMA",
+    "text": "Vorgehen am CNBSMA\nAm CNBSMA verwenden wir das CLIPP für die wissenschaftlichen Begleitung der klinischen Hirnstimulations-Behandlungen.\nDie folgenden fett markierten Fragebögen sind im CLIPP hinterlegt und sollten nach dem hier aufgeführten Schema erfasst werden:"
+  },
+  {
     "objectID": "re_paper.html",
     "href": "re_paper.html",
     "title": "Paper to read",

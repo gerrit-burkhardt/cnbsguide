@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Lab Guide - Ressources</title>
+<title>Lab Guide - Clinical Phenotyping Platform (CLIPP)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./re_courses.html" rel="next">
+<link href="./sop.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -87,11 +87,11 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./sop.html">
+    <a class="nav-link active" href="./sop.html" aria-current="page">
  <span class="menu-text">SOPs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./re.html" aria-current="page">
+    <a class="nav-link" href="./re.html">
  <span class="menu-text">Ressources</span></a>
   </li>  
 </ul>
@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Ressources</h1>
+      <h1 class="quarto-secondary-nav-title">Clinical Phenotyping Platform (CLIPP)</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -119,17 +119,12 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./re.html" class="sidebar-item-text sidebar-link active">Ressources</a>
+  <a href="./sop.html" class="sidebar-item-text sidebar-link">SOPs</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./re_courses.html" class="sidebar-item-text sidebar-link">Useful courses &amp; tutorials</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./re_paper.html" class="sidebar-item-text sidebar-link">Paper to read</a>
+  <a href="./sop_clipp.html" class="sidebar-item-text sidebar-link active">Clinical Phenotyping Platform (CLIPP)</a>
   </div>
 </li>
     </ul>
@@ -137,14 +132,23 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#basics" id="toc-basics" class="nav-link active" data-scroll-target="#basics">Basics</a></li>
+  <li><a href="#fall-registrierung" id="toc-fall-registrierung" class="nav-link" data-scroll-target="#fall-registrierung">Fall-Registrierung</a></li>
+  <li><a href="#fragebogen-bibliothek" id="toc-fragebogen-bibliothek" class="nav-link" data-scroll-target="#fragebogen-bibliothek">Fragebogen-Bibliothek</a></li>
+  <li><a href="#vorgehen-am-cnbsma" id="toc-vorgehen-am-cnbsma" class="nav-link" data-scroll-target="#vorgehen-am-cnbsma">Vorgehen am CNBS<sup>MA</sup></a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Ressources</h1>
+<h1 class="title d-none d-lg-block">Clinical Phenotyping Platform (CLIPP)</h1>
 </div>
 
 
@@ -159,9 +163,78 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>A collection of useful learning ressources, recommended scientific tools, and essential papers on topics relevant to our research.</p>
+<section id="basics" class="level2">
+<h2 class="anchored" data-anchor-id="basics">Basics</h2>
+<p>Das CLIPP ist ein Phänotypisierungs–Tool zur Erfassung von Patient*innen-Daten in der klinischen Versorgung.</p>
+<p>Entwickler: Gerrit Burkhardt, Janos Kalman, Clemens Scherer</p>
+<p>Wesentliche Merkmale:</p>
+<ul>
+<li>Integration mit dem KAS: Import von Stammdaten, Export eines Arztbriefs als .pdf</li>
+<li>Alle Daten werden im sogenannten FHIR-Format in einer gesicherten Datenbank gespeichert</li>
+<li>Nutzung im Browser innerhalb des MedVer-Netzes (d.h. nicht von außerhalb der Klinik)</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/01_login.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="fall-registrierung" class="level2">
+<h2 class="anchored" data-anchor-id="fall-registrierung">Fall-Registrierung</h2>
+<p>Registrierung einer*s neuen Patient*in</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/02_register_01.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/03_register_02.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/04_register_03.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/05_register_04.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="fragebogen-bibliothek" class="level2">
+<h2 class="anchored" data-anchor-id="fragebogen-bibliothek">Fragebogen-Bibliothek</h2>
+<p>Anlegen und Auswählen von Fragebögen</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/06_biblio_01.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/07_biblio_02.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/08_biblio_03-01.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/09_biblio_04-01.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="vorgehen-am-cnbsma" class="level2">
+<h2 class="anchored" data-anchor-id="vorgehen-am-cnbsma">Vorgehen am CNBS<sup>MA</sup></h2>
+<p>Am CNBS<sup>MA</sup> verwenden wir das CLIPP für die wissenschaftlichen Begleitung der klinischen Hirnstimulations-Behandlungen.</p>
+<p>Die folgenden <strong>fett</strong> markierten Fragebögen sind im CLIPP hinterlegt und sollten nach dem hier aufgeführten Schema erfasst werden:</p>
+<p><img src="images/image-1708442326.png" class="img-fluid"></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -414,11 +487,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./sop.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">SOPs</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./re_courses.html" class="pagination-link">
-        <span class="nav-page-text">Useful courses &amp; tutorials</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

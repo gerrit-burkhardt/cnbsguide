@@ -1,0 +1,49 @@
+---
+title: "Clinical Phenotyping Platform (CLIPP)"
+---
+
+## Basics
+
+Das CLIPP ist ein Phänotypisierungs--Tool zur Erfassung von Patient\*innen-Daten in der klinischen Versorgung.
+
+Entwickler: Gerrit Burkhardt, Janos Kalman, Clemens Scherer
+
+Wesentliche Merkmale:
+
+-   Integration mit dem KAS: Import von Stammdaten, Export eines Arztbriefs als .pdf
+-   Alle Daten werden im sogenannten FHIR-Format in einer gesicherten Datenbank gespeichert
+-   Nutzung im Browser innerhalb des MedVer-Netzes (d.h. nicht von außerhalb der Klinik)
+
+![](images/01_login.png){fig-align="center"}
+
+## Fall-Registrierung
+
+Registrierung einer\*s neuen Patient\*in
+
+![](images/02_register_01.png){fig-align="center"}
+
+![](images/03_register_02.png){fig-align="center"}
+
+![](images/04_register_03.png){fig-align="center"}
+
+![](images/05_register_04.png){fig-align="center"}
+
+## Fragebogen-Bibliothek
+
+Anlegen und Auswählen von Fragebögen
+
+![](images/06_biblio_01.png){fig-align="center"}
+
+![](images/07_biblio_02.png){fig-align="center"}
+
+![](images/08_biblio_03-01.png){fig-align="center"}
+
+![](images/09_biblio_04-01.png){fig-align="center"}
+
+## Vorgehen am CNBS^MA^
+
+Am CNBS^MA^ verwenden wir das CLIPP für die wissenschaftlichen Begleitung der klinischen Hirnstimulations-Behandlungen.
+
+Die folgenden **fett** markierten Fragebögen sind im CLIPP hinterlegt und sollten nach dem hier aufgeführten Schema erfasst werden:
+
+![](images/image-1708442326.png)
