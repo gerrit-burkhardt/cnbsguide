@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Lab Guide"
+  title: "CNBS^MA^ - Lab Guide"
   
   page-navigation: true
   

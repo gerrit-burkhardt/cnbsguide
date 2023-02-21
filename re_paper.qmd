@@ -1,5 +1,36 @@
 ---
-title: "Paper to read"
+title: "The essential reading list"
+bibliography: references.bib
 ---
 
-Paper to read
+## TMS
+
+### Depression
+
+#### The Beginnings
+
+-   [@Pascual-Leone1996]: Rapid stimulation of the left prefrontal cortex...
+
+#### Multicenter RCTs
+
+-   [@OReardon2007]: Multicenter study leading to the FDA approval of the "NeuroStar *TMS* Therapy system"
+
+-   [@levkovitz2015]: Multicenter trial on deep TMS
+
+-   [@Blumberger2018]: THREE-D: Theta Burst is non-inferior to 10-Hz rTMS
+
+-   [@Blumberger2022]: FOUR-D: "THREE-D for older patients"
+
+#### Single center RCTs
+
+-   [@Cole2022]: The "SAINT" paper: accelerated TBS
+
+-   [@cole2022]: TBS + Cycloserin
+
+## Pharmacotherapy
+
+### Depression
+
+#### Meta-analysis
+
+-   [@cipriani2018]: Comparative Efficacy and Acceptability of 21 Antidepressant Drugs for the Acute Treatment of Adults with Major Depressive Disorder
