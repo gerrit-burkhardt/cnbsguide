@@ -1,5 +1,5 @@
 ---
-title: "Ressources"
+title: "Overview"
 ---
 
 A collection of useful learning ressources, recommended scientific tools, and essential papers on topics relevant to our research.
