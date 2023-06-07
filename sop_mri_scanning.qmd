@@ -1,0 +1,55 @@
+---
+title: "MRT Kurzanleitung"
+---
+
+## MRT durchführen
+
+-   Schlüssel unlock drehen -\> system on (click, click)
+
+-   Alles im MRT vorbereiten: head coil, Kissen, Ohrstöpsel...
+
+-   PatientIn hinlegen lassen -\> Home (Liege geht auf) -\> Augen zu -\> Laser anschalten und bis Augenbrauen Höhe stellen -\> Laser ausschalten -\> drücken große runde Taste bis isocenter
+
+-   am Computer - Patient (ober links) -\> Scheduler, Pat-ID auswählen (har Irmi schon geplant) -\> sex, weight, height, head first supine -\> exam -\> choose protocol, brain -\> confirm
+
+-   Erste Aufnahmen (Localizer) laufen lassen bei "grüner check" zu drücken -\> confirm -\> ok
+
+-   Danach gelbes Feld adjustieren (nicht Größe ändern!!!) -\> T1 laufen lassen
+
+-   Die weitere Aufnahmen mit dem gelben Feld vorbereiten: doppelklicken auf die Aufnahme, die man vorbereiten will -\> gelbes Feld dann "grüner check" -\> dann nochmal auf "kleinem Mann" drücken, damit Aufnahme nicht direct nach der vorherige läuft
+
+-   Gelbes Feld bei resting state mit Neigung anhand der AC-PC-Linie (anterior/posterior commissura)
+
+-   Resting state: Augen zu, an nichts besonders denken und nicht einschlafen
+
+-   Am Ende: Patient -\> Browser -\> select images (ALLE!!! auswählen) -\> transfer
+
+    -\> export to offline -\> H:/ (usb)
+
+    -\> send to -\> Visage
+
+    -\> send to -\> PACS (only T1 and T2 für den Kurzbefund)
+
+-   Kontrolle des Transfers: Transfer -\> local job status für usb / network job status für Visage und PACS -\> transfer completed bei 0
+
+-   Alles aufräumen -\> Liege auf Home
+
+System -\> end session -\> shut down auf beiden Computer -\> warte auf approval -\> system off -\> Schlüssel auf lock drehen
+
+## MRT Bilder aus Visage herunterladen
+
+-   Visage App aufmachen
+
+-   Passwort xxx
+
+-   PatientIn nach Name, Vorname/ Geburtstdatum/ Geschlecht suchen/ID/MRT-Datum (kreuzen den Kästchen unter ID) suchen; eventuell auf MRT kreuzen
+
+-   Patienten Zeile markieren
+
+-   Rechte Knopf drücken / Daten holen -\>rechte Knopf
+
+-   Medienexport
+
+-   USB wählen
+
+-   Exportieren

@@ -26,6 +26,9 @@ website:
         contents:
           - sop.qmd
           - sop_clipp.qmd
+          - sop_mri_scanning.qmd
+          - sop_mri_analysis.qmd
+          - sop_neuronavigation.qmd
       - section: "Ressources"
         contents:
           - re.qmd

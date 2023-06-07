@@ -1,0 +1,128 @@
+---
+title: "Neuronavigation Kurzanleitung"
+---
+
+## Studien- und Protokollüberblick
+
+-   Klinische TMS bei depressiven Symptomen
+    -   Target: linker DLPFC, über BeamF3 (mittels EEG Kappe) oder Blumberger Punkt (MRT-gesteuert, neuronavigiert)
+    -   Protokoll: 2x iTBS
+-   PREMISS Studie: für Schizophrenie mit Negativsymptomatik - Target: linker DLPFC, BeamF3 mittels EEG Kappe (einmal per Behandlung bei Localite als Stimulationspunkt einspeichern für spätere Auswertung!) - Protokol: 1. Phase rTMS (repetitive TMS), 2. Phase randomisiert rTMS/iTBS
+-   TBS-D Studie: für Depression
+    -   Target: beidseitiger DLPFC, BeamF3 mittels EEG Kappe (einmal per Behandlung bei Localite als Stimulationspunkt einspeichern für spätere Auswertung!)
+    -   Protokol: rechts cTBS/ links iTBS
+-   TBS-AH: akustische Halluzinationen bei Schizophrenie
+    -   Target: beidseitiger auditorische Kortex mittels EEG Kappe
+-   Discover: tDCS + kognitives Training bei Depression
+    -   Target: bilateraler präfrontaler Kortex
+    -   Protokoll: tDSC
+
+## Neuronavigation - Vorbereitung "Run Script"
+
+-   Passwort neuro: abcdef
+-   USB-Stick hinten am PC einstecken
+-   Stick: **PATDATA** → Ordner NTMS\_\[Pat.Nr.\]\_\[F oder M\]\_MDD auswählen
+-   Speicherort für den Ordner: Users → Shared → studies → nTMS
+-   Die MR Daten, die man vom Scanner herunterlädt, sind im DICOM Format (Endung .dcm oder .IMA)
+-   Um den Blumberger Punkt als Target in Localite einstellen zu können, müssen wir die Koordinaten aus dem Standard MNI Space in den subject-space umwandeln. Das machen wir mit dem "script_dlpfc_location"
+-   Das "script_dlpfc_location" besteht aus mehreren Teilen; zuerst werden die DICOM Dateien in das Nifti file format umgewandelt (dcm2niix), dann wird mit dem Befehl "fsl_anat" das MRT Bild normalisiert (die Aufnahmen sind nicht mehr im subject-space, sondern im standard MNI space). Die Transformationsmatrix dieser Umwandlung wird umgekehrt, und auf die MNI Koordinaten des Blumberger Punktes angewandt; so bekommt man den Blumberger Punkt im subject space und kann diese Datei in Localite hochladen. Praktisch muss man:
+-   Terminal öffnen und das Script im Text Programm öffnen, zum bearbeiten
+    -   (hinter lucia\$ bzw neuro\$ eintippen) **run-script_dlpfc_location\[leerzeichen\]open\[leerzeichen\]-t**
+    -   cmd + s speichert die Änderungen
+-   Fenster öffnet sich → Namen hinter **set subjects** ändern (Ordnername einfügen, dieser wird bearbeitet)
+-   In Terminal zum nTMS Ordner navigieren: neuro\$ bzw. lucia\$ cd \[Ordner reinkopieren\]
+-   Das Script laufen lassen - im Terminal: neuro\$ bzw. lucia\$ tcsh \[run-script einfügen\] & Enter drücken -\> Script läuft, dauert 15-30 Minuten
+-   **Blumberger** und **T1_biascorr.nii**.gz → Doppelklick zum Entpacken (nur Endung .nii)
+-   Dateien auf den Stick (PATDATA) kopieren und rüber zum Localite PC!
+
+Troubleshooting
+
+-   Fehlermeldung - keine Berechtigung (no permission...)
+
+    -   chmod 777 \[path-to-filename\] ändert die Rechte sodass alle Nutzer eines PCs die Datei bearbeiten und ausführen können, alternativ kann man die Datei kopieren und bei der Kopie den Nutzer ändern: chown \[nutzername also bsp. neuro\] \[path-to-filename\]
+
+    -   Wenn die Befehele nicht ausführbar sind, kann man sudo davor setzen, damit führt man Befehle als Administrator aus und kann meistens Rechte überschreiben; bsp: sudo chmod 777 \[path-to-filename\], danach wird man aufgefordert das Nutzerpasswort einzugeben
+
+-   Fehlermeldung: \*\* results dir already exists, skipping subject ntms_009_m\_MDD
+
+    -   Das Script ist bereits einmal gelaufen, überprüfe, ob du wirklich die Ergebnisse in dem Ordner Patientencode.anat (also bsp. ntms_009_m\_MDD.anat) überschreiben möchtest, wenn ja, lösche den Ordner oder speichere ihn unter einem anderen Namen, und starte das Script nochmal
+
+-   Fehlermeldung: Cannot open volume ntms_009_m\_MDD_t1_mprage_sag_0.8 for reading!
+
+    -   Die Umwandlung der DICOM Dateien in das Nifty Format hat nicht ganz funktioniert, dies liegt meist daran, dass die Datei anders heißt, als im Script gefordert. Wir brauchen hier die t1_mprage Sequenz; wenn es eh nur eine t1_mprage Datei mit der Endung nii.gz (=NIFTI) gibt, ändere den Namen dieser Datei in das gewünschte Format (Patientencode_t1_mprage_sag_0.8.nii.gz, also bsp. ntms_009_m\_MDD_t1_mprage_sag_0.8.nii.gz)
+
+    -   Wenn es mehrere t1_mprage Dateien gibt, öffne jede im fsleyes (bsp. fsleyes ntms_009_m\_MDD_t1_mprage_sag_0.8d.nii) und suche dir die aus, die dir von der Qualität am besten erscheint; benenne dann diese Datei wie oben beschrieben um (Patientencode_t1_mprage_sag_0.8a.nii.gz, also bsp. ntms_009_m\_MDD_t1_mprage_sag_0.8.nii.gz)
+
+    -   Danach kannst du das Script nochmal laufen lassen! Aber da der erste Schritt bereits gelaufen ist, vergiss nicht, die Umwandlung von DICOM zu NIFTY auszulassen, in dem du eine Raute \# vor den dcm2niix command (dcm2niix -b y -f \${subj_id}\_%p -o \$data_root/\$subj_id \$data_root/\$subj_id) setzst; vergiss nicht, den .anat Ordner zu löschen bevor du das Script nochmal laufen lässt, und am Ende diese eben gemachte Änderung rückgängig zu machen (also \# vor dcm2niix weg, sonst läuft das Script das nächste Mal nicht durch!)
+
+Hilfreiche Tipps für die Arbeit mit dem Terminal:
+
+-\> Drag&Drop kopiert dir immer den Pfad deines Ordners rein
+
+-\> cd bedeutet change directory, damit navigiert man durch die Ordnerstruktur des Computers, durch „cd" kommst du immer in den home Ordner (in diesem Fall /Users/neuro), „cd .." Geht immer einen Ordner hoch (also aus dem home Ordner zB nach /Users), du kannst auch direkt cd „Pfad" eingeben (bsp cd /Users/Shared/studies/nTMS), dann gehst du direkt in den gewünschten Ordner
+
+-\> „pwd" zeigt dir, in welchem Pfad du dich aktuell befindest
+
+-\> „ls" zeigt alle Dateien an in dem Pfad, in dem du dich befindest
+
+-\> die Taste Tab füllt automatisch die Dateinamen auf, solange es nur eine Möglichkeit gibt; bei mehreren Möglichkeiten musst du etwas länger selber tippen und es nochmal mit Tab probieren
+
+## Neuronavigation - Vorbereitung "Localite PC"
+
+-   Passwort: tmsnavigator
+-   Programm **LOCALITE TMS Navigator** öffnen
+-   New Session (links oben) → Patientennamen mit Komma eintragen -\> auf ok klicken
+-   **T1_biascorr.nii** auf dem Stick suchen
+-   Pat. ID (Ordnername) und Name eingeben
+-   Threshold einstellen (sagittal, erfahrungsgemäß bei 450)
+-   **Blumberger Datei** vom Stick einfügen
+    -   File (links oben) → load functional data
+    -   Blumberger Datei des Patienten auswählen
+-   **Planning** öffnen (rechte Spalte)
+    -   Target auf Blumberger Punkt im MRT einstellen -\> Set Target
+    -   define rotation → **45°**
+    -   calculate entry
+    -   Description umbennen: **Blumberger**
+-   **Patient registration** (links)
+    -   gelb: **left eye** einstellen → set marker (Auge am vorderen Rand des Knochens, ca. mittig, am Bild links oben orientieren)
+    -   lila: **right eye** einstellen → set marker
+    -   grün: **nasion** einstellen → set marker (mittig, tiefster Punkt im Nasenhügel)
+    -   rechts unten auf **next** klicken, um zu speichern → Fenster schließen
+-   File → add bookmark (speichert den aktuellen FOrtschritt der Session, sollte automatisch erfolgen, aber sicherheitshalber auch manuell speichern)
+-   Exit
+
+## Neuronavigation - Am Tag der Behandlung
+
+-   Localite TMS Navigator öffnen, links oben über den Ordner Button eine neue Session öffnen und den jeweiligen Patienten auswählen
+-   [Coil Registration]{.underline}
+    -   Instrument (rechte Spalte) drücken
+    -   No instrument -\> Coil 1
+    -   Calibrate Coil 1
+    -   Spule „MAG&More PMD70-pcool" wählen
+    -   Start Calibration Wizard
+    -   A, B, C und D setzen („blaues Pedal" für messen, „grünes Pedal" für next, „gelbes Pedal" für zurück) -\> Werte sollen \< oder = 0.3 sein
+-   [Patienten registrieren]{.underline}
+    -   Check tracking system Reference (linke Spalte) aufmachen
+    -   Tracking System auf Patienten Kopf kleben (einmal der Patienten schlucken lassen und dann fettige Haut auf Stirn kurz mit Tuchpapier entfernen) -\> rosarote Punkt muss in den grauen Felder sein
+    -   Patient Registration (linke Spalte): lpa/linek Augenwinkel, rpa/rechte Augenwinkel und nasion messen -\> Werte sollen \< oder = 3.0 sein
+    -   Next drücken
+    -   Ausmessen ca. 300-400 Punkte auf dem Kopf mit blauem Pedal
+    -   Wert \< oder = 3.0
+-   Behandlung mit dem Mag&More Gerät starten oder...
+
+## Neuronavigation - nur Koregistrierung
+
+-   [Patient Coregistrieren ohne Stimulation:]{.underline}
+    -   Navigation mode (rechte Spalte oben) drücken
+    -   Stimulation mode (rechte Spalte unten) drücken
+    -   Stimulationsmarker aufmachen -\> upldate during recording (damit wenn den Impuls ausgelöst wird kann man es direkt sehen)
+    -   Start drücken (damit die Impulse gespeichert werden)
+    -   TMS Stimulator auf Front Panel stellen -\> Intensity auf 0
+    -   Mit „blauem Pedal" ein Impuls auslösen
+    -   Stop drücken
+-   [Stimulationskoordinate:]{.underline}
+    -   Ein Stimulationsmarker markieren
+    -   Transform selection (damit werden die Instrumetnmarker auf Localite Computer gespeichert)
+    -   Open instrumentmarker (blaue T in der rechten Spalte): hier kann man den Punkt benennen und dessen Farbe ändern
+    -   Ordner -\> Lokaler Datenträger -\> data-localite -\> patients -\> choose pat -\> session -\> instrumentmarker
+    -   Falls man Koordinate von vorherigen Behandlungen nehmen will: Continue Session Ordner (linke Spalte oben) -\> Patienten auswählen -\> ok -\> yes -\> File (Zeile ganz oben, rechts) -\> Load bookmarks -\> Stop acquired -\> Stimulation mode -\> [Stimulationskoordinate]{.underline} (s.o.)
