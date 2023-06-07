@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CNBSMA - Lab Guide - Overview</title>
+<title>CNBSMA - Lab Guide - MR data analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./re_courses.html" rel="next">
-<link href="./sop_neuronavigation.html" rel="prev">
+<link href="./sop_neuronavigation.html" rel="next">
+<link href="./sop_mri_scanning.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -105,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Overview</h1>
+      <h1 class="quarto-secondary-nav-title">MR data analysis</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -148,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sop_mri_analysis.html" class="sidebar-item-text sidebar-link">MR data analysis</a>
+  <a href="./sop_mri_analysis.html" class="sidebar-item-text sidebar-link active">MR data analysis</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -168,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./re.html" class="sidebar-item-text sidebar-link active">Overview</a>
+  <a href="./re.html" class="sidebar-item-text sidebar-link">Overview</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -188,14 +188,25 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#dicom-zu-nifti-umwandeln" id="toc-dicom-zu-nifti-umwandeln" class="nav-link active" data-scroll-target="#dicom-zu-nifti-umwandeln">DICOM zu NIFTI umwandeln</a></li>
+  <li><a href="#quality-check-vor-allem-für-funktionelle-daten-wichtig" id="toc-quality-check-vor-allem-für-funktionelle-daten-wichtig" class="nav-link" data-scroll-target="#quality-check-vor-allem-für-funktionelle-daten-wichtig">Quality Check (vor allem für funktionelle Daten wichtig)</a></li>
+  <li><a href="#benötigte-programme" id="toc-benötigte-programme" class="nav-link" data-scroll-target="#benötigte-programme">Benötigte Programme</a></li>
+  <li><a href="#analysepipelines" id="toc-analysepipelines" class="nav-link" data-scroll-target="#analysepipelines">Analysepipelines</a></li>
+  <li><a href="#e-field-analyse-mit-simnibs-4.0" id="toc-e-field-analyse-mit-simnibs-4.0" class="nav-link" data-scroll-target="#e-field-analyse-mit-simnibs-4.0">E-Field Analyse mit SIMNIBS 4.0</a></li>
+  <li><a href="#hilfreich-on-top" id="toc-hilfreich-on-top" class="nav-link" data-scroll-target="#hilfreich-on-top">Hilfreich on-top</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Overview</h1>
+<h1 class="title d-none d-lg-block">MR data analysis</h1>
 </div>
 
 
@@ -210,9 +221,66 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>A collection of useful learning ressources, recommended scientific tools, and essential papers on topics relevant to our research.</p>
+<section id="dicom-zu-nifti-umwandeln" class="level2">
+<h2 class="anchored" data-anchor-id="dicom-zu-nifti-umwandeln">DICOM zu NIFTI umwandeln</h2>
+<ul>
+<li><p>Vorschlag: dcm2niix -b y -f [pat_id]_%p -o [output] [input]</p></li>
+<li><p>Erklärung und weitere Möglichkeiten gibt es, wenn man dcm2niix im Terminal eingibt - das öffnet die Hilfsinfos</p></li>
+<li><p>Bei Problemen mit DICOM Dateien bzw. Erkennung ob Fehler durch die Umwandlung zu Nifti entstehen oder bereits im DICOM Export enthalten sind - DICOM Dateien im DICOMBrowser einlesen</p></li>
+<li><p>Cave - DICOM Dateien können Patientenidentifier enthalten, sind somit nicht anonym und sollten nur im klinischen Netzwerk verwendet werden</p></li>
+</ul>
+</section>
+<section id="quality-check-vor-allem-für-funktionelle-daten-wichtig" class="level2">
+<h2 class="anchored" data-anchor-id="quality-check-vor-allem-für-funktionelle-daten-wichtig">Quality Check (vor allem für funktionelle Daten wichtig)</h2>
+<ul>
+<li><p>mriqc, präferentiell über docker laufen lassen</p></li>
+<li><p>https://mriqc.readthedocs.io/en/latest/docker.html</p></li>
+<li><p>erfordert Dateien in bids Struktur, und die folgenden Analyseschritte gehen auch von der bids Struktur aus</p></li>
+<li><p>NICUMprep App (gibt es von Dani, ist auf den zwei Linux PCs im GCBS Raum installiert) wandelt Dateien automatisch in die bids Struktur um</p></li>
+<li><p>bids validator entdeckt Fehler im bids file format <a href="http://incf.github.io/bids-validator/" class="uri">http://incf.github.io/bids-validator/</a></p></li>
+</ul>
+</section>
+<section id="benötigte-programme" class="level2">
+<h2 class="anchored" data-anchor-id="benötigte-programme">Benötigte Programme</h2>
+<ul>
+<li><p>AFNI https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/index.html</p></li>
+<li><p>FSL https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation</p></li>
+<li><p>kommt mit fsleyes -&gt; visual check der Daten</p></li>
+<li><p>Empfehlung: Youtube Videos von https://www.andysbrainblog.com zu fast allen Anfängerthemen, auch https://andysbrainbook.readthedocs.io/en/latest/index.html</p></li>
+<li><p>FSL Course https://open.win.ox.ac.uk/pages/fslcourse/website/online_materials.html</p></li>
+<li><p>MRIcron für 3D Rendering von ROIs und funktionellen Daten - Lucias Empfehlung</p></li>
+</ul>
+</section>
+<section id="analysepipelines" class="level2">
+<h2 class="anchored" data-anchor-id="analysepipelines">Analysepipelines</h2>
+<ul>
+<li><p>Im Bestfall: <a href="https://zenodo.org/record/3530897">NAMNIs: Neuromodulation And Multimodal NeuroImaging software</a>, Karali, T;&nbsp;Padberg, F;&nbsp;Kirsch, V;&nbsp;Stoecklein, S;&nbsp;Falkai, P;&nbsp;Keeser, D</p></li>
+<li><p>https://zenodo.org/record/3530897/export/dcat#.ZEpxuS-228U</p></li>
+<li><p>Alternativ gibt es Analysepipelines auf dem Mac im GCBS Raum für strukturelle, funktionelle, und E-Field Auswertung</p></li>
+<li><p>hier [Ordner] auch die jeweiligen Scripte, die jedoch auf die jeweilige Datenstruktur angepasst werden müssen</p></li>
+</ul>
+</section>
+<section id="e-field-analyse-mit-simnibs-4.0" class="level2">
+<h2 class="anchored" data-anchor-id="e-field-analyse-mit-simnibs-4.0">E-Field Analyse mit SIMNIBS 4.0</h2>
+<ul>
+<li><p>https://simnibs.github.io/simnibs/build/html/tutorial/tutorial.html</p></li>
+<li><p>Speziell: Einlesen von Localaite Daten für automatische E-Field Analyse</p></li>
+<li><p>https://simnibs.github.io/simnibs/build/html/documentation/neuronavigation/localite.html?highlight=localite</p></li>
+<li><p>Hilfreich: in den Archives suchen oder eigene Frage reinstellen https://mailman.drcmr.dk/pipermail/simnibs-discuss/</p></li>
+</ul>
+</section>
+<section id="hilfreich-on-top" class="level2">
+<h2 class="anchored" data-anchor-id="hilfreich-on-top">Hilfreich on-top</h2>
+<ul>
+<li><p>LMU verlangt, dass Posterpräsentationen und Powerpointpräsentationen /bzw. alles…) im Corporate Design erstellt werden, nähere Infos hier</p></li>
+<li><p>https://www.lmu.de/de/die-lmu/struktur/zentrale-universitaetsverwaltung/kommunikation-und-presse/lmu-brand-guide/designvorlagen/index.html</p></li>
+<li><p>Für Publikationssuche gibt es zum Einen den E-Medien Login der LMU</p></li>
+<li><p>https://login.emedien.ub.uni-muenchen.de/login</p></li>
+<li><p>Oder sci-hub - wahrscheinlich illegal, aber sehr benutzerfreundlich, da muss man immer googeln, wie die aktuelle Endung der Internetseite lautet (gerade sci-hub.hkvisa.net)</p></li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -465,13 +533,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./sop_neuronavigation.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Neuronavigation Kurzanleitung</span>
+      <a href="./sop_mri_scanning.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">MRT Kurzanleitung</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./re_courses.html" class="pagination-link">
-        <span class="nav-page-text">Useful courses &amp; tutorials</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./sop_neuronavigation.html" class="pagination-link">
+        <span class="nav-page-text">Neuronavigation Kurzanleitung</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

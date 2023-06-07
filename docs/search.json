@@ -1,10 +1,101 @@
 [
   {
+    "objectID": "sop_mri_scanning.html",
+    "href": "sop_mri_scanning.html",
+    "title": "MRT Kurzanleitung",
+    "section": "",
+    "text": "Schlüssel unlock drehen -> system on (click, click)\nAlles im MRT vorbereiten: head coil, Kissen, Ohrstöpsel…\nPatientIn hinlegen lassen -> Home (Liege geht auf) -> Augen zu -> Laser anschalten und bis Augenbrauen Höhe stellen -> Laser ausschalten -> drücken große runde Taste bis isocenter\nam Computer - Patient (ober links) -> Scheduler, Pat-ID auswählen (har Irmi schon geplant) -> sex, weight, height, head first supine -> exam -> choose protocol, brain -> confirm\nErste Aufnahmen (Localizer) laufen lassen bei “grüner check” zu drücken -> confirm -> ok\nDanach gelbes Feld adjustieren (nicht Größe ändern!!!) -> T1 laufen lassen\nDie weitere Aufnahmen mit dem gelben Feld vorbereiten: doppelklicken auf die Aufnahme, die man vorbereiten will -> gelbes Feld dann “grüner check” -> dann nochmal auf “kleinem Mann” drücken, damit Aufnahme nicht direct nach der vorherige läuft\nGelbes Feld bei resting state mit Neigung anhand der AC-PC-Linie (anterior/posterior commissura)\nResting state: Augen zu, an nichts besonders denken und nicht einschlafen\nAm Ende: Patient -> Browser -> select images (ALLE!!! auswählen) -> transfer\n-> export to offline -> H:/ (usb)\n-> send to -> Visage\n-> send to -> PACS (only T1 and T2 für den Kurzbefund)\nKontrolle des Transfers: Transfer -> local job status für usb / network job status für Visage und PACS -> transfer completed bei 0\nAlles aufräumen -> Liege auf Home\n\nSystem -> end session -> shut down auf beiden Computer -> warte auf approval -> system off -> Schlüssel auf lock drehen"
+  },
+  {
+    "objectID": "sop_mri_scanning.html#mrt-bilder-aus-visage-herunterladen",
+    "href": "sop_mri_scanning.html#mrt-bilder-aus-visage-herunterladen",
+    "title": "MRT Kurzanleitung",
+    "section": "MRT Bilder aus Visage herunterladen",
+    "text": "MRT Bilder aus Visage herunterladen\n\nVisage App aufmachen\nPasswort xxx\nPatientIn nach Name, Vorname/ Geburtstdatum/ Geschlecht suchen/ID/MRT-Datum (kreuzen den Kästchen unter ID) suchen; eventuell auf MRT kreuzen\nPatienten Zeile markieren\nRechte Knopf drücken / Daten holen ->rechte Knopf\nMedienexport\nUSB wählen\nExportieren"
+  },
+  {
     "objectID": "re.html",
     "href": "re.html",
     "title": "Overview",
     "section": "",
     "text": "A collection of useful learning ressources, recommended scientific tools, and essential papers on topics relevant to our research."
+  },
+  {
+    "objectID": "sop_neuronavigation.html",
+    "href": "sop_neuronavigation.html",
+    "title": "Neuronavigation Kurzanleitung",
+    "section": "",
+    "text": "Klinische TMS bei depressiven Symptomen\n\nTarget: linker DLPFC, über BeamF3 (mittels EEG Kappe) oder Blumberger Punkt (MRT-gesteuert, neuronavigiert)\nProtokoll: 2x iTBS\n\nPREMISS Studie: für Schizophrenie mit Negativsymptomatik - Target: linker DLPFC, BeamF3 mittels EEG Kappe (einmal per Behandlung bei Localite als Stimulationspunkt einspeichern für spätere Auswertung!) - Protokol: 1. Phase rTMS (repetitive TMS), 2. Phase randomisiert rTMS/iTBS\nTBS-D Studie: für Depression\n\nTarget: beidseitiger DLPFC, BeamF3 mittels EEG Kappe (einmal per Behandlung bei Localite als Stimulationspunkt einspeichern für spätere Auswertung!)\nProtokol: rechts cTBS/ links iTBS\n\nTBS-AH: akustische Halluzinationen bei Schizophrenie\n\nTarget: beidseitiger auditorische Kortex mittels EEG Kappe\n\nDiscover: tDCS + kognitives Training bei Depression\n\nTarget: bilateraler präfrontaler Kortex\nProtokoll: tDSC"
+  },
+  {
+    "objectID": "sop_neuronavigation.html#neuronavigation---vorbereitung-run-script",
+    "href": "sop_neuronavigation.html#neuronavigation---vorbereitung-run-script",
+    "title": "Neuronavigation Kurzanleitung",
+    "section": "Neuronavigation - Vorbereitung “Run Script”",
+    "text": "Neuronavigation - Vorbereitung “Run Script”\n\nPasswort neuro: abcdef\nUSB-Stick hinten am PC einstecken\nStick: PATDATA → Ordner NTMS_[Pat.Nr.]_[F oder M]_MDD auswählen\nSpeicherort für den Ordner: Users → Shared → studies → nTMS\nDie MR Daten, die man vom Scanner herunterlädt, sind im DICOM Format (Endung .dcm oder .IMA)\nUm den Blumberger Punkt als Target in Localite einstellen zu können, müssen wir die Koordinaten aus dem Standard MNI Space in den subject-space umwandeln. Das machen wir mit dem “script_dlpfc_location”\nDas “script_dlpfc_location” besteht aus mehreren Teilen; zuerst werden die DICOM Dateien in das Nifti file format umgewandelt (dcm2niix), dann wird mit dem Befehl “fsl_anat” das MRT Bild normalisiert (die Aufnahmen sind nicht mehr im subject-space, sondern im standard MNI space). Die Transformationsmatrix dieser Umwandlung wird umgekehrt, und auf die MNI Koordinaten des Blumberger Punktes angewandt; so bekommt man den Blumberger Punkt im subject space und kann diese Datei in Localite hochladen. Praktisch muss man:\nTerminal öffnen und das Script im Text Programm öffnen, zum bearbeiten\n\n(hinter lucia$ bzw neuro$ eintippen) run-script_dlpfc_location[leerzeichen]open[leerzeichen]-t\ncmd + s speichert die Änderungen\n\nFenster öffnet sich → Namen hinter set subjects ändern (Ordnername einfügen, dieser wird bearbeitet)\nIn Terminal zum nTMS Ordner navigieren: neuro$ bzw. lucia$ cd [Ordner reinkopieren]\nDas Script laufen lassen - im Terminal: neuro$ bzw. lucia$ tcsh [run-script einfügen] & Enter drücken -> Script läuft, dauert 15-30 Minuten\nBlumberger und T1_biascorr.nii.gz → Doppelklick zum Entpacken (nur Endung .nii)\nDateien auf den Stick (PATDATA) kopieren und rüber zum Localite PC!\n\nTroubleshooting\n\nFehlermeldung - keine Berechtigung (no permission…)\n\nchmod 777 [path-to-filename] ändert die Rechte sodass alle Nutzer eines PCs die Datei bearbeiten und ausführen können, alternativ kann man die Datei kopieren und bei der Kopie den Nutzer ändern: chown [nutzername also bsp. neuro] [path-to-filename]\nWenn die Befehele nicht ausführbar sind, kann man sudo davor setzen, damit führt man Befehle als Administrator aus und kann meistens Rechte überschreiben; bsp: sudo chmod 777 [path-to-filename], danach wird man aufgefordert das Nutzerpasswort einzugeben\n\nFehlermeldung: ** results dir already exists, skipping subject ntms_009_m_MDD\n\nDas Script ist bereits einmal gelaufen, überprüfe, ob du wirklich die Ergebnisse in dem Ordner Patientencode.anat (also bsp. ntms_009_m_MDD.anat) überschreiben möchtest, wenn ja, lösche den Ordner oder speichere ihn unter einem anderen Namen, und starte das Script nochmal\n\nFehlermeldung: Cannot open volume ntms_009_m_MDD_t1_mprage_sag_0.8 for reading!\n\nDie Umwandlung der DICOM Dateien in das Nifty Format hat nicht ganz funktioniert, dies liegt meist daran, dass die Datei anders heißt, als im Script gefordert. Wir brauchen hier die t1_mprage Sequenz; wenn es eh nur eine t1_mprage Datei mit der Endung nii.gz (=NIFTI) gibt, ändere den Namen dieser Datei in das gewünschte Format (Patientencode_t1_mprage_sag_0.8.nii.gz, also bsp. ntms_009_m_MDD_t1_mprage_sag_0.8.nii.gz)\nWenn es mehrere t1_mprage Dateien gibt, öffne jede im fsleyes (bsp. fsleyes ntms_009_m_MDD_t1_mprage_sag_0.8d.nii) und suche dir die aus, die dir von der Qualität am besten erscheint; benenne dann diese Datei wie oben beschrieben um (Patientencode_t1_mprage_sag_0.8a.nii.gz, also bsp. ntms_009_m_MDD_t1_mprage_sag_0.8.nii.gz)\nDanach kannst du das Script nochmal laufen lassen! Aber da der erste Schritt bereits gelaufen ist, vergiss nicht, die Umwandlung von DICOM zu NIFTY auszulassen, in dem du eine Raute # vor den dcm2niix command (dcm2niix -b y -f ${subj_id}_%p -o $data_root/$subj_id $data_root/$subj_id) setzst; vergiss nicht, den .anat Ordner zu löschen bevor du das Script nochmal laufen lässt, und am Ende diese eben gemachte Änderung rückgängig zu machen (also # vor dcm2niix weg, sonst läuft das Script das nächste Mal nicht durch!)\n\n\nHilfreiche Tipps für die Arbeit mit dem Terminal:\n-> Drag&Drop kopiert dir immer den Pfad deines Ordners rein\n-> cd bedeutet change directory, damit navigiert man durch die Ordnerstruktur des Computers, durch „cd” kommst du immer in den home Ordner (in diesem Fall /Users/neuro), „cd ..” Geht immer einen Ordner hoch (also aus dem home Ordner zB nach /Users), du kannst auch direkt cd „Pfad” eingeben (bsp cd /Users/Shared/studies/nTMS), dann gehst du direkt in den gewünschten Ordner\n-> „pwd” zeigt dir, in welchem Pfad du dich aktuell befindest\n-> „ls” zeigt alle Dateien an in dem Pfad, in dem du dich befindest\n-> die Taste Tab füllt automatisch die Dateinamen auf, solange es nur eine Möglichkeit gibt; bei mehreren Möglichkeiten musst du etwas länger selber tippen und es nochmal mit Tab probieren"
+  },
+  {
+    "objectID": "sop_neuronavigation.html#neuronavigation---vorbereitung-localite-pc",
+    "href": "sop_neuronavigation.html#neuronavigation---vorbereitung-localite-pc",
+    "title": "Neuronavigation Kurzanleitung",
+    "section": "Neuronavigation - Vorbereitung “Localite PC”",
+    "text": "Neuronavigation - Vorbereitung “Localite PC”\n\nPasswort: tmsnavigator\nProgramm LOCALITE TMS Navigator öffnen\nNew Session (links oben) → Patientennamen mit Komma eintragen -> auf ok klicken\nT1_biascorr.nii auf dem Stick suchen\nPat. ID (Ordnername) und Name eingeben\nThreshold einstellen (sagittal, erfahrungsgemäß bei 450)\nBlumberger Datei vom Stick einfügen\n\nFile (links oben) → load functional data\nBlumberger Datei des Patienten auswählen\n\nPlanning öffnen (rechte Spalte)\n\nTarget auf Blumberger Punkt im MRT einstellen -> Set Target\ndefine rotation → 45°\ncalculate entry\nDescription umbennen: Blumberger\n\nPatient registration (links)\n\ngelb: left eye einstellen → set marker (Auge am vorderen Rand des Knochens, ca. mittig, am Bild links oben orientieren)\nlila: right eye einstellen → set marker\ngrün: nasion einstellen → set marker (mittig, tiefster Punkt im Nasenhügel)\nrechts unten auf next klicken, um zu speichern → Fenster schließen\n\nFile → add bookmark (speichert den aktuellen FOrtschritt der Session, sollte automatisch erfolgen, aber sicherheitshalber auch manuell speichern)\nExit"
+  },
+  {
+    "objectID": "sop_neuronavigation.html#neuronavigation---am-tag-der-behandlung",
+    "href": "sop_neuronavigation.html#neuronavigation---am-tag-der-behandlung",
+    "title": "Neuronavigation Kurzanleitung",
+    "section": "Neuronavigation - Am Tag der Behandlung",
+    "text": "Neuronavigation - Am Tag der Behandlung\n\nLocalite TMS Navigator öffnen, links oben über den Ordner Button eine neue Session öffnen und den jeweiligen Patienten auswählen\nCoil Registration\n\nInstrument (rechte Spalte) drücken\nNo instrument -> Coil 1\nCalibrate Coil 1\nSpule „MAG&More PMD70-pcool” wählen\nStart Calibration Wizard\nA, B, C und D setzen („blaues Pedal” für messen, „grünes Pedal” für next, „gelbes Pedal” für zurück) -> Werte sollen < oder = 0.3 sein\n\nPatienten registrieren\n\nCheck tracking system Reference (linke Spalte) aufmachen\nTracking System auf Patienten Kopf kleben (einmal der Patienten schlucken lassen und dann fettige Haut auf Stirn kurz mit Tuchpapier entfernen) -> rosarote Punkt muss in den grauen Felder sein\nPatient Registration (linke Spalte): lpa/linek Augenwinkel, rpa/rechte Augenwinkel und nasion messen -> Werte sollen < oder = 3.0 sein\nNext drücken\nAusmessen ca. 300-400 Punkte auf dem Kopf mit blauem Pedal\nWert < oder = 3.0\n\nBehandlung mit dem Mag&More Gerät starten oder…"
+  },
+  {
+    "objectID": "sop_neuronavigation.html#neuronavigation---nur-koregistrierung",
+    "href": "sop_neuronavigation.html#neuronavigation---nur-koregistrierung",
+    "title": "Neuronavigation Kurzanleitung",
+    "section": "Neuronavigation - nur Koregistrierung",
+    "text": "Neuronavigation - nur Koregistrierung\n\nPatient Coregistrieren ohne Stimulation:\n\nNavigation mode (rechte Spalte oben) drücken\nStimulation mode (rechte Spalte unten) drücken\nStimulationsmarker aufmachen -> upldate during recording (damit wenn den Impuls ausgelöst wird kann man es direkt sehen)\nStart drücken (damit die Impulse gespeichert werden)\nTMS Stimulator auf Front Panel stellen -> Intensity auf 0\nMit „blauem Pedal” ein Impuls auslösen\nStop drücken\n\nStimulationskoordinate:\n\nEin Stimulationsmarker markieren\nTransform selection (damit werden die Instrumetnmarker auf Localite Computer gespeichert)\nOpen instrumentmarker (blaue T in der rechten Spalte): hier kann man den Punkt benennen und dessen Farbe ändern\nOrdner -> Lokaler Datenträger -> data-localite -> patients -> choose pat -> session -> instrumentmarker\nFalls man Koordinate von vorherigen Behandlungen nehmen will: Continue Session Ordner (linke Spalte oben) -> Patienten auswählen -> ok -> yes -> File (Zeile ganz oben, rechts) -> Load bookmarks -> Stop acquired -> Stimulation mode -> Stimulationskoordinate (s.o.)"
+  },
+  {
+    "objectID": "sop_mri_analysis.html",
+    "href": "sop_mri_analysis.html",
+    "title": "MR data analysis",
+    "section": "",
+    "text": "Vorschlag: dcm2niix -b y -f [pat_id]_%p -o [output] [input]\nErklärung und weitere Möglichkeiten gibt es, wenn man dcm2niix im Terminal eingibt - das öffnet die Hilfsinfos\nBei Problemen mit DICOM Dateien bzw. Erkennung ob Fehler durch die Umwandlung zu Nifti entstehen oder bereits im DICOM Export enthalten sind - DICOM Dateien im DICOMBrowser einlesen\nCave - DICOM Dateien können Patientenidentifier enthalten, sind somit nicht anonym und sollten nur im klinischen Netzwerk verwendet werden"
+  },
+  {
+    "objectID": "sop_mri_analysis.html#quality-check-vor-allem-für-funktionelle-daten-wichtig",
+    "href": "sop_mri_analysis.html#quality-check-vor-allem-für-funktionelle-daten-wichtig",
+    "title": "MR data analysis",
+    "section": "Quality Check (vor allem für funktionelle Daten wichtig)",
+    "text": "Quality Check (vor allem für funktionelle Daten wichtig)\n\nmriqc, präferentiell über docker laufen lassen\nhttps://mriqc.readthedocs.io/en/latest/docker.html\nerfordert Dateien in bids Struktur, und die folgenden Analyseschritte gehen auch von der bids Struktur aus\nNICUMprep App (gibt es von Dani, ist auf den zwei Linux PCs im GCBS Raum installiert) wandelt Dateien automatisch in die bids Struktur um\nbids validator entdeckt Fehler im bids file format http://incf.github.io/bids-validator/"
+  },
+  {
+    "objectID": "sop_mri_analysis.html#benötigte-programme",
+    "href": "sop_mri_analysis.html#benötigte-programme",
+    "title": "MR data analysis",
+    "section": "Benötigte Programme",
+    "text": "Benötigte Programme\n\nAFNI https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/index.html\nFSL https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation\nkommt mit fsleyes -> visual check der Daten\nEmpfehlung: Youtube Videos von https://www.andysbrainblog.com zu fast allen Anfängerthemen, auch https://andysbrainbook.readthedocs.io/en/latest/index.html\nFSL Course https://open.win.ox.ac.uk/pages/fslcourse/website/online_materials.html\nMRIcron für 3D Rendering von ROIs und funktionellen Daten - Lucias Empfehlung"
+  },
+  {
+    "objectID": "sop_mri_analysis.html#analysepipelines",
+    "href": "sop_mri_analysis.html#analysepipelines",
+    "title": "MR data analysis",
+    "section": "Analysepipelines",
+    "text": "Analysepipelines\n\nIm Bestfall: NAMNIs: Neuromodulation And Multimodal NeuroImaging software, Karali, T; Padberg, F; Kirsch, V; Stoecklein, S; Falkai, P; Keeser, D\nhttps://zenodo.org/record/3530897/export/dcat#.ZEpxuS-228U\nAlternativ gibt es Analysepipelines auf dem Mac im GCBS Raum für strukturelle, funktionelle, und E-Field Auswertung\nhier [Ordner] auch die jeweiligen Scripte, die jedoch auf die jeweilige Datenstruktur angepasst werden müssen"
+  },
+  {
+    "objectID": "sop_mri_analysis.html#e-field-analyse-mit-simnibs-4.0",
+    "href": "sop_mri_analysis.html#e-field-analyse-mit-simnibs-4.0",
+    "title": "MR data analysis",
+    "section": "E-Field Analyse mit SIMNIBS 4.0",
+    "text": "E-Field Analyse mit SIMNIBS 4.0\n\nhttps://simnibs.github.io/simnibs/build/html/tutorial/tutorial.html\nSpeziell: Einlesen von Localaite Daten für automatische E-Field Analyse\nhttps://simnibs.github.io/simnibs/build/html/documentation/neuronavigation/localite.html?highlight=localite\nHilfreich: in den Archives suchen oder eigene Frage reinstellen https://mailman.drcmr.dk/pipermail/simnibs-discuss/"
+  },
+  {
+    "objectID": "sop_mri_analysis.html#hilfreich-on-top",
+    "href": "sop_mri_analysis.html#hilfreich-on-top",
+    "title": "MR data analysis",
+    "section": "Hilfreich on-top",
+    "text": "Hilfreich on-top\n\nLMU verlangt, dass Posterpräsentationen und Powerpointpräsentationen /bzw. alles…) im Corporate Design erstellt werden, nähere Infos hier\nhttps://www.lmu.de/de/die-lmu/struktur/zentrale-universitaetsverwaltung/kommunikation-und-presse/lmu-brand-guide/designvorlagen/index.html\nFür Publikationssuche gibt es zum Einen den E-Medien Login der LMU\nhttps://login.emedien.ub.uni-muenchen.de/login\nOder sci-hub - wahrscheinlich illegal, aber sehr benutzerfreundlich, da muss man immer googeln, wie die aktuelle Endung der Internetseite lautet (gerade sci-hub.hkvisa.net)"
   },
   {
     "objectID": "re_courses.html",

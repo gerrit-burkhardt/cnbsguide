@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CNBSMA - Lab Guide - Overview</title>
+<title>CNBSMA - Lab Guide - MRT Kurzanleitung</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./re_courses.html" rel="next">
-<link href="./sop_neuronavigation.html" rel="prev">
+<link href="./sop_mri_analysis.html" rel="next">
+<link href="./sop_clipp.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -105,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Overview</h1>
+      <h1 class="quarto-secondary-nav-title">MRT Kurzanleitung</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -143,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sop_mri_scanning.html" class="sidebar-item-text sidebar-link">MRT Kurzanleitung</a>
+  <a href="./sop_mri_scanning.html" class="sidebar-item-text sidebar-link active">MRT Kurzanleitung</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -168,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./re.html" class="sidebar-item-text sidebar-link active">Overview</a>
+  <a href="./re.html" class="sidebar-item-text sidebar-link">Overview</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -188,14 +188,21 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#mrt-durchführen" id="toc-mrt-durchführen" class="nav-link active" data-scroll-target="#mrt-durchführen">MRT durchführen</a></li>
+  <li><a href="#mrt-bilder-aus-visage-herunterladen" id="toc-mrt-bilder-aus-visage-herunterladen" class="nav-link" data-scroll-target="#mrt-bilder-aus-visage-herunterladen">MRT Bilder aus Visage herunterladen</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Overview</h1>
+<h1 class="title d-none d-lg-block">MRT Kurzanleitung</h1>
 </div>
 
 
@@ -210,9 +217,42 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>A collection of useful learning ressources, recommended scientific tools, and essential papers on topics relevant to our research.</p>
+<section id="mrt-durchführen" class="level2">
+<h2 class="anchored" data-anchor-id="mrt-durchführen">MRT durchführen</h2>
+<ul>
+<li><p>Schlüssel unlock drehen -&gt; system on (click, click)</p></li>
+<li><p>Alles im MRT vorbereiten: head coil, Kissen, Ohrstöpsel…</p></li>
+<li><p>PatientIn hinlegen lassen -&gt; Home (Liege geht auf) -&gt; Augen zu -&gt; Laser anschalten und bis Augenbrauen Höhe stellen -&gt; Laser ausschalten -&gt; drücken große runde Taste bis isocenter</p></li>
+<li><p>am Computer - Patient (ober links) -&gt; Scheduler, Pat-ID auswählen (har Irmi schon geplant) -&gt; sex, weight, height, head first supine -&gt; exam -&gt; choose protocol, brain -&gt; confirm</p></li>
+<li><p>Erste Aufnahmen (Localizer) laufen lassen bei “grüner check” zu drücken -&gt; confirm -&gt; ok</p></li>
+<li><p>Danach gelbes Feld adjustieren (nicht Größe ändern!!!) -&gt; T1 laufen lassen</p></li>
+<li><p>Die weitere Aufnahmen mit dem gelben Feld vorbereiten: doppelklicken auf die Aufnahme, die man vorbereiten will -&gt; gelbes Feld dann “grüner check” -&gt; dann nochmal auf “kleinem Mann” drücken, damit Aufnahme nicht direct nach der vorherige läuft</p></li>
+<li><p>Gelbes Feld bei resting state mit Neigung anhand der AC-PC-Linie (anterior/posterior commissura)</p></li>
+<li><p>Resting state: Augen zu, an nichts besonders denken und nicht einschlafen</p></li>
+<li><p>Am Ende: Patient -&gt; Browser -&gt; select images (ALLE!!! auswählen) -&gt; transfer</p>
+<p>-&gt; export to offline -&gt; H:/ (usb)</p>
+<p>-&gt; send to -&gt; Visage</p>
+<p>-&gt; send to -&gt; PACS (only T1 and T2 für den Kurzbefund)</p></li>
+<li><p>Kontrolle des Transfers: Transfer -&gt; local job status für usb / network job status für Visage und PACS -&gt; transfer completed bei 0</p></li>
+<li><p>Alles aufräumen -&gt; Liege auf Home</p></li>
+</ul>
+<p>System -&gt; end session -&gt; shut down auf beiden Computer -&gt; warte auf approval -&gt; system off -&gt; Schlüssel auf lock drehen</p>
+</section>
+<section id="mrt-bilder-aus-visage-herunterladen" class="level2">
+<h2 class="anchored" data-anchor-id="mrt-bilder-aus-visage-herunterladen">MRT Bilder aus Visage herunterladen</h2>
+<ul>
+<li><p>Visage App aufmachen</p></li>
+<li><p>Passwort xxx</p></li>
+<li><p>PatientIn nach Name, Vorname/ Geburtstdatum/ Geschlecht suchen/ID/MRT-Datum (kreuzen den Kästchen unter ID) suchen; eventuell auf MRT kreuzen</p></li>
+<li><p>Patienten Zeile markieren</p></li>
+<li><p>Rechte Knopf drücken / Daten holen -&gt;rechte Knopf</p></li>
+<li><p>Medienexport</p></li>
+<li><p>USB wählen</p></li>
+<li><p>Exportieren</p></li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -465,13 +505,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./sop_neuronavigation.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Neuronavigation Kurzanleitung</span>
+      <a href="./sop_clipp.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Clinical Phenotyping Platform (CLIPP)</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./re_courses.html" class="pagination-link">
-        <span class="nav-page-text">Useful courses &amp; tutorials</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./sop_mri_analysis.html" class="pagination-link">
+        <span class="nav-page-text">MR data analysis</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

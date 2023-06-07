@@ -1,5 +1,5 @@
 ---
-title: "MRT Kurzanleitung"
+title: "MRI Scanning"
 ---
 
 ## MRT durchführen
