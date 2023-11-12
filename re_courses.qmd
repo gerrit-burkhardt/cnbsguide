@@ -16,6 +16,19 @@ title: "Useful courses & tutorials"
 
 ## Data & Statistics
 
+### General
+
 -   [R for Data Science](https://r4ds.had.co.nz/): In-depth introduction to the tidyverse, a modern framework and suite of packages for data science in R.
--   [bayestestR](https://easystats.github.io/bayestestR/index.html): Simple R package for bayesian analysis. Includes a very basic tutorial.
+
+### Bayesian statistics
+
 -   [Statistical rethinking](https://www.youtube.com/watch?v=FdnMWdICdRs&list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus): a great lecture series on bayesian statistics.
+
+```{=html}
+<!-- -->
+```
+-   [bayestestR](https://easystats.github.io/bayestestR/index.html): Simple R package for bayesian analysis. Includes a very basic tutorial.
+
+## EMA
+
+-   [EMA in Mental Health Research](https://jruwaard.github.io/aph_ema_handbook/): introduction to EMA focusing on mood research with coding examples win R
