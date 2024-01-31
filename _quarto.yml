@@ -28,6 +28,7 @@ website:
           - sop_mri_scanning.qmd
           - sop_mri_analysis.qmd
           - sop_neuronavigation.qmd
+          - sop_datamanagement.qmd
       - title: "Ressources"
         contents:
           - re.qmd

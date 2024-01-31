@@ -18,15 +18,14 @@ title: "Useful courses & tutorials"
 
 ### General
 
--   [R for Data Science](https://r4ds.had.co.nz/): In-depth introduction to the tidyverse, a modern framework and suite of packages for data science in R.
+-   [R for Data Science](https://r4ds.hadley.nz/): In-depth introduction to the tidyverse, a modern framework and suite of packages for data science in R.
+-   [What They Forgot To Teach You About R](https://rstats.wtf/)
+-   [GitHub for the useR](https://happygitwithr.com/)
+-   [PsyTeachR](https://psyteachr.github.io/): Open source teaching ressources for data science & reproducible research by the University of Glasgow [School of Psychology and Neuroscience](https://www.gla.ac.uk/schools/psychologyneuroscience/)
 
 ### Bayesian statistics
 
 -   [Statistical rethinking](https://www.youtube.com/watch?v=FdnMWdICdRs&list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus): a great lecture series on bayesian statistics.
-
-```{=html}
-<!-- -->
-```
 -   [bayestestR](https://easystats.github.io/bayestestR/index.html): Simple R package for bayesian analysis. Includes a very basic tutorial.
 
 ## EMA

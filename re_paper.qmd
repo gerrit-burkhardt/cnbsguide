@@ -27,6 +27,8 @@ bibliography: references.bib
 
 -   [@cole2022]: TBS + Cycloserin
 
+-   [@morriss2024]: connectivity-guided iTBS (DLPFC \<-\> AI) vs rTMS
+
 ## Pharmacotherapy
 
 ### Depression

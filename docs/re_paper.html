@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.3.353">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -96,36 +96,41 @@ div.csl-indent {
     <span class="navbar-title">CNBS<sup>MA</sup> - Lab Guide</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./sop.html">
+    <a class="nav-link" href="./sop.html" rel="" target="">
  <span class="menu-text">SOPs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./re.html" aria-current="page">
+    <a class="nav-link active" href="./re.html" rel="" target="" aria-current="page">
  <span class="menu-text">Ressources</span></a>
   </li>  
 </ul>
-              <div class="quarto-toggle-container">
-                  <a href="" class="quarto-color-scheme-toggle nav-link" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-              </div>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">The essential reading list</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./re_paper.html">The essential reading list</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -133,32 +138,36 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-      <div class="mt-2 flex-shrink-0 align-items-center">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./re.html" class="sidebar-item-text sidebar-link">Overview</a>
+  <a href="./re.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./re_courses.html" class="sidebar-item-text sidebar-link">Useful courses &amp; tutorials</a>
+  <a href="./re_courses.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Useful courses &amp; tutorials</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./re_paper.html" class="sidebar-item-text sidebar-link active">The essential reading list</a>
+  <a href="./re_paper.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">The essential reading list</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -181,7 +190,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">The essential reading list</h1>
+<h1 class="title">The essential reading list</h1>
 </div>
 
 
@@ -220,6 +229,7 @@ div.csl-indent {
 <ul>
 <li><p><span class="citation" data-cites="Cole2022">(<a href="#ref-Cole2022" role="doc-biblioref">E. J. Cole et al. 2022</a>)</span>: The “SAINT” paper: accelerated TBS</p></li>
 <li><p><span class="citation" data-cites="cole2022">(<a href="#ref-cole2022" role="doc-biblioref">J. Cole et al. 2022</a>)</span>: TBS + Cycloserin</p></li>
+<li><p><span class="citation" data-cites="morriss2024">(<a href="#ref-morriss2024" role="doc-biblioref">Morriss et al. 2024</a>)</span>: connectivity-guided iTBS (DLPFC &lt;-&gt; AI) vs rTMS</p></li>
 </ul>
 </section>
 </section>
@@ -240,29 +250,32 @@ div.csl-indent {
 </section>
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-Blumberger2022" class="csl-entry" role="doc-biblioentry">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-Blumberger2022" class="csl-entry" role="listitem">
 Blumberger, Daniel M., Benoit H. Mulsant, Kevin E. Thorpe, Shawn M. McClintock, Gerasimos N. Konstantinou, Hyewon H. Lee, Sean M. Nestor, et al. 2022. <span>“Effectiveness of Standard Sequential Bilateral Repetitive Transcranial Magnetic Stimulation Vs Bilateral Theta Burst Stimulation in Older Adults With Depression.”</span> <em>JAMA Psychiatry</em> 79 (11): 1065. <a href="https://doi.org/10.1001/jamapsychiatry.2022.2862">https://doi.org/10.1001/jamapsychiatry.2022.2862</a>.
 </div>
-<div id="ref-Blumberger2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Blumberger2018" class="csl-entry" role="listitem">
 Blumberger, Daniel M, Fidel Vila-Rodriguez, Kevin E Thorpe, Kfir Feffer, Yoshihiro Noda, Peter Giacobbe, Yuliya Knyahnytska, et al. 2018. <span>“Effectiveness of Theta Burst Versus High-Frequency Repetitive Transcranial Magnetic Stimulation in Patients with Depression (THREE-D): A Randomised Non-Inferiority Trial.”</span> <em>The Lancet</em> 391 (10131): 1683–92. <a href="https://doi.org/10.1016/s0140-6736(18)30295-2">https://doi.org/10.1016/s0140-6736(18)30295-2</a>.
 </div>
-<div id="ref-cipriani2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-cipriani2018" class="csl-entry" role="listitem">
 Cipriani, Andrea, Toshi A. Furukawa, Georgia Salanti, Anna Chaimani, Lauren Z. Atkinson, Yusuke Ogawa, Stefan Leucht, et al. 2018. <span>“Comparative Efficacy and Acceptability of 21 Antidepressant Drugs for the Acute Treatment of Adults with Major Depressive Disorder: A Systematic Review and Network Meta-Analysis.”</span> <em>The Lancet</em> 391 (10128): 1357–66. <a href="https://doi.org/10.1016/S0140-6736(17)32802-7">https://doi.org/10.1016/S0140-6736(17)32802-7</a>.
 </div>
-<div id="ref-Cole2022" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Cole2022" class="csl-entry" role="listitem">
 Cole, Eleanor J., Angela L. Phillips, Brandon S. Bentzley, Katy H. Stimpson, Romina Nejad, Fahim Barmak, Clive Veerapal, et al. 2022. <span>“Stanford Neuromodulation Therapy (SNT): A Double-Blind Randomized Controlled Trial.”</span> <em>American Journal of Psychiatry</em> 179 (2): 132–41. <a href="https://doi.org/10.1176/appi.ajp.2021.20101429">https://doi.org/10.1176/appi.ajp.2021.20101429</a>.
 </div>
-<div id="ref-cole2022" class="csl-entry" role="doc-biblioentry">
+<div id="ref-cole2022" class="csl-entry" role="listitem">
 Cole, Jaeden, Maya N. Sohn, Ashley D. Harris, Signe L. Bray, Scott B. Patten, and Alexander McGirr. 2022. <span>“Efficacy of Adjunctive D -Cycloserine to Intermittent Theta-Burst Stimulation for Major Depressive Disorder: A Randomized Clinical Trial.”</span> <em>JAMA Psychiatry</em>, October. <a href="https://doi.org/10.1001/jamapsychiatry.2022.3255">https://doi.org/10.1001/jamapsychiatry.2022.3255</a>.
 </div>
-<div id="ref-levkovitz2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-levkovitz2015" class="csl-entry" role="listitem">
 Levkovitz, Yechiel, Moshe Isserles, Frank Padberg, Sarah H. Lisanby, Alexander Bystritsky, Guohua Xia, Aron Tendler, et al. 2015. <span>“Efficacy and Safety of Deep Transcranial Magnetic Stimulation for Major Depression: A Prospective Multicenter Randomized Controlled Trial.”</span> <em>World Psychiatry</em> 14 (1): 64–73. https://doi.org/<a href="https://doi.org/10.1002/wps.20199">https://doi.org/10.1002/wps.20199</a>.
 </div>
-<div id="ref-OReardon2007" class="csl-entry" role="doc-biblioentry">
+<div id="ref-morriss2024" class="csl-entry" role="listitem">
+Morriss, Richard, Paul M. Briley, Lucy Webster, Mohamed Abdelghani, Shaun Barber, Peter Bates, Cassandra Brookes, et al. 2024. <span>“Connectivity-Guided Intermittent Theta Burst Versus Repetitive Transcranial Magnetic Stimulation for Treatment-Resistant Depression: A Randomized Controlled Trial.”</span> <em>Nature Medicine</em>, January. <a href="https://doi.org/10.1038/s41591-023-02764-z">https://doi.org/10.1038/s41591-023-02764-z</a>.
+</div>
+<div id="ref-OReardon2007" class="csl-entry" role="listitem">
 O’Reardon, John P., H. Brent Solvason, Philip G. Janicak, Shirlene Sampson, Keith E. Isenberg, Ziad Nahas, William M. McDonald, et al. 2007. <span>“Efficacy and Safety of Transcranial Magnetic Stimulation in the Acute Treatment of Major Depression: A Multisite Randomized Controlled Trial.”</span> <em>Biological Psychiatry</em> 62 (11): 1208–16. <a href="https://doi.org/10.1016/j.biopsych.2007.01.018">https://doi.org/10.1016/j.biopsych.2007.01.018</a>.
 </div>
-<div id="ref-Pascual-Leone1996" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Pascual-Leone1996" class="csl-entry" role="listitem">
 Pascual-Leone, Alvaro, Belen Rubio, Federico Pallardó, and Maria Dolores Catalá. 1996. <span>“Rapid-Rate Transcranial Magnetic Stimulation of Left Dorsolateral Prefrontal Cortex in Drug-Resistant Depression.”</span> <em>The Lancet</em> 348 (9022): 233–37. <a href="https://doi.org/10.1016/s0140-6736(96)01219-6">https://doi.org/10.1016/s0140-6736(96)01219-6</a>.
 </div>
 </div></section></div></main> <!-- /main -->
@@ -408,9 +421,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -475,6 +502,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -527,6 +640,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">© Copyright 2023, Gerrit Burkhardt</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">This page is built with ❤️ and Quarto.</div>
   </div>
 </footer>
