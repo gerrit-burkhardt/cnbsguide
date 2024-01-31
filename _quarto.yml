@@ -24,11 +24,11 @@ website:
         search: true
         contents:
           - sop.qmd
+          - sop_datamanagement.qmd
           - sop_clipp.qmd
           - sop_mri_scanning.qmd
           - sop_mri_analysis.qmd
           - sop_neuronavigation.qmd
-          - sop_datamanagement.qmd
       - title: "Ressources"
         contents:
           - re.qmd
@@ -36,7 +36,7 @@ website:
           - re_paper.qmd
 
   page-footer: 
-    left: "© Copyright 2023, Gerrit Burkhardt" 
+    left: "© Copyright 2024, Gerrit Burkhardt" 
     right: "This page is built with ❤️ and Quarto."
 
 
