@@ -24,11 +24,11 @@ website:
             text: Welcome!
       - section: "SOPs"
         contents:
-          - sop_datamanagement.qmd
-          - sop_clipp.qmd
-          - sop_mri_scanning.qmd
-          - sop_neuronavigation.qmd
-          - sop_mri_analysis.qmd
+          - href: sop_datamanagement.qmd
+          - href: sop_clipp.qmd
+          - href: sop_mri_scanning.qmd
+          - href: sop_neuronavigation.qmd
+          - href: sop_mri_analysis.qmd
       - section: "Ressources"
         contents:
           - re_courses.qmd

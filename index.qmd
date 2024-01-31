@@ -5,4 +5,4 @@ sidebar: true
 
 ![](profile.jpg){fig-align="left" width="212"}
 
-In this lab guide you will find all you need to know to get started as a member of the <br> **Center for Non-Invasive Brain Stimulation Munich-Augsburg (CNBS^MA^)**
+In this lab guide you will find all you need to know to get started as a member of the <br> **Center for Non-Invasive Brain Stimulation Munich-Augsburg (CNBS^MA^)** <br>
