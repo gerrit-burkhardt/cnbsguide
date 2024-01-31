@@ -30,6 +30,8 @@ website:
           - sop_mri_analysis.qmd
           - sop_neuronavigation.qmd
       - title: "Ressources"
+        style: "floating"
+        search: true
         contents:
           - re.qmd
           - re_courses.qmd
