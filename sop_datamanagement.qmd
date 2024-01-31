@@ -1,16 +1,16 @@
 ---
-title: "Data management & analysis - Basics"
+title: "Data management & analysis"
 ---
 
 ## Get started with R
 
-1.  Download & install *R* and the *R Studio* IDE (integrated development environment) at https://posit.co/download/rstudio-desktop/
+1.  Download & install *R* and the *R Studio* IDE (integrated development environment) [here](https://posit.co/download/rstudio-desktop/)
 
 2.  Work through this [online course](https://psyteachr.github.io/data-skills-v2/index.html) on basic data skills
 
 ## File naming conventions
 
-https://speakerdeck.com/jennybc/how-to-name-files?slide=27
+[good slides](https://speakerdeck.com/jennybc/how-to-name-files?slide=27)
 
 ## Tabular data conventions
 

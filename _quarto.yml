@@ -1,56 +1,43 @@
 project:
   type: website
-  output-dir: docs
 
 website:
-  title: "CNBS^MA^ - Lab Guide"
-  
   page-navigation: true
-  
-  navbar:
-    background: light
-    search: true
-    left:
-      - text: "Home"
-        file: index.qmd
-      - text: "SOPs"
-        file: sop.qmd
-      - text: "Ressources"
-        file: re.qmd
-        
-  sidebar:
-      - title: "SOPs"
-        style: "floating"
-        search: true
-        contents:
-          - sop.qmd
-          - sop_clipp.qmd
-          - sop_mri_scanning.qmd
-          - sop_neuronavigation.qmd
-          - sop_datamanagement.qmd
-          - sop_mri_analysis.qmd
-      - title: "Ressources"
-        style: "floating"
-        search: true
-        contents:
-          - re.qmd
-          - re_courses.qmd
-          - re_paper.qmd
+  title: "CNBS^MA^ - Lab Guide"
+  description: "Lab Guide of the Center for Non-invasive Brain Stimulation Munich-Augsburg"
+  site-url: "https://gerrit-burkhardt.github.io/cnbsguide/"
 
-  page-footer: 
+  page-footer:
     left: "© Copyright 2024, Gerrit Burkhardt" 
     right: "This page is built with ❤️ and Quarto."
 
+  sidebar:
+    pinned: true
+    align: center
+    style: "docked"
+    search: true
+    collapse-level: 2
+    contents:
+      - section: "Home"
+        contents:
+          - href: index.qmd
+            text: Welcome!
+      - section: "SOPs"
+        contents:
+          - sop_datamanagement.qmd
+          - sop_clipp.qmd
+          - sop_mri_scanning.qmd
+          - sop_neuronavigation.qmd
+          - sop_mri_analysis.qmd
+          - sop_neuronavigation.qmd
+      - section: "Ressources"
+        contents:
+          - re_courses.qmd
+          - re_paper.qmd
 
 format:
   html:
     theme:
       light: cosmo
-      dark: darkly
     css: styles.css
     toc: true
-    grid:
-      sidebar-width: 250px
-      body-width: 900px
-      margin-width: 300px
-

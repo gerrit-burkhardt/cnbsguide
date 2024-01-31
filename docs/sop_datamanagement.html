@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CNBSMA - Lab Guide - The essential reading list</title>
+<title>CNBSMA - Lab Guide - Data management &amp; analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,44 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./re_courses.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -82,7 +65,7 @@ div.csl-indent {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar docked">
+<body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -91,7 +74,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./re_courses.html">Ressources</a></li><li class="breadcrumb-item"><a href="./re_paper.html">The essential reading list</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sop_datamanagement.html">SOPs</a></li><li class="breadcrumb-item"><a href="./sop_datamanagement.html">Data management &amp; analysis</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -103,10 +86,13 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">CNBS<sup>MA</sup> - Lab Guide</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -144,7 +130,7 @@ div.csl-indent {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sop_datamanagement.html" class="sidebar-item-text sidebar-link">
+  <a href="./sop_datamanagement.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Data management &amp; analysis</span></a>
   </div>
 </li>
@@ -197,7 +183,7 @@ div.csl-indent {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./re_paper.html" class="sidebar-item-text sidebar-link active">
+  <a href="./re_paper.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">The essential reading list</span></a>
   </div>
 </li>
@@ -213,14 +199,9 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#tms" id="toc-tms" class="nav-link active" data-scroll-target="#tms">TMS</a>
-  <ul class="collapse">
-  <li><a href="#depression" id="toc-depression" class="nav-link" data-scroll-target="#depression">Depression</a></li>
-  </ul></li>
-  <li><a href="#pharmacotherapy" id="toc-pharmacotherapy" class="nav-link" data-scroll-target="#pharmacotherapy">Pharmacotherapy</a>
-  <ul class="collapse">
-  <li><a href="#depression-1" id="toc-depression-1" class="nav-link" data-scroll-target="#depression-1">Depression</a></li>
-  </ul></li>
+  <li><a href="#get-started-with-r" id="toc-get-started-with-r" class="nav-link active" data-scroll-target="#get-started-with-r">Get started with R</a></li>
+  <li><a href="#file-naming-conventions" id="toc-file-naming-conventions" class="nav-link" data-scroll-target="#file-naming-conventions">File naming conventions</a></li>
+  <li><a href="#tabular-data-conventions" id="toc-tabular-data-conventions" class="nav-link" data-scroll-target="#tabular-data-conventions">Tabular data conventions</a></li>
   </ul>
 </nav>
     </div>
@@ -229,7 +210,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">The essential reading list</h1>
+<h1 class="title">Data management &amp; analysis</h1>
 </div>
 
 
@@ -244,80 +225,25 @@ div.csl-indent {
 
 </header>
 
-<section id="tms" class="level2">
-<h2 class="anchored" data-anchor-id="tms">TMS</h2>
-<section id="depression" class="level3">
-<h3 class="anchored" data-anchor-id="depression">Depression</h3>
-<section id="the-beginnings" class="level4">
-<h4 class="anchored" data-anchor-id="the-beginnings">The Beginnings</h4>
-<ul>
-<li><span class="citation" data-cites="Pascual-Leone1996">(<a href="#ref-Pascual-Leone1996" role="doc-biblioref">Pascual-Leone et al. 1996</a>)</span>: Rapid stimulation of the left prefrontal cortex…</li>
-</ul>
+<section id="get-started-with-r" class="level2">
+<h2 class="anchored" data-anchor-id="get-started-with-r">Get started with R</h2>
+<ol type="1">
+<li><p>Download &amp; install <em>R</em> and the <em>R Studio</em> IDE (integrated development environment) at https://posit.co/download/rstudio-desktop/</p></li>
+<li><p>Work through this <a href="https://psyteachr.github.io/data-skills-v2/index.html">online course</a> on basic data skills</p></li>
+</ol>
 </section>
-<section id="multicenter-rcts" class="level4">
-<h4 class="anchored" data-anchor-id="multicenter-rcts">Multicenter RCTs</h4>
-<ul>
-<li><p><span class="citation" data-cites="OReardon2007">(<a href="#ref-OReardon2007" role="doc-biblioref">O’Reardon et al. 2007</a>)</span>: Multicenter study leading to the FDA approval of the “NeuroStar <em>TMS</em> Therapy system”</p></li>
-<li><p><span class="citation" data-cites="levkovitz2015">(<a href="#ref-levkovitz2015" role="doc-biblioref">Levkovitz et al. 2015</a>)</span>: Multicenter trial on deep TMS</p></li>
-<li><p><span class="citation" data-cites="Blumberger2018">(<a href="#ref-Blumberger2018" role="doc-biblioref">Daniel M. Blumberger et al. 2018</a>)</span>: THREE-D: Theta Burst is non-inferior to 10-Hz rTMS</p></li>
-<li><p><span class="citation" data-cites="Blumberger2022">(<a href="#ref-Blumberger2022" role="doc-biblioref">Daniel M. Blumberger et al. 2022</a>)</span>: FOUR-D: “THREE-D for older patients”</p></li>
-</ul>
+<section id="file-naming-conventions" class="level2">
+<h2 class="anchored" data-anchor-id="file-naming-conventions">File naming conventions</h2>
+<p><a href="https://speakerdeck.com/jennybc/how-to-name-files?slide=27">good slides</a></p>
 </section>
-<section id="single-center-rcts" class="level4">
-<h4 class="anchored" data-anchor-id="single-center-rcts">Single center RCTs</h4>
-<ul>
-<li><p><span class="citation" data-cites="Cole2022">(<a href="#ref-Cole2022" role="doc-biblioref">E. J. Cole et al. 2022</a>)</span>: The “SAINT” paper: accelerated TBS</p></li>
-<li><p><span class="citation" data-cites="cole2022">(<a href="#ref-cole2022" role="doc-biblioref">J. Cole et al. 2022</a>)</span>: TBS + Cycloserin</p></li>
-<li><p><span class="citation" data-cites="morriss2024">(<a href="#ref-morriss2024" role="doc-biblioref">Morriss et al. 2024</a>)</span>: connectivity-guided iTBS (DLPFC &lt;-&gt; AI) vs rTMS</p></li>
-</ul>
-</section>
-</section>
-</section>
-<section id="pharmacotherapy" class="level2">
-<h2 class="anchored" data-anchor-id="pharmacotherapy">Pharmacotherapy</h2>
-<section id="depression-1" class="level3">
-<h3 class="anchored" data-anchor-id="depression-1">Depression</h3>
-<section id="meta-analysis" class="level4">
-<h4 class="anchored" data-anchor-id="meta-analysis">Meta-analysis</h4>
-<ul>
-<li><span class="citation" data-cites="cipriani2018">(<a href="#ref-cipriani2018" role="doc-biblioref">Cipriani et al. 2018</a>)</span>: Comparative Efficacy and Acceptability of 21 Antidepressant Drugs for the Acute Treatment of Adults with Major Depressive Disorder</li>
-</ul>
-
+<section id="tabular-data-conventions" class="level2">
+<h2 class="anchored" data-anchor-id="tabular-data-conventions">Tabular data conventions</h2>
+<p>… tidy data …</p>
 
 
 </section>
-</section>
-</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-Blumberger2022" class="csl-entry" role="listitem">
-Blumberger, Daniel M., Benoit H. Mulsant, Kevin E. Thorpe, Shawn M. McClintock, Gerasimos N. Konstantinou, Hyewon H. Lee, Sean M. Nestor, et al. 2022. <span>“Effectiveness of Standard Sequential Bilateral Repetitive Transcranial Magnetic Stimulation Vs Bilateral Theta Burst Stimulation in Older Adults With Depression.”</span> <em>JAMA Psychiatry</em> 79 (11): 1065. <a href="https://doi.org/10.1001/jamapsychiatry.2022.2862">https://doi.org/10.1001/jamapsychiatry.2022.2862</a>.
-</div>
-<div id="ref-Blumberger2018" class="csl-entry" role="listitem">
-Blumberger, Daniel M, Fidel Vila-Rodriguez, Kevin E Thorpe, Kfir Feffer, Yoshihiro Noda, Peter Giacobbe, Yuliya Knyahnytska, et al. 2018. <span>“Effectiveness of Theta Burst Versus High-Frequency Repetitive Transcranial Magnetic Stimulation in Patients with Depression (THREE-D): A Randomised Non-Inferiority Trial.”</span> <em>The Lancet</em> 391 (10131): 1683–92. <a href="https://doi.org/10.1016/s0140-6736(18)30295-2">https://doi.org/10.1016/s0140-6736(18)30295-2</a>.
-</div>
-<div id="ref-cipriani2018" class="csl-entry" role="listitem">
-Cipriani, Andrea, Toshi A. Furukawa, Georgia Salanti, Anna Chaimani, Lauren Z. Atkinson, Yusuke Ogawa, Stefan Leucht, et al. 2018. <span>“Comparative Efficacy and Acceptability of 21 Antidepressant Drugs for the Acute Treatment of Adults with Major Depressive Disorder: A Systematic Review and Network Meta-Analysis.”</span> <em>The Lancet</em> 391 (10128): 1357–66. <a href="https://doi.org/10.1016/S0140-6736(17)32802-7">https://doi.org/10.1016/S0140-6736(17)32802-7</a>.
-</div>
-<div id="ref-Cole2022" class="csl-entry" role="listitem">
-Cole, Eleanor J., Angela L. Phillips, Brandon S. Bentzley, Katy H. Stimpson, Romina Nejad, Fahim Barmak, Clive Veerapal, et al. 2022. <span>“Stanford Neuromodulation Therapy (SNT): A Double-Blind Randomized Controlled Trial.”</span> <em>American Journal of Psychiatry</em> 179 (2): 132–41. <a href="https://doi.org/10.1176/appi.ajp.2021.20101429">https://doi.org/10.1176/appi.ajp.2021.20101429</a>.
-</div>
-<div id="ref-cole2022" class="csl-entry" role="listitem">
-Cole, Jaeden, Maya N. Sohn, Ashley D. Harris, Signe L. Bray, Scott B. Patten, and Alexander McGirr. 2022. <span>“Efficacy of Adjunctive D -Cycloserine to Intermittent Theta-Burst Stimulation for Major Depressive Disorder: A Randomized Clinical Trial.”</span> <em>JAMA Psychiatry</em>, October. <a href="https://doi.org/10.1001/jamapsychiatry.2022.3255">https://doi.org/10.1001/jamapsychiatry.2022.3255</a>.
-</div>
-<div id="ref-levkovitz2015" class="csl-entry" role="listitem">
-Levkovitz, Yechiel, Moshe Isserles, Frank Padberg, Sarah H. Lisanby, Alexander Bystritsky, Guohua Xia, Aron Tendler, et al. 2015. <span>“Efficacy and Safety of Deep Transcranial Magnetic Stimulation for Major Depression: A Prospective Multicenter Randomized Controlled Trial.”</span> <em>World Psychiatry</em> 14 (1): 64–73. https://doi.org/<a href="https://doi.org/10.1002/wps.20199">https://doi.org/10.1002/wps.20199</a>.
-</div>
-<div id="ref-morriss2024" class="csl-entry" role="listitem">
-Morriss, Richard, Paul M. Briley, Lucy Webster, Mohamed Abdelghani, Shaun Barber, Peter Bates, Cassandra Brookes, et al. 2024. <span>“Connectivity-Guided Intermittent Theta Burst Versus Repetitive Transcranial Magnetic Stimulation for Treatment-Resistant Depression: A Randomized Controlled Trial.”</span> <em>Nature Medicine</em>, January. <a href="https://doi.org/10.1038/s41591-023-02764-z">https://doi.org/10.1038/s41591-023-02764-z</a>.
-</div>
-<div id="ref-OReardon2007" class="csl-entry" role="listitem">
-O’Reardon, John P., H. Brent Solvason, Philip G. Janicak, Shirlene Sampson, Keith E. Isenberg, Ziad Nahas, William M. McDonald, et al. 2007. <span>“Efficacy and Safety of Transcranial Magnetic Stimulation in the Acute Treatment of Major Depression: A Multisite Randomized Controlled Trial.”</span> <em>Biological Psychiatry</em> 62 (11): 1208–16. <a href="https://doi.org/10.1016/j.biopsych.2007.01.018">https://doi.org/10.1016/j.biopsych.2007.01.018</a>.
-</div>
-<div id="ref-Pascual-Leone1996" class="csl-entry" role="listitem">
-Pascual-Leone, Alvaro, Belen Rubio, Federico Pallardó, and Maria Dolores Catalá. 1996. <span>“Rapid-Rate Transcranial Magnetic Stimulation of Left Dorsolateral Prefrontal Cortex in Drug-Resistant Depression.”</span> <em>The Lancet</em> 348 (9022): 233–37. <a href="https://doi.org/10.1016/s0140-6736(96)01219-6">https://doi.org/10.1016/s0140-6736(96)01219-6</a>.
-</div>
-</div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -338,6 +264,121 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -551,15 +592,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./re_courses.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Useful courses &amp; tutorials</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
