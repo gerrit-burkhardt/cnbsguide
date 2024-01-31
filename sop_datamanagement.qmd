@@ -1,5 +1,5 @@
 ---
-title: "Data management & analysis"
+title: "Data management & analysis - Basics"
 ---
 
 ## Get started with R
