@@ -1,1 +1,0 @@
-Sitemap: https://gerrit-burkhardt.github.io/cnbsguide/sitemap.xml

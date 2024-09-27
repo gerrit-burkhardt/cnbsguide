@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   page-navigation: true
@@ -26,7 +27,6 @@ website:
           #- href: home_expect.qmd
           - href: home_code.qmd
           - href: home_policies.qmd
-          
       - section: "SOPs"
         contents:
           - href: sop_datamanagement.qmd
