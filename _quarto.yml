@@ -9,8 +9,7 @@ website:
   site-url: "https://gerrit-burkhardt.github.io/cnbsguide/"
 
   page-footer:
-    left: "© Copyright 2024, Gerrit Burkhardt" 
-    right: "This page is built with ❤️ and Quarto."
+    center: "© Copyright 2024, Gerrit Burkhardt" 
 
   sidebar:
     pinned: true

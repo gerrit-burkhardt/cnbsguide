@@ -94,7 +94,5 @@ Here are some effective strategies to help you keep pace:
 -   Organizing your references and creating bibliographies with a citation management tool like [Zotero](https://www.zotero.org/download/), which is free and has a lot of useful features. You can get started with Zotero by checking out this [introductory course offered by the LMU Open Science Center](https://lmu-osc.github.io/introduction-to-zotero/).
 -   If a publication is hidden behind a paywall
     -   check if you have access via the [LMU university library](https://login.emedien.ub.uni-muenchen.de/login)
-
     -   contact the authors on ResearchGate and request the manuscript
-
     -   be aware that there are other ways to access publications, which we won't list here...
