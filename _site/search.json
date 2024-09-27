@@ -33,6 +33,17 @@
     ]
   },
   {
+    "objectID": "re_paper.html#tdcs",
+    "href": "re_paper.html#tdcs",
+    "title": "The essential reading list",
+    "section": "tDCS",
+    "text": "tDCS\n\nMulticenter RCTs\n\n(Loo et al. 2018)\n(Aust et al. 2022)\n…\n\n\n\nInfluential single center RCTs\n\n(Brunoni et al. 2013)\n(Brunoni et al. 2017)",
+    "crumbs": [
+      "Ressources",
+      "The essential reading list"
+    ]
+  },
+  {
     "objectID": "re_paper.html#pharmacotherapy",
     "href": "re_paper.html#pharmacotherapy",
     "title": "The essential reading list",
@@ -319,17 +330,6 @@
     ]
   },
   {
-    "objectID": "sop_mri_analysis.html#hilfreich-on-top",
-    "href": "sop_mri_analysis.html#hilfreich-on-top",
-    "title": "MRI Analysis",
-    "section": "Hilfreich on-top",
-    "text": "Hilfreich on-top\n\nLMU verlangt, dass Posterpräsentationen und Powerpointpräsentationen /bzw. alles…) im Corporate Design erstellt werden, nähere Infos hier\nhttps://www.lmu.de/de/die-lmu/struktur/zentrale-universitaetsverwaltung/kommunikation-und-presse/lmu-brand-guide/designvorlagen/index.html\nFür Publikationssuche gibt es zum Einen den E-Medien Login der LMU\nhttps://login.emedien.ub.uni-muenchen.de/login\nOder sci-hub - wahrscheinlich illegal, aber sehr benutzerfreundlich, da muss man immer googeln, wie die aktuelle Endung der Internetseite lautet (gerade sci-hub.hkvisa.net)",
-    "crumbs": [
-      "SOPs",
-      "MRI Analysis"
-    ]
-  },
-  {
     "objectID": "sop_datamanagement.html",
     "href": "sop_datamanagement.html",
     "title": "Data management & analysis",
@@ -341,22 +341,22 @@
     ]
   },
   {
-    "objectID": "sop_datamanagement.html#get-started-with-r",
-    "href": "sop_datamanagement.html#get-started-with-r",
+    "objectID": "sop_datamanagement.html#data-management",
+    "href": "sop_datamanagement.html#data-management",
     "title": "Data management & analysis",
     "section": "",
-    "text": "Download & install R and the R Studio IDE (integrated development environment) here\nWork through this online course on basic data skills\nGet familiar with the Quarto publishing system, that allows you to easily generate reproducible analysis reports, documents, websites and more",
+    "text": "We aim to efficiently manage our research data by following the FAIR (Findable, Accessible, Interoperable, Reusable) data principles: FAIR data is easy to find, contains information about how to gain access to them, is compatible with other data, and can be reused. For instance, ensuring your data is well-organized and documented can make it easier for humans and machines to find and understand it and enable better reuse of the data.\n\nIf this concept is new to you, check out this online workshop.\nAlso check out these slides to learn how to name your files so that they are machine readable, human readable and play well with default ordering.\nAnd work through this book chapter to learn tidy data conventions for tabular data.",
     "crumbs": [
       "SOPs",
       "Data management & analysis"
     ]
   },
   {
-    "objectID": "sop_datamanagement.html#data-management",
-    "href": "sop_datamanagement.html#data-management",
+    "objectID": "sop_datamanagement.html#data-analysis",
+    "href": "sop_datamanagement.html#data-analysis",
     "title": "Data management & analysis",
-    "section": "",
-    "text": "We aim to efficiently manage our research data by following the FAIR (Findable, Accessible, Interoperable, Reusable) data principles: FAIR data is easy to find, contains information about how to gain access to them, is compatible with other data, and can be reused. For instance, ensuring your data is well-organized and documented can make it easier for humans and machines to find and understand it and enable better reuse of the data.\n\nIf this concept is new to you, check out this online workshop.\nAlso check out these slides to learn how to name your files so that they are machine readable, human readable and play well with default ordering.\nAnd work through this book chapter to learn tidy data conventions for tabular data.",
+    "section": "Data analysis",
+    "text": "Data analysis\nOur group primarily uses the programming language R for data manipulation, statistical data analyses and plotting of data. It is open source, and has a big community, which facilitates the development of additional software packages for multiple different applications, but also makes it easy to get help if you are stuck at a particular problem. Moreover, it facilitates many workflow related tasks like automation, tracking changes with git, result preparation with markdown/latex and many more. This makes it easy to set up workflows, that can be later reproduced by other researchers.\nThe LMU Open Science Center offers a great online series of tutorials for a reproducible workflow in R:\n\nIntroduction to R\nIntroduction to version control within RStudio (version control - part 1)\nIntroduction to collaborative coding with Github (version control - part 2)\nIntroduction to literate programming with Quarto\nIntroduction to R package manager renv\nIntroduction to Zotero as reproducible citation management system\nWrap-up tutorial: publish your reproducible project",
     "crumbs": [
       "SOPs",
       "Data management & analysis"
@@ -440,28 +440,6 @@
     ]
   },
   {
-    "objectID": "sop_datamanagement.html#data-analysis",
-    "href": "sop_datamanagement.html#data-analysis",
-    "title": "Data management & analysis",
-    "section": "Data analysis",
-    "text": "Data analysis\nOur group primarily uses the programming language R for data manipulation, statistical data analyses and plotting of data. It is open source, and has a big community, which facilitates the development of additional software packages for multiple different applications, but also makes it easy to get help if you are stuck at a particular problem. Moreover, it facilitates many workflow related tasks like automation, tracking changes with git, result preparation with markdown/latex and many more. This makes it easy to set up workflows, that can be later reproduced by other researchers.\nThe LMU Open Science Center offers a great online series of tutorials for a reproducible workflow in R:\n\nIntroduction to R\nIntroduction to version control within RStudio (version control - part 1)\nIntroduction to collaborative coding with Github (version control - part 2)\nIntroduction to literate programming with Quarto\nIntroduction to R package manager renv\nIntroduction to Zotero as reproducible citation management system\nWrap-up tutorial: publish your reproducible project",
-    "crumbs": [
-      "SOPs",
-      "Data management & analysis"
-    ]
-  },
-  {
-    "objectID": "re_paper.html#tdcs",
-    "href": "re_paper.html#tdcs",
-    "title": "The essential reading list",
-    "section": "tDCS",
-    "text": "tDCS\n\nMulticenter RCTs\n\n(Loo et al. 2018)\n(Aust et al. 2022)\n…\n\n\n\nInfluential single center RCTs\n\n(Brunoni et al. 2013)\n(Brunoni et al. 2017)",
-    "crumbs": [
-      "Ressources",
-      "The essential reading list"
-    ]
-  },
-  {
     "objectID": "re_funding.html",
     "href": "re_funding.html",
     "title": "Individual funding",
@@ -470,17 +448,6 @@
     "crumbs": [
       "Ressources",
       "Individual funding"
-    ]
-  },
-  {
-    "objectID": "re_funding.html#medical-students",
-    "href": "re_funding.html#medical-students",
-    "title": "Individual Funding",
-    "section": "",
-    "text": "FöFoLe\n…\n\n…more to come…",
-    "crumbs": [
-      "Ressources",
-      "Individual Funding"
     ]
   },
   {
@@ -499,7 +466,7 @@
     "href": "re_funding.html#doctoral-students",
     "title": "Individual funding",
     "section": "Doctoral students",
-    "text": "Doctoral students\n\nFunding programs by the Medical Faculty of the LMU\nKongressreisestipendien des Deutschen Akademischen Austauschdiensts (DAAD)\n\n…more to come…",
+    "text": "Doctoral students\n\nFunding programs by the Medical Faculty of the LMU\nKongressreisestipendien des Deutschen Akademischen Austauschdiensts (DAAD)",
     "crumbs": [
       "Ressources",
       "Individual funding"
