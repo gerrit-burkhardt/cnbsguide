@@ -24,8 +24,8 @@ website:
             text: Welcome!
           - href: home_start.qmd
           #- href: home_expect.qmd
-          - href: home_code.qmd
           - href: home_policies.qmd
+          - href: home_code.qmd
       - section: "SOPs"
         contents:
           - href: sop_datamanagement.qmd
