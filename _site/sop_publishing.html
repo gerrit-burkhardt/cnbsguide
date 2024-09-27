@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CNBS - Lab Guide - MRI Analysis</title>
+<title>CNBS - Lab Guide - Publishing &amp; Dissemination</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./re_courses.html" rel="next">
-<link href="./sop_neuronavigation.html" rel="prev">
+<link href="./sop_clipp.html" rel="next">
+<link href="./sop_datamanagement.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sop_datamanagement.html">SOPs</a></li><li class="breadcrumb-item"><a href="./sop_mri_analysis.html">MRI Analysis</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sop_datamanagement.html">SOPs</a></li><li class="breadcrumb-item"><a href="./sop_publishing.html">Publishing &amp; Dissemination</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -158,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sop_publishing.html" class="sidebar-item-text sidebar-link">
+  <a href="./sop_publishing.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Publishing &amp; Dissemination</span></a>
   </div>
 </li>
@@ -182,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sop_mri_analysis.html" class="sidebar-item-text sidebar-link active">
+  <a href="./sop_mri_analysis.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">MRI Analysis</span></a>
   </div>
 </li>
@@ -227,20 +227,22 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#dicom-zu-nifti-umwandeln" id="toc-dicom-zu-nifti-umwandeln" class="nav-link active" data-scroll-target="#dicom-zu-nifti-umwandeln">DICOM zu NIFTI umwandeln</a></li>
-  <li><a href="#quality-check-vor-allem-für-funktionelle-daten-wichtig" id="toc-quality-check-vor-allem-für-funktionelle-daten-wichtig" class="nav-link" data-scroll-target="#quality-check-vor-allem-für-funktionelle-daten-wichtig">Quality Check (vor allem für funktionelle Daten wichtig)</a></li>
-  <li><a href="#benötigte-programme" id="toc-benötigte-programme" class="nav-link" data-scroll-target="#benötigte-programme">Benötigte Programme</a></li>
-  <li><a href="#analysepipelines" id="toc-analysepipelines" class="nav-link" data-scroll-target="#analysepipelines">Analysepipelines</a></li>
-  <li><a href="#e-field-analyse-mit-simnibs-4.0" id="toc-e-field-analyse-mit-simnibs-4.0" class="nav-link" data-scroll-target="#e-field-analyse-mit-simnibs-4.0">E-Field Analyse mit SIMNIBS 4.0</a></li>
+  <li><a href="#guidelines" id="toc-guidelines" class="nav-link active" data-scroll-target="#guidelines">Guidelines</a>
+  <ul class="collapse">
+  <li><a href="#affiliation" id="toc-affiliation" class="nav-link" data-scroll-target="#affiliation">Affiliation</a></li>
+  <li><a href="#recommended-preprint-servers" id="toc-recommended-preprint-servers" class="nav-link" data-scroll-target="#recommended-preprint-servers">Recommended preprint servers</a></li>
+  <li><a href="#open-access" id="toc-open-access" class="nav-link" data-scroll-target="#open-access">Open access</a></li>
+  <li><a href="#addressing-errors" id="toc-addressing-errors" class="nav-link" data-scroll-target="#addressing-errors">Addressing errors</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sop_datamanagement.html">SOPs</a></li><li class="breadcrumb-item"><a href="./sop_mri_analysis.html">MRI Analysis</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sop_datamanagement.html">SOPs</a></li><li class="breadcrumb-item"><a href="./sop_publishing.html">Publishing &amp; Dissemination</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">MRI Analysis</h1>
+<h1 class="title">Publishing &amp; Dissemination</h1>
 </div>
 
 
@@ -257,55 +259,53 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="dicom-zu-nifti-umwandeln" class="level2">
-<h2 class="anchored" data-anchor-id="dicom-zu-nifti-umwandeln">DICOM zu NIFTI umwandeln</h2>
+<section id="guidelines" class="level2">
+<h2 class="anchored" data-anchor-id="guidelines">Guidelines</h2>
+<section id="affiliation" class="level3">
+<h3 class="anchored" data-anchor-id="affiliation">Affiliation</h3>
+<p>The affiliation listed for a publication should reflect any institutions where the work was conducted.</p>
 <ul>
-<li>Vorschlag: dcm2niix -b y -f [pat_id]_%p -o [output] [input]</li>
-<li>Erklärung und weitere Möglichkeiten gibt es, wenn man dcm2niix im Terminal eingibt - das öffnet die Hilfsinfos</li>
-<li>Bei Problemen mit DICOM Dateien bzw. Erkennung ob Fehler durch die Umwandlung zu Nifti entstehen oder bereits im DICOM Export enthalten sind - DICOM Dateien im DICOMBrowser einlesen</li>
-<li>Cave - DICOM Dateien können Patientenidentifier enthalten, sind somit nicht anonym und sollten nur im klinischen Netzwerk verwendet werden</li>
+<li>For work completed in our lab, our department’s affiliation must be included, even if the individual has since left the lab.</li>
+<li>If the work was completed prior to joining our lab but published afterward, our affiliation is not required. However, it can be added alongside the original institution’s affiliation if significant contributions to the paper were made after joining the lab.</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Please make sure to always use the correct affiliation of our department: <strong>Department of Psychiatry and Psychotherapy, LMU University Hospital, Munich, Germany</strong></li>
+<li>If your project has been conducted within the DZPG, please also add: <strong>German Center for Mental Health (DZPG), Partner Site Munich-Augsburg, Germany</strong></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="recommended-preprint-servers" class="level3">
+<h3 class="anchored" data-anchor-id="recommended-preprint-servers">Recommended preprint servers</h3>
+<p>All papers should be uploaded to an appropriate preprint archive either before or at the time of submission, unless the target journal explicitly prohibits preprint publication. Our general policy is to avoid submitting to journals that restrict preprint posting, except in cases where there is a compelling reason to do so.</p>
+<p>While there are numerous preprint servers available, the two listed below are among the most commonly used by psychologists and neuroscientists.</p>
+<ul>
+<li><a href="https://www.biorxiv.org/">bioRxiv</a> (has been around longer, extends to all of bio-related disciplines)</li>
+<li><a href="https://psyarxiv.com/">PsyArXiv</a> (more recent, specifically for psychology)</li>
 </ul>
 </section>
-<section id="quality-check-vor-allem-für-funktionelle-daten-wichtig" class="level2">
-<h2 class="anchored" data-anchor-id="quality-check-vor-allem-für-funktionelle-daten-wichtig">Quality Check (vor allem für funktionelle Daten wichtig)</h2>
-<ul>
-<li>mriqc, präferentiell über docker laufen lassen</li>
-<li>https://mriqc.readthedocs.io/en/latest/docker.html</li>
-<li>erfordert Dateien in bids Struktur, und die folgenden Analyseschritte gehen auch von der bids Struktur aus</li>
-<li>NICUMprep App (gibt es von Dani, ist auf den zwei Linux PCs im GCBS Raum installiert) wandelt Dateien automatisch in die bids Struktur um</li>
-<li>bids validator entdeckt Fehler im bids file format <a href="http://incf.github.io/bids-validator/" class="uri">http://incf.github.io/bids-validator/</a></li>
-</ul>
+<section id="open-access" class="level3">
+<h3 class="anchored" data-anchor-id="open-access">Open access</h3>
+<p>When selecting journals for publication, we prioritize those that offer an Open Access option. However, we recognize that in some cases, the most suitable journal for a specific paper may not provide this option.</p>
+<p>You can use the <a href="https://beta.sherpa.ac.uk">Sherpa Services</a> to find journals with open access options and get guidance on whether a journal complies with a funder’s open access policies.</p>
+<p>Moreover, any member of the LMU registered as the Corresponding Author of a publication can apply for a fixed grant from the <a href="https://oa-fund.ub.uni-muenchen.de">LMU Open Access Fund</a>, which is financed by the German Research Foundation, to cover the publication costs (APC) incurred in connection with the publication of an Open Access research work.</p>
 </section>
-<section id="benötigte-programme" class="level2">
-<h2 class="anchored" data-anchor-id="benötigte-programme">Benötigte Programme</h2>
-<ul>
-<li>AFNI https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/index.html</li>
-<li>FSL https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation</li>
-<li>kommt mit fsleyes -&gt; visual check der Daten</li>
-<li>Empfehlung: Youtube Videos von https://www.andysbrainblog.com zu fast allen Anfängerthemen, auch https://andysbrainbook.readthedocs.io/en/latest/index.html</li>
-<li>FSL Course https://open.win.ox.ac.uk/pages/fslcourse/website/online_materials.html</li>
-<li>MRIcron für 3D Rendering von ROIs und funktionellen Daten - Lucias Empfehlung</li>
-</ul>
-</section>
-<section id="analysepipelines" class="level2">
-<h2 class="anchored" data-anchor-id="analysepipelines">Analysepipelines</h2>
-<ul>
-<li>Im Bestfall: <a href="https://zenodo.org/record/3530897">NAMNIs: Neuromodulation And Multimodal NeuroImaging software</a>, Karali, T;&nbsp;Padberg, F;&nbsp;Kirsch, V;&nbsp;Stoecklein, S;&nbsp;Falkai, P;&nbsp;Keeser, D</li>
-<li>https://zenodo.org/record/3530897/export/dcat#.ZEpxuS-228U</li>
-<li>Alternativ gibt es Analysepipelines auf dem Mac im GCBS Raum für strukturelle, funktionelle, und E-Field Auswertung</li>
-<li>hier [Ordner] auch die jeweiligen Scripte, die jedoch auf die jeweilige Datenstruktur angepasst werden müssen</li>
-</ul>
-</section>
-<section id="e-field-analyse-mit-simnibs-4.0" class="level2">
-<h2 class="anchored" data-anchor-id="e-field-analyse-mit-simnibs-4.0">E-Field Analyse mit SIMNIBS 4.0</h2>
-<ul>
-<li><p>https://simnibs.github.io/simnibs/build/html/tutorial/tutorial.html</p></li>
-<li><p>Speziell: Einlesen von Localaite Daten für automatische E-Field Analyse</p></li>
-<li><p>https://simnibs.github.io/simnibs/build/html/documentation/neuronavigation/localite.html?highlight=localite</p></li>
-<li><p>Hilfreich: in den Archives suchen oder eigene Frage reinstellen https://mailman.drcmr.dk/pipermail/simnibs-discuss/</p></li>
-</ul>
+<section id="addressing-errors" class="level3">
+<h3 class="anchored" data-anchor-id="addressing-errors">Addressing errors</h3>
+<p>If an error is identified in a published paper from the lab, all authors should promptly convene to assess whether the error affects any of the paper’s conclusions. Most journals provide mechanisms for either issuing a correction when the main conclusions remain intact or retracting the paper if they are significantly impacted. All authors must reach a consensus on whether a correction or retraction is appropriate and promptly inform the journal of their decision and the nature of the error. If relevant, a corrected version should also be submitted to the preprint server, and internal copies of the paper should be updated and versioned accordingly.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -720,13 +720,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./sop_neuronavigation.html" class="pagination-link" aria-label="Neuronavigation">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Neuronavigation</span>
+      <a href="./sop_datamanagement.html" class="pagination-link" aria-label="Data management &amp; analysis">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Data management &amp; analysis</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./re_courses.html" class="pagination-link" aria-label="Useful courses &amp; tutorials">
-        <span class="nav-page-text">Useful courses &amp; tutorials</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./sop_clipp.html" class="pagination-link" aria-label="Clinical Phenotyping Platform (CLIPP)">
+        <span class="nav-page-text">Clinical Phenotyping Platform (CLIPP)</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -1,0 +1,38 @@
+---
+title: "General Policies"
+---
+
+### Meetings
+
+#### Regular research group meetings
+
+-   Main research group meeting: Tuesdays 14 - 15:30 pm at Frank's office.
+-   PACTT (clinical trials) meeting: Fridays 13:00 - 14:30 pm via Zoom (ask Gerrit for an invitation if you are interested in participating)
+
+### Deadlines
+
+Maintaining sanity in academic work requires a high level of organization. Disorganization not only affects you but also impacts your collaborators and those whose assistance you rely on. Here are some guidelines to help you stay organized and ensure smooth collaboration:
+
+1.  **Deadlines:** Inform your collaborators about deadlines as soon as you know them, and remind them as the deadline approaches. Don't hesitate to follow up, even if it means repeatedly reminding them (yes, this includes reminding Lucia, Gerrit and Frank).
+2.  **Short Tasks:** For tasks with hard deadlines that don't require much time (e.g., reviewing conference abstracts, filling out paperwork), give your supervisor at least one week's notice.
+3.  **Moderate Tasks:** For tasks with hard deadlines that require a moderate amount of time (e.g., writing a letter of recommendation), provide at least two weeks' notice, preferably more.
+4.  **Complex Tasks:** For tasks requiring multiple back-and-forth interactions (e.g., feedback on research), give your supervisor as much time as possible, with a minimum of three weeks.
+5.  **Manuscript Submissions and Revisions:** For tasks with no hard deadline or a weak deadline, such as manuscript submissions and revisions, send drafts to your supervisor as soon as they are ready. If we do not respond within two weeks, follow up to request feedback—papers are important!
+
+### Presentations
+
+We strongly encourage you to seek opportunities to present your research, whether at research events at our department, at conferences, or to the general public. If you plan to give a presentation (poster or talk), prepare to give a practice presentation to the group at least one week in advance. Practice sessions will help you feel comfortable with your presentation and allow you to receive and incorporate feedback from the lab in advance.
+
+-   Please use the Powerpoint and poster templates made available on the [OSF repository](https://osf.io/suzrt/) (depending on the project, use either the LMU or DZPG templates).
+-   Some general guidelines for posters include:
+    -   minimizing text (avoid paragraphs)
+    -   making figures and text large and easily visible from a distance
+    -   labeling your axes
+    -   ensuring different colors are easily distinguishable and colorblind-friendly.
+-   Powerpoint slides should be polished and clear (we will be happy to share slides from our own talks if you would like to use a similar style). Beyond these basics, feel free to incorporate your own style.
+
+### Letters of recommendation
+
+Letters of recommendation are crucial for securing new positions and grants. We are happy to provide you with a recommendation if you have been in the lab for at least six months, as this gives us enough time to truly get to know you. However, exceptions can be made for students or post-docs applying for fellowships shortly after joining the lab.
+
+If you need a letter, please notify Lucia, Gerrit, and Frank as early as possible with the deadline, your CV, and any specific instructions for the letter's content. In some cases, especially if the request is made on short notice, you may be asked to submit a draft of the letter. We will then modify this draft based on our experience with you, enhance it to highlight your strengths (as people often underestimate their own achievements), and add any additional important information. This process ensures the letter is comprehensive, accurate, and submitted on time.

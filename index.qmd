@@ -1,8 +1,13 @@
 ---
-title: "Welcome!"
+title: "Welcome to the Center for Non-invasive Brain Stimulation Munich-Augsburg!"
 sidebar: true
 ---
 
 ![](profile.jpg){fig-align="left" width="212"}
 
-In this lab guide you will find all you need to know to get started as a member of the <br> **Center for Non-Invasive Brain Stimulation Munich-Augsburg (CNBS^MA^)** <br>
+Hello! We are a clinical research group at the Department of Psychiatry and Psychotherapy at LMU university hospital Munich.
+
+We study the clinical, behavioral, and neurophysiological effects of non-invasive brain stimulation techniques, particularly focusing on transcranial direct current stimulation (tDCS) and transcranial magnetic stimulation (TMS). To this end, we employ multimodal imaging methodology, including resting-state functional magnetic resonance imaging, and advanced data modeling to explore and elucidate the underlying mechanisms of these brain stimulation techniques. Moreover, we specialize in conducting pilot and confirmatory randomized controlled treatment trials for people affected by mental health disorders to effectively translate our findings into clinical practice.
+
+For more information about our group, read this lab guide, get familiar with our current projects at this [OSF repository](https://osf.io/suzrt/), and visit [our website](https://www.lmu-klinikum.de/psychiatrie-und-psychotherapie/forschung-research/working-groups/center-for-non-invasive-brain-stimulation-munich-augsburg/e79767c1099ad5ca).
+

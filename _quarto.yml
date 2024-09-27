@@ -3,8 +3,8 @@ project:
 
 website:
   page-navigation: true
-  title: "CNBS^MA^ - Lab Guide"
-  description: "Lab Guide of the Center for Non-invasive Brain Stimulation Munich-Augsburg"
+  title: "CNBS - Lab Guide"
+  description: "Lab Guide of the Center for Non-invasive Brain Stimulation"  
   site-url: "https://gerrit-burkhardt.github.io/cnbsguide/"
 
   page-footer:
@@ -22,9 +22,15 @@ website:
         contents:
           - href: index.qmd
             text: Welcome!
+          - href: home_start.qmd
+          #- href: home_expect.qmd
+          - href: home_code.qmd
+          - href: home_policies.qmd
+          
       - section: "SOPs"
         contents:
           - href: sop_datamanagement.qmd
+          - href: sop_publishing.qmd
           - href: sop_clipp.qmd
           - href: sop_mri_scanning.qmd
           - href: sop_neuronavigation.qmd
@@ -32,6 +38,7 @@ website:
       - section: "Ressources"
         contents:
           - re_courses.qmd
+          - re_funding.qmd
           - re_paper.qmd
 
 format:

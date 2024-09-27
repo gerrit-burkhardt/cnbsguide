@@ -1,0 +1,6 @@
+---
+title: "Expectations & Responsibilities"
+editor: 
+  markdown: 
+    wrap: 72
+---

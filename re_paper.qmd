@@ -5,33 +5,40 @@ bibliography: references.bib
 
 ## TMS
 
-### Depression
-
-#### The Beginnings
-
--   [@Pascual-Leone1996]: Rapid stimulation of the left prefrontal cortex...
-
 #### Multicenter RCTs
 
 -   [@OReardon2007]: Multicenter study leading to the FDA approval of the "NeuroStar *TMS* Therapy system"
-
+-   [@herwig2007]: Antidepressant effects of augmentative TMS
 -   [@levkovitz2015]: Multicenter trial on deep TMS
-
 -   [@Blumberger2018]: THREE-D: Theta Burst is non-inferior to 10-Hz rTMS
-
 -   [@Blumberger2022]: FOUR-D: "THREE-D for older patients"
+-   [@papakostas2024]: Effectiveness of augmentation with aripiprazole or rTMS versus switching to venlafaxine/duloxetine for treatment-resistant depression
 
-#### Single center RCTs
+#### Influential single center RCTs
 
+-   [@Pascual-Leone1996]: Rapid stimulation of the left prefrontal cortex.
 -   [@Cole2022]: The "SAINT" paper: accelerated TBS
-
 -   [@cole2022]: TBS + Cycloserin
+-   [@morriss2024]: Connectivity-guided iTBS (DLPFC \<-\> AI) vs rTMS
 
--   [@morriss2024]: connectivity-guided iTBS (DLPFC \<-\> AI) vs rTMS
+#### Safety
+
+-   [@rossi2021]: Safety and recommendations for TMS use in healthy subjects and patient populations
+
+## tDCS
+
+#### Multicenter RCTs
+
+-   [@loo2018]
+-   [@aust2022]
+-   ...
+
+#### Influential single center RCTs
+
+-   [@brunoni2013]
+-   [@brunoni2017]
 
 ## Pharmacotherapy
-
-### Depression
 
 #### Meta-analysis
 

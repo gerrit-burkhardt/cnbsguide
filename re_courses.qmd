@@ -8,16 +8,25 @@ title: "Useful courses & tutorials"
 
 ## Scientific writing
 
--   The [Stanford Writing in the Sciences](https://www.coursera.org/learn/sciwrite) course. This course teaches scientists to become more effective writers, using practical examples and exercises. Topics include: principles of good writing, tricks for writing faster and with less anxiety, the format of a scientific manuscript, peer review, grant writing, ethical issues in scientific publication, and writing for general audiences. Accessible with a free Coursera account.
-
-## Imaging
-
--   The [FSL](https://open.win.ox.ac.uk/pages/fslcourse/website/) course. Learn the theory and practice of using FSL for structural, functional and diffusion image analysis. The course is designed for people at all skill levels, from those with little or no experience through to intermediate users of FSL. It is based around a set of self-paced, hands-on practicals, supported by a broad set of accessible lectures.
+-   The [Stanford Writing in the Sciences](https://www.coursera.org/learn/sciwrite) course. This course teaches scientists to become more effective writers, using practical examples and exercises. Accessible with a free Coursera account.
 
 ## Data & Statistics
 
 ### General
 
+-   Online workshops for a reproducible workflow in R (**LMU Open Science Center)**
+    -   [Introduction to R](https://lmu-osc.github.io/introduction-to-R/)
+    -   [Introduction to version control within RStudio (version control - part 1)](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/)
+    -   [Introduction to collaborative coding with Github (version control - part 2)](https://lmu-osc.github.io/Collaborative-RStudio-GitHub/)
+    -   [Introduction to literate programming with Quarto](https://lmu-osc.github.io/introduction-to-Quarto/)
+    -   [Introduction to R package manager renv](https://lmu-osc.github.io/introduction-to-renv/)
+    -   [Introduction to Zotero as reproducible citation management system](https://lmu-osc.github.io/introduction-to-zotero/)
+    -   [Wrap-up tutorial: publish your reproducible project](https://lmu-osc.github.io/code-publishing/)
+    -   [FAIR data management](https://lmu-osc.github.io/FAIR-Data-Management/)
+-   Online workshops for designing reliable studies (LMU Open Science Center)
+    -   [Introduction to data simulation in R](https://lmu-osc.github.io/Introduction-Simulations-in-R/)
+    -   [Simulations of data in R for advanced power analyses](https://lmu-osc.github.io/Simulations-for-Advanced-Power-Analyses/)
+-   [FAIR data management](https://lmu-osc.github.io/FAIR-Data-Management/) (LMU Open Science Center)
 -   [R for Data Science](https://r4ds.hadley.nz/): In-depth introduction to the tidyverse, a modern framework and suite of packages for data science in R.
 -   [What They Forgot To Teach You About R](https://rstats.wtf/)
 -   [GitHub for the useR](https://happygitwithr.com/)
@@ -28,6 +37,18 @@ title: "Useful courses & tutorials"
 -   [Statistical rethinking](https://www.youtube.com/watch?v=FdnMWdICdRs&list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus): a great lecture series on bayesian statistics.
 -   [bayestestR](https://easystats.github.io/bayestestR/index.html): Simple R package for bayesian analysis. Includes a very basic tutorial.
 
-## EMA
+## Imaging
 
--   [EMA in Mental Health Research](https://jruwaard.github.io/aph_ema_handbook/): introduction to EMA focusing on mood research with coding examples win R
+-   The [FSL](https://open.win.ox.ac.uk/pages/fslcourse/website/) course. Learn the theory and practice of using FSL for structural, functional and diffusion image analysis.
+
+## Ecological Momentary Assessment
+
+-   [The Experience Sampling Handbook](https://ppw.kuleuven.be/okp/esmhandbook.php)
+-   [EMA in Mental Health Research](https://jruwaard.github.io/aph_ema_handbook/): introduction to EMA focusing on mood research with coding examples in R
+-   [Preprocessing data for EMA studies](https://preprocess.esmtools.com)
+
+## Systematic Reviews & Meta-Analysis
+
+-   [Cochrane Handbook for Systematic Reviews of Interventions](https://training.cochrane.org/handbook/current)
+-   [How to develop a Pubmed search string for your systematic review](https://www.youtube.com/watch?v=2f9YXwHASnY&t=614s)
+-   [Doing Meta-Analysis in R](https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/intro.html)

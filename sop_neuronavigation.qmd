@@ -40,19 +40,16 @@ Troubleshooting
 -   Fehlermeldung - keine Berechtigung (no permission...)
 
     -   chmod 777 \[path-to-filename\] ändert die Rechte sodass alle Nutzer eines PCs die Datei bearbeiten und ausführen können, alternativ kann man die Datei kopieren und bei der Kopie den Nutzer ändern: chown \[nutzername also bsp. neuro\] \[path-to-filename\]
-
     -   Wenn die Befehele nicht ausführbar sind, kann man sudo davor setzen, damit führt man Befehle als Administrator aus und kann meistens Rechte überschreiben; bsp: sudo chmod 777 \[path-to-filename\], danach wird man aufgefordert das Nutzerpasswort einzugeben
 
--   Fehlermeldung: \*\* results dir already exists, skipping subject ntms_009_m\_MDD
+-   Fehlermeldung: \*\* results dir already exists, skipping subject ntms_009_m_MDD
 
-    -   Das Script ist bereits einmal gelaufen, überprüfe, ob du wirklich die Ergebnisse in dem Ordner Patientencode.anat (also bsp. ntms_009_m\_MDD.anat) überschreiben möchtest, wenn ja, lösche den Ordner oder speichere ihn unter einem anderen Namen, und starte das Script nochmal
+    -   Das Script ist bereits einmal gelaufen, überprüfe, ob du wirklich die Ergebnisse in dem Ordner Patientencode.anat (also bsp. ntms_009_m_MDD.anat) überschreiben möchtest, wenn ja, lösche den Ordner oder speichere ihn unter einem anderen Namen, und starte das Script nochmal
 
--   Fehlermeldung: Cannot open volume ntms_009_m\_MDD_t1_mprage_sag_0.8 for reading!
+-   Fehlermeldung: Cannot open volume ntms_009_m_MDD_t1_mprage_sag_0.8 for reading!
 
-    -   Die Umwandlung der DICOM Dateien in das Nifty Format hat nicht ganz funktioniert, dies liegt meist daran, dass die Datei anders heißt, als im Script gefordert. Wir brauchen hier die t1_mprage Sequenz; wenn es eh nur eine t1_mprage Datei mit der Endung nii.gz (=NIFTI) gibt, ändere den Namen dieser Datei in das gewünschte Format (Patientencode_t1_mprage_sag_0.8.nii.gz, also bsp. ntms_009_m\_MDD_t1_mprage_sag_0.8.nii.gz)
-
-    -   Wenn es mehrere t1_mprage Dateien gibt, öffne jede im fsleyes (bsp. fsleyes ntms_009_m\_MDD_t1_mprage_sag_0.8d.nii) und suche dir die aus, die dir von der Qualität am besten erscheint; benenne dann diese Datei wie oben beschrieben um (Patientencode_t1_mprage_sag_0.8a.nii.gz, also bsp. ntms_009_m\_MDD_t1_mprage_sag_0.8.nii.gz)
-
+    -   Die Umwandlung der DICOM Dateien in das Nifty Format hat nicht ganz funktioniert, dies liegt meist daran, dass die Datei anders heißt, als im Script gefordert. Wir brauchen hier die t1_mprage Sequenz; wenn es eh nur eine t1_mprage Datei mit der Endung nii.gz (=NIFTI) gibt, ändere den Namen dieser Datei in das gewünschte Format (Patientencode_t1_mprage_sag_0.8.nii.gz, also bsp. ntms_009_m_MDD_t1_mprage_sag_0.8.nii.gz)
+    -   Wenn es mehrere t1_mprage Dateien gibt, öffne jede im fsleyes (bsp. fsleyes ntms_009_m_MDD_t1_mprage_sag_0.8d.nii) und suche dir die aus, die dir von der Qualität am besten erscheint; benenne dann diese Datei wie oben beschrieben um (Patientencode_t1_mprage_sag_0.8a.nii.gz, also bsp. ntms_009_m_MDD_t1_mprage_sag_0.8.nii.gz)
     -   Danach kannst du das Script nochmal laufen lassen! Aber da der erste Schritt bereits gelaufen ist, vergiss nicht, die Umwandlung von DICOM zu NIFTY auszulassen, in dem du eine Raute \# vor den dcm2niix command (dcm2niix -b y -f \${subj_id}\_%p -o \$data_root/\$subj_id \$data_root/\$subj_id) setzst; vergiss nicht, den .anat Ordner zu löschen bevor du das Script nochmal laufen lässt, und am Ende diese eben gemachte Änderung rückgängig zu machen (also \# vor dcm2niix weg, sonst läuft das Script das nächste Mal nicht durch!)
 
 Hilfreiche Tipps für die Arbeit mit dem Terminal:

@@ -2,16 +2,24 @@
 title: "Data management & analysis"
 ---
 
-## Get started with R
+## Data management
 
-1.  Download & install ***R*** and the ***R Studio*** IDE (integrated development environment) [here](https://posit.co/download/rstudio-desktop/)
+We aim to efficiently manage our research data by following the **FAIR (Findable, Accessible, Interoperable, Reusable) data principles**: FAIR data is easy to find, contains information about how to gain access to them, is compatible with other data, and can be reused. For instance, ensuring your data is well-organized and documented can make it easier for humans and machines to find and understand it and enable better reuse of the data.
 
-2.  Work through this [online course](https://psyteachr.github.io/data-skills-v2/index.html) on basic data skills
+-   If this concept is new to you, check out this [online workshop](https://lmu-osc.github.io/FAIR-Data-Management/).
+-   Also check out [these slides](https://speakerdeck.com/jennybc/how-to-name-files?slide=27) to learn how to name your files so that they are machine readable, human readable and play well with default ordering.
+-   And work through this [book chapter](https://r4ds.hadley.nz/data-tidy) to learn tidy data conventions for tabular data.
 
-## File naming conventions
+## Data analysis
 
-[good slides](https://speakerdeck.com/jennybc/how-to-name-files?slide=27)
+Our group primarily uses the **programming language R** for data manipulation, statistical data analyses and plotting of data. It is open source, and has a big community, which facilitates the development of additional software packages for multiple different applications, but also makes it easy to get help if you are stuck at a particular problem. Moreover, it facilitates many workflow related tasks like automation, tracking changes with git, result preparation with markdown/latex and many more. This makes it easy to set up workflows, that can be later reproduced by other researchers.
 
-## Tabular data conventions
+The **LMU Open Science Center** offers a great online series of tutorials for a reproducible workflow in R:
 
-... tidy data ...
+-   [Introduction to R](https://lmu-osc.github.io/introduction-to-R/)
+-   [Introduction to version control within RStudio (version control - part 1)](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/)
+-   [Introduction to collaborative coding with Github (version control - part 2)](https://lmu-osc.github.io/Collaborative-RStudio-GitHub/)
+-   [Introduction to literate programming with Quarto](https://lmu-osc.github.io/introduction-to-Quarto/)
+-   [Introduction to R package manager renv](https://lmu-osc.github.io/introduction-to-renv/)
+-   [Introduction to Zotero as reproducible citation management system](https://lmu-osc.github.io/introduction-to-zotero/)
+-   [Wrap-up tutorial: publish your reproducible project](https://lmu-osc.github.io/code-publishing/)

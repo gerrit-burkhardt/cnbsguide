@@ -1,0 +1,39 @@
+---
+title: "Publishing & Dissemination"
+editor: visual
+---
+
+## Guidelines
+
+### Affiliation
+
+The affiliation listed for a publication should reflect any institutions where the work was conducted.
+
+-   For work completed in our lab, our department's affiliation must be included, even if the individual has since left the lab.
+-   If the work was completed prior to joining our lab but published afterward, our affiliation is not required. However, it can be added alongside the original institution's affiliation if significant contributions to the paper were made after joining the lab.
+
+::: callout-note
+-   Please make sure to always use the correct affiliation of our department: **Department of Psychiatry and Psychotherapy, LMU University Hospital, Munich, Germany**
+-   If your project has been conducted within the DZPG, please also add: **German Center for Mental Health (DZPG), Partner Site Munich-Augsburg, Germany**
+:::
+
+### Recommended preprint servers
+
+All papers should be uploaded to an appropriate preprint archive either before or at the time of submission, unless the target journal explicitly prohibits preprint publication. Our general policy is to avoid submitting to journals that restrict preprint posting, except in cases where there is a compelling reason to do so.
+
+While there are numerous preprint servers available, the two listed below are among the most commonly used by psychologists and neuroscientists.
+
+-   [bioRxiv](https://www.biorxiv.org/) (has been around longer, extends to all of bio-related disciplines)
+-   [PsyArXiv](https://psyarxiv.com/) (more recent, specifically for psychology)
+
+### Open access
+
+When selecting journals for publication, we prioritize those that offer an Open Access option. However, we recognize that in some cases, the most suitable journal for a specific paper may not provide this option.
+
+You can use the [Sherpa Services](https://beta.sherpa.ac.uk) to find journals with open access options and get guidance on whether a journal complies with a funder's open access policies.
+
+Moreover, any member of the LMU registered as the Corresponding Author of a publication can apply for a fixed grant from the [LMU Open Access Fund](https://oa-fund.ub.uni-muenchen.de), which is financed by the German Research Foundation, to cover the publication costs (APC) incurred in connection with the publication of an Open Access research work.
+
+### Addressing errors
+
+If an error is identified in a published paper from the lab, all authors should promptly convene to assess whether the error affects any of the paper's conclusions. Most journals provide mechanisms for either issuing a correction when the main conclusions remain intact or retracting the paper if they are significantly impacted. All authors must reach a consensus on whether a correction or retraction is appropriate and promptly inform the journal of their decision and the nature of the error. If relevant, a corrected version should also be submitted to the preprint server, and internal copies of the paper should be updated and versioned accordingly.

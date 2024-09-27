@@ -5,47 +5,32 @@ title: "MRI Analysis"
 ## DICOM zu NIFTI umwandeln
 
 -   Vorschlag: dcm2niix -b y -f \[pat_id\]\_%p -o \[output\] \[input\]
-
 -   Erklärung und weitere Möglichkeiten gibt es, wenn man dcm2niix im Terminal eingibt - das öffnet die Hilfsinfos
-
 -   Bei Problemen mit DICOM Dateien bzw. Erkennung ob Fehler durch die Umwandlung zu Nifti entstehen oder bereits im DICOM Export enthalten sind - DICOM Dateien im DICOMBrowser einlesen
-
 -   Cave - DICOM Dateien können Patientenidentifier enthalten, sind somit nicht anonym und sollten nur im klinischen Netzwerk verwendet werden
 
 ## Quality Check (vor allem für funktionelle Daten wichtig)
 
 -   mriqc, präferentiell über docker laufen lassen
-
 -   https://mriqc.readthedocs.io/en/latest/docker.html
-
 -   erfordert Dateien in bids Struktur, und die folgenden Analyseschritte gehen auch von der bids Struktur aus
-
 -   NICUMprep App (gibt es von Dani, ist auf den zwei Linux PCs im GCBS Raum installiert) wandelt Dateien automatisch in die bids Struktur um
-
 -   bids validator entdeckt Fehler im bids file format <http://incf.github.io/bids-validator/>
 
 ## Benötigte Programme
 
 -   AFNI https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/index.html
-
 -   FSL https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation
-
 -   kommt mit fsleyes -\> visual check der Daten
-
 -   Empfehlung: Youtube Videos von https://www.andysbrainblog.com zu fast allen Anfängerthemen, auch https://andysbrainbook.readthedocs.io/en/latest/index.html
-
 -   FSL Course https://open.win.ox.ac.uk/pages/fslcourse/website/online_materials.html
-
 -   MRIcron für 3D Rendering von ROIs und funktionellen Daten - Lucias Empfehlung
 
 ## Analysepipelines
 
 -   Im Bestfall: [NAMNIs: Neuromodulation And Multimodal NeuroImaging software](https://zenodo.org/record/3530897), Karali, T; Padberg, F; Kirsch, V; Stoecklein, S; Falkai, P; Keeser, D
-
 -   https://zenodo.org/record/3530897/export/dcat#.ZEpxuS-228U
-
 -   Alternativ gibt es Analysepipelines auf dem Mac im GCBS Raum für strukturelle, funktionelle, und E-Field Auswertung
-
 -   hier \[Ordner\] auch die jeweiligen Scripte, die jedoch auf die jeweilige Datenstruktur angepasst werden müssen
 
 ## E-Field Analyse mit SIMNIBS 4.0
@@ -57,16 +42,3 @@ title: "MRI Analysis"
 -   https://simnibs.github.io/simnibs/build/html/documentation/neuronavigation/localite.html?highlight=localite
 
 -   Hilfreich: in den Archives suchen oder eigene Frage reinstellen https://mailman.drcmr.dk/pipermail/simnibs-discuss/
-
-## Hilfreich on-top
-
--   LMU verlangt, dass Posterpräsentationen und Powerpointpräsentationen /bzw. alles...) im Corporate Design erstellt werden, nähere Infos hier
-
--   https://www.lmu.de/de/die-lmu/struktur/zentrale-universitaetsverwaltung/kommunikation-und-presse/lmu-brand-guide/designvorlagen/index.html
-
--   Für Publikationssuche gibt es zum Einen den E-Medien Login der LMU
-
--   https://login.emedien.ub.uni-muenchen.de/login
-
--   Oder sci-hub - wahrscheinlich illegal, aber sehr benutzerfreundlich, da muss man immer googeln, wie die aktuelle Endung der Internetseite lautet (gerade sci-hub.hkvisa.net)
-
