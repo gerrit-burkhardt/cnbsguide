@@ -17,6 +17,8 @@ The affiliation listed for a publication should reflect any institutions where t
 -   If your project has been conducted within the DZPG, please also add: **German Center for Mental Health (DZPG), Partner Site Munich-Augsburg, Germany**
 :::
 
+-   The LMU Klinikum is registered at the **Research Organization Registry** with the following **persistent identifier**: <https://ror.org/02jet3w32> (LMU: <https://ror.org/05591te55>)
+
 ### Recommended preprint servers
 
 All papers should be uploaded to an appropriate preprint archive either before or at the time of submission, unless the target journal explicitly prohibits preprint publication. Our general policy is to avoid submitting to journals that restrict preprint posting, except in cases where there is a compelling reason to do so.

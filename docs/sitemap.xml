@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://gerrit-burkhardt.github.io/cnbsguide/home_policies.html</loc>
-    <lastmod>2024-09-26T16:03:26.380Z</lastmod>
+    <lastmod>2024-10-05T14:00:01.284Z</lastmod>
   </url>
   <url>
     <loc>https://gerrit-burkhardt.github.io/cnbsguide/home_expect.html</loc>
@@ -14,27 +14,27 @@
   </url>
   <url>
     <loc>https://gerrit-burkhardt.github.io/cnbsguide/index.html</loc>
-    <lastmod>2024-08-08T13:54:58.098Z</lastmod>
+    <lastmod>2024-10-05T13:33:32.774Z</lastmod>
   </url>
   <url>
     <loc>https://gerrit-burkhardt.github.io/cnbsguide/re_courses.html</loc>
     <lastmod>2024-09-26T15:48:11.871Z</lastmod>
   </url>
   <url>
-    <loc>https://gerrit-burkhardt.github.io/cnbsguide/home_start.html</loc>
-    <lastmod>2024-09-27T06:08:00.986Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gerrit-burkhardt.github.io/cnbsguide/home_code.html</loc>
-    <lastmod>2024-09-26T16:17:12.288Z</lastmod>
+    <loc>https://gerrit-burkhardt.github.io/cnbsguide/sop_neuronavigation.html</loc>
+    <lastmod>2024-09-26T16:07:53.880Z</lastmod>
   </url>
   <url>
     <loc>https://gerrit-burkhardt.github.io/cnbsguide/sop_mri_scanning.html</loc>
     <lastmod>2024-09-26T16:06:25.091Z</lastmod>
   </url>
   <url>
-    <loc>https://gerrit-burkhardt.github.io/cnbsguide/sop_neuronavigation.html</loc>
-    <lastmod>2024-09-26T16:07:53.880Z</lastmod>
+    <loc>https://gerrit-burkhardt.github.io/cnbsguide/home_code.html</loc>
+    <lastmod>2024-09-26T16:17:12.288Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gerrit-burkhardt.github.io/cnbsguide/home_start.html</loc>
+    <lastmod>2024-09-27T06:08:00.986Z</lastmod>
   </url>
   <url>
     <loc>https://gerrit-burkhardt.github.io/cnbsguide/sop_mri_analysis.html</loc>
@@ -50,7 +50,7 @@
   </url>
   <url>
     <loc>https://gerrit-burkhardt.github.io/cnbsguide/sop_publishing.html</loc>
-    <lastmod>2024-09-26T16:05:57.404Z</lastmod>
+    <lastmod>2024-09-27T18:31:01.890Z</lastmod>
   </url>
   <url>
     <loc>https://gerrit-burkhardt.github.io/cnbsguide/re_funding.html</loc>

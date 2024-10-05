@@ -3,19 +3,33 @@ project:
   output-dir: docs
 
 website:
-  page-navigation: true
-  title: "CNBS - Lab Guide"
+  title: "Lab Guide"
   description: "Lab Guide of the Center for Non-invasive Brain Stimulation"  
   site-url: "https://gerrit-burkhardt.github.io/cnbsguide/"
-
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "**Alert** - this site is still under construction"
+    type: primary
+    position: above-navbar
   page-footer:
     center: "© Copyright 2024, Gerrit Burkhardt" 
+    border: false
+  search:
+    location: navbar
+  page-navigation: true
 
+  navbar:
+    logo: "images/logo.png"
+    tools:
+      - icon: house-heart
+        url: https://www.lmu-klinikum.de/psychiatrie-und-psychotherapie/forschung-research/working-groups/center-for-non-invasive-brain-stimulation-munich-augsburg/e79767c1099ad5ca
+      - icon: github
+        url: https://github.com/gerrit-burkhardt/cnbsguide
+        
   sidebar:
-    pinned: true
     align: center
     style: "docked"
-    search: true
     collapse-level: 2
     contents:
       - section: "Home"
@@ -39,10 +53,15 @@ website:
           - re_courses.qmd
           - re_funding.qmd
           - re_paper.qmd
-
+        
 format:
   html:
     theme:
       light: cosmo
     css: styles.css
     toc: true
+    fontsize: 13pt
+    code-copy: true
+    code-overflow: wrap
+      
+editor: visual
