@@ -5,11 +5,18 @@ bibliography: references.bib
 
 ## TMS
 
+### Neuroscientific background
+
+-   [@barker1985]: Non-Invasive Magnetic Stimulation Of Human Motor Cortex
+-   [@siebner2022]: Transcranial magnetic stimulation of the brain: What is stimulated?
+
+### Clinical trials
+
 #### Multicenter RCTs
 
 -   [@OReardon2007]: Multicenter study leading to the FDA approval of the "NeuroStar *TMS* Therapy system"
--   [@herwig2007]: Antidepressant effects of augmentative TMS
--   [@levkovitz2015]: Multicenter trial on deep TMS
+-   [@herwig2007]: Antidepressant effects of augmentative TMS (?)
+-   [@levkovitz2015]: Multicenter trial on "deep" TMS
 -   [@Blumberger2018]: THREE-D: Theta Burst is non-inferior to 10-Hz rTMS
 -   [@Blumberger2022]: FOUR-D: "THREE-D for older patients"
 -   [@papakostas2024]: Effectiveness of augmentation with aripiprazole or rTMS versus switching to venlafaxine/duloxetine for treatment-resistant depression
@@ -21,22 +28,33 @@ bibliography: references.bib
 -   [@cole2022]: TBS + Cycloserin
 -   [@morriss2024]: Connectivity-guided iTBS (DLPFC \<-\> AI) vs rTMS
 
-#### Safety
+### Safety & Best practice guidelines
 
 -   [@rossi2021]: Safety and recommendations for TMS use in healthy subjects and patient populations
 
 ## tDCS
 
+### Neuroscientific background
+
+-   [@Nitsche2000]: Excitability Changes Induced in the Human Motor Cortex by Weak Transcranial Direct Current Stimulation
+
+### Clinical trials
+
 #### Multicenter RCTs
 
--   [@loo2018]
--   [@aust2022]
--   ...
+-   [@loo2018]: tDCS in depression (unipolar and bipolar)
+-   [@aust2022]: tDCS combined with group psychotherapy
+-   [@Burkhardt2023]: tDCS as an additional treatment to SSRIs
+-   [@Borrione2024]: Home-use tDCS & a digital psychological intervention
 
 #### Influential single center RCTs
 
--   [@brunoni2013]
--   [@brunoni2017]
+-   [@brunoni2013]: tDCS vs. Sertraline
+-   [@brunoni2017]: tDCS vs. Escitalopram
+
+### Safety & Best practice guidelines
+
+-   [@Antal2017]: Low intensity transcranial electric stimulation: Safety, ethical, legal regulatory and application guidelines
 
 ## Pharmacotherapy
 
