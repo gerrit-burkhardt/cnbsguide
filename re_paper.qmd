@@ -9,6 +9,7 @@ bibliography: references.bib
 
 -   [@barker1985]: Non-Invasive Magnetic Stimulation Of Human Motor Cortex
 -   [@siebner2022]: Transcranial magnetic stimulation of the brain: What is stimulated?
+-   [@elbau2023]: Funtional Connectivity Mapping for rTMS Target selection in Depression
 
 ### Clinical trials
 
@@ -18,6 +19,7 @@ bibliography: references.bib
 -   [@herwig2007]: Antidepressant effects of augmentative TMS (?)
 -   [@levkovitz2015]: Multicenter trial on "deep" TMS
 -   [@Blumberger2018]: THREE-D: Theta Burst is non-inferior to 10-Hz rTMS
+-   [@yesavage2018]: Effect of rTMS on Treatment-Resistant Major Depression in US Veterans
 -   [@Blumberger2022]: FOUR-D: "THREE-D for older patients"
 -   [@papakostas2024]: Effectiveness of augmentation with aripiprazole or rTMS versus switching to venlafaxine/duloxetine for treatment-resistant depression
 
@@ -37,6 +39,7 @@ bibliography: references.bib
 ### Neuroscientific background
 
 -   [@Nitsche2000]: Excitability Changes Induced in the Human Motor Cortex by Weak Transcranial Direct Current Stimulation
+-   [@liu2018]: Immediate neurophysiological effects of tDCS
 
 ### Clinical trials
 
@@ -46,6 +49,7 @@ bibliography: references.bib
 -   [@aust2022]: tDCS combined with group psychotherapy
 -   [@Burkhardt2023]: tDCS as an additional treatment to SSRIs
 -   [@Borrione2024]: Home-use tDCS & a digital psychological intervention
+-   [@woodham2024]: Home-use tDCS in unipolar depression
 
 #### Influential single center RCTs
 
@@ -56,8 +60,9 @@ bibliography: references.bib
 
 -   [@Antal2017]: Low intensity transcranial electric stimulation: Safety, ethical, legal regulatory and application guidelines
 
-## Pharmacotherapy
+## Depression
 
-#### Meta-analysis
+### Measurement
 
--   [@cipriani2018]: Comparative Efficacy and Acceptability of 21 Antidepressant Drugs for the Acute Treatment of Adults with Major Depressive Disorder
+-   [@fried2022]: Revisiting the theoretical and methodological foundations of depression measurement
+-   [@dezwart2018]: Empirical evidence for definitions of episode, remission, recovery, relapse and recurrence in depression
