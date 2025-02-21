@@ -32,17 +32,23 @@ For our projects, we closely cooperate with Daniel Keeser <a href="https://orcid
 -   Esther Dechantsreiter is a psychotherapist and doctoral student who is responsible for coordinating treatment referrals and requests from inside and outside our hospital.
 -   Jonas Björklund <a href="https://orcid.org/0000-0003-2521-6679"> <img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID logo" width="16" height="16"/></a> is currently the main study doctor within our group. He is responsible for patient recruitment and medical supervision for our clinical trials.
 
-#### Current PhD students
+#### PhD student level
 
+-   Andreas Huth (MD)
 -   Miaoxi Chen
 
-#### Current MD students
+#### MD students
 
--   Kristin Hagenah
 -   Marlen Becher
 -   Juna Bizhga
--   Katharina von Wartensleben
+-   Kristin Hagenah
 -   Barbara Huber
+-   Helena Wagner
+-   Katharina von Wartensleben
+
+#### Bachelor students
+
+-   Zaya Batbaatar
 
 ### Getting around the lab
 
@@ -77,6 +83,9 @@ Although Wi-Fi reception in the old building can be inconsistent, you should gen
 As a researcher at the LMU you have free access to several IT services via your LMU User ID (LMU-Benutzerkennung).
 This includes Microsoft Office, Zoom, Affinity and Adobe products.
 You can find a full list [here](https://www.lmu.de/en/about-lmu/structure/central-university-administration/it-services-division-vi/it-service-desk/central-it-services/).
+
+If you are actively involved in patient care (e.g. TMS treatments), we will also set you up with a helios-Account, which gives you access to the secure medical network of the hospital.
+This also includes an own e-mail address (name\@med.uni-muenchen.de), access to our Outlook calenders and to shared folders (PSY-STIM for brain stimulation treatment, PSY-GCBS for research).
 
 #### Research infrastructure & information
 
