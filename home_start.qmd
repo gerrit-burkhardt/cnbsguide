@@ -34,8 +34,9 @@ For our projects, we closely cooperate with Daniel Keeser <a href="https://orcid
 
 #### PhD student level
 
--   Andreas Huth (MD)
 -   Miaoxi Chen
+-   Andreas Huth (MD)
+-   Margarethe Woeckel (MD)
 
 #### MD students
 
@@ -85,7 +86,10 @@ This includes Microsoft Office, Zoom, Affinity and Adobe products.
 You can find a full list [here](https://www.lmu.de/en/about-lmu/structure/central-university-administration/it-services-division-vi/it-service-desk/central-it-services/).
 
 If you are actively involved in patient care (e.g. TMS treatments), we will also set you up with a helios-Account, which gives you access to the secure medical network of the hospital.
-This also includes an own e-mail address (name\@med.uni-muenchen.de), access to our Outlook calenders and to shared folders (PSY-STIM for brain stimulation treatment, PSY-GCBS for research).
+This also includes an own e-mail address (name\@med.uni-muenchen.de), access to our Outlook calenders and to shared folders (PSY-GCBS).
+
+If you would like to work with pseudonymized research data (e.g., statistical analyses, visualizations), please use our RStudio server, which can be accessed remotely via VPN client.
+If you require an account, please contact Gerrit by email.
 
 #### Research infrastructure & information
 
