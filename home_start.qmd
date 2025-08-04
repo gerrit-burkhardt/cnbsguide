@@ -22,7 +22,7 @@ Our group is led by Lucia Bulubas, Gerrit Burkhardt and Frank Padberg.
 
 -   Frank <a href="https://orcid.org/0000-0001-7638-8310"> <img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID logo" width="16" height="16"/></a> has founded the research group. He is a consultant psychiatrist and in charge of HR at our department. Besides brain stimulation, he also is co-lead of the psychotherapy research group and is in charge of the ward B1b which offers a specialized psychotherapy program for the treatment of patients with chronic depression (CBASP).
 -   Gerrit <a href="https://orcid.org/0000-0003-3965-5664"> <img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID logo" width="16" height="16"/></a> is a junior consultant psychiatrist at our department. Within our group he is responsible for conducting randomized controlled treatment trials using optimized study designs (Patient-centered Translational Trials \[PACTT\] unit). He also specializes on new approaches for depression measurement like digital phenotyping, treatment stratification and personalization, and meta-analytic research.
--   Lucia <a href="https://orcid.org/0000-0002-5797-8742"> <img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID logo" width="16" height="16"/></a> is a medical doctor and in charge of our clinical brain stimulation service ([Stimulationsambulanz](https://www.lmu-klinikum.de/psychiatrie-und-psychotherapie/patientenportal/ambulanzen/stimulationsambulanz/1cd11fcfdff07bfd)), in which we offer in- and out-patient treatment with rTMS and tDCS for patients with depression and schizophrenia. She also specializes on MR-informed neurostimulation approaches with the goal to optimized treatment outcomes via individualized dosage parameters. Moreover, she is currently on of the speakers of the Early Career Scientists of the [DZPG](https://www.dzpg.org) for the Munich-Augsburg site.
+-   Lucia <a href="https://orcid.org/0000-0002-5797-8742"> <img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID logo" width="16" height="16"/></a> is a medical doctor and in charge of our clinical brain stimulation service (Zentrum für Neurostimulation), in which we offer in- and out-patient treatment with rTMS and tDCS for patients with depression and schizophrenia. She also specializes on MR-informed neurostimulation approaches with the goal to optimized treatment outcomes via individualized dosage parameters. Moreover, she is currently on of the speakers of the Early Career Scientists of the [DZPG](https://www.dzpg.org) for the Munich-Augsburg site.
 
 For our projects, we closely cooperate with Daniel Keeser <a href="https://orcid.org/0000-0002-0244-1024"> <img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID logo" width="16" height="16"/></a> who leads the research group [Neuromodulation And Multimodal NeuroImaging](https://neuroimaging-munich.de/tdcs/home.html) and is on the executive board of the [Neuroimaging Core Unit Munich (NICUM)](https://www.en.nicum.uni-muenchen.de/index.html).
 
@@ -44,12 +44,9 @@ For our projects, we closely cooperate with Daniel Keeser <a href="https://orcid
 -   Juna Bizhga
 -   Kristin Hagenah
 -   Barbara Huber
+-   Pia Reichelmeir
 -   Helena Wagner
 -   Katharina von Wartensleben
-
-#### Bachelor students
-
--   Zaya Batbaatar
 
 ### Getting around the lab
 

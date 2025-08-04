@@ -3,8 +3,8 @@ project:
   output-dir: docs
 
 website:
-  title: "Lab Guide"
-  description: "Lab Guide of the Center for Non-invasive Brain Stimulation"  
+  title: "Center for Neurostimulation - Lab Guide"
+  description: "Lab Guide of the Center for Neurostimulation LMU"  
   site-url: "https://gerrit-burkhardt.github.io/cnbsguide/"
   announcement: 
     icon: info-circle
@@ -13,14 +13,13 @@ website:
     type: primary
     position: above-navbar
   page-footer:
-    center: "© Copyright 2024, Gerrit Burkhardt" 
+    center: "© Copyright 2025, Gerrit Burkhardt" 
     border: false
   search:
     location: navbar
   page-navigation: true
 
   navbar:
-    logo: "images/logo.png"
     tools:
       - icon: house-heart
         url: https://www.lmu-klinikum.de/psychiatrie-und-psychotherapie/forschung-research/working-groups/center-for-non-invasive-brain-stimulation-munich-augsburg/e79767c1099ad5ca

@@ -40,9 +40,9 @@ Anlegen und Auswählen von Fragebögen
 
 ![](images/09_biblio_04-01.png){fig-align="center"}
 
-## Vorgehen am CNBS^MA^
+## Vorgehen am CNS^LMU^
 
-Am CNBS^MA^ verwenden wir das CLIPP für die wissenschaftlichen Begleitung der klinischen Hirnstimulations-Behandlungen.
+Am CNS^LMU^ verwenden wir CLIPP für die wissenschaftlichen Begleitung der klinischen Hirnstimulations-Behandlungen.
 
 Die folgenden **fett** markierten Fragebögen sind im CLIPP hinterlegt und sollten nach dem hier aufgeführten Schema erfasst werden:
 
