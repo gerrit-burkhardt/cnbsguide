@@ -2,24 +2,9 @@
 title: "Neuronavigation"
 ---
 
-## Studien- und Protokollüberblick
+## Vorbereitung - "Run Script"
 
--   Klinische TMS bei depressiven Symptomen
-    -   Target: linker DLPFC, über BeamF3 (mittels EEG Kappe) oder Blumberger Punkt (MRT-gesteuert, neuronavigiert)
-    -   Protokoll: 2x iTBS
--   PREMISS Studie: für Schizophrenie mit Negativsymptomatik - Target: linker DLPFC, BeamF3 mittels EEG Kappe (einmal per Behandlung bei Localite als Stimulationspunkt einspeichern für spätere Auswertung!) - Protokol: 1. Phase rTMS (repetitive TMS), 2. Phase randomisiert rTMS/iTBS
--   TBS-D Studie: für Depression
-    -   Target: beidseitiger DLPFC, BeamF3 mittels EEG Kappe (einmal per Behandlung bei Localite als Stimulationspunkt einspeichern für spätere Auswertung!)
-    -   Protokol: rechts cTBS/ links iTBS
--   TBS-AH: akustische Halluzinationen bei Schizophrenie
-    -   Target: beidseitiger auditorische Kortex mittels EEG Kappe
--   Discover: tDCS + kognitives Training bei Depression
-    -   Target: bilateraler präfrontaler Kortex
-    -   Protokoll: tDSC
-
-## Neuronavigation - Vorbereitung "Run Script"
-
--   Passwort neuro: abcdef
+-   Passwort neuro: xxxxx (ask Lucia)
 -   USB-Stick hinten am PC einstecken
 -   Stick: **PATDATA** → Ordner NTMS\_\[Pat.Nr.\]\_\[F oder M\]\_MDD auswählen
 -   Speicherort für den Ordner: Users → Shared → studies → nTMS
@@ -64,9 +49,9 @@ Hilfreiche Tipps für die Arbeit mit dem Terminal:
 
 -\> die Taste Tab füllt automatisch die Dateinamen auf, solange es nur eine Möglichkeit gibt; bei mehreren Möglichkeiten musst du etwas länger selber tippen und es nochmal mit Tab probieren
 
-## Neuronavigation - Vorbereitung "Localite PC"
+## Vorbereitung "Localite PC"
 
--   Passwort: tmsnavigator
+-   Passwort: xxxxx (ask Lucia)
 -   Programm **LOCALITE TMS Navigator** öffnen
 -   New Session (links oben) → Patientennamen mit Komma eintragen -\> auf ok klicken
 -   **T1_biascorr.nii** auf dem Stick suchen
@@ -88,7 +73,7 @@ Hilfreiche Tipps für die Arbeit mit dem Terminal:
 -   File → add bookmark (speichert den aktuellen FOrtschritt der Session, sollte automatisch erfolgen, aber sicherheitshalber auch manuell speichern)
 -   Exit
 
-## Neuronavigation - Am Tag der Behandlung
+## Am Tag der Behandlung
 
 -   Localite TMS Navigator öffnen, links oben über den Ordner Button eine neue Session öffnen und den jeweiligen Patienten auswählen
 -   [Coil Registration]{.underline}
@@ -107,7 +92,7 @@ Hilfreiche Tipps für die Arbeit mit dem Terminal:
     -   Wert \< oder = 3.0
 -   Behandlung mit dem Mag&More Gerät starten oder...
 
-## Neuronavigation - nur Koregistrierung
+## nur Koregistrierung
 
 -   [Patient Coregistrieren ohne Stimulation:]{.underline}
     -   Navigation mode (rechte Spalte oben) drücken

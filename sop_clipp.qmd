@@ -46,4 +46,4 @@ Am CNS^LMU^ verwenden wir CLIPP für die wissenschaftlichen Begleitung der klini
 
 Die folgenden **fett** markierten Fragebögen sind im CLIPP hinterlegt und sollten nach dem hier aufgeführten Schema erfasst werden:
 
-![](images/image-1708442326.png)
+![](images/clipp_cns.png)

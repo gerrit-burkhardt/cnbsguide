@@ -3,7 +3,7 @@ title: "The essential reading list"
 bibliography: references.bib
 ---
 
-## TMS
+## rTMS
 
 ### Neuroscientific background
 
