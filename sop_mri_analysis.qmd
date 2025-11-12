@@ -1,44 +1,42 @@
 ---
-title: "MRI Analysis"
+title: "MRT Analyse"
 ---
 
-## DICOM zu NIFTI umwandeln
+## DICOM-Dateien in NIfTI umwandeln:
 
--   Vorschlag: dcm2niix -b y -f \[pat_id\]\_%p -o \[output\] \[input\]
--   Erklärung und weitere Möglichkeiten gibt es, wenn man dcm2niix im Terminal eingibt - das öffnet die Hilfsinfos
--   Bei Problemen mit DICOM Dateien bzw. Erkennung ob Fehler durch die Umwandlung zu Nifti entstehen oder bereits im DICOM Export enthalten sind - DICOM Dateien im DICOMBrowser einlesen
--   Cave - DICOM Dateien können Patientenidentifier enthalten, sind somit nicht anonym und sollten nur im klinischen Netzwerk verwendet werden
+-   `dcm2niix -b y -f [pat_id]_%p -o [output] [input]`
+-   Weitere Optionen mit `dcm2niix` im Terminal abrufen (zeigt Hilfetext).
+-   Bei Problemen oder unklarer Dateistruktur: DICOM-Dateien im *DICOMBrowser* einlesen, um Fehlerquelle (Export vs. Umwandlung) zu prüfen.
+-   *Cave:* DICOM-Dateien enthalten Patientendaten und dürfen nur im klinischen Netzwerk verwendet werden.
 
-## Quality Check (vor allem für funktionelle Daten wichtig)
+## **Quality Check**
 
--   mriqc, präferentiell über docker laufen lassen
--   https://mriqc.readthedocs.io/en/latest/docker.html
--   erfordert Dateien in bids Struktur, und die folgenden Analyseschritte gehen auch von der bids Struktur aus
--   NICUMprep App (gibt es von Dani, ist auf den zwei Linux PCs im GCBS Raum installiert) wandelt Dateien automatisch in die bids Struktur um
--   bids validator entdeckt Fehler im bids file format <http://incf.github.io/bids-validator/>
+-   Für funktionelle Daten: *mriqc* nutzen, idealerweise über Docker ([https://mriqc.readthedocs.io/en/latest/docker.html](#0))
+-   Eingabestruktur: BIDS.
+-   BIDS-Struktur kann mit der *NICUMprep App* (auf den Linux-PCs in A1.46 installiert) automatisch erzeugt werden.
+-   Fehlerprüfung im Format: *BIDS Validator (*[http://incf.github.io/bids-validator/](#0))
 
-## Benötigte Programme
+## Ressourcen
 
--   AFNI https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/index.html
--   FSL https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation
--   kommt mit fsleyes -\> visual check der Daten
--   Empfehlung: Youtube Videos von https://www.andysbrainblog.com zu fast allen Anfängerthemen, auch https://andysbrainbook.readthedocs.io/en/latest/index.html
--   FSL Course https://open.win.ox.ac.uk/pages/fslcourse/website/online_materials.html
--   MRIcron für 3D Rendering von ROIs und funktionellen Daten - Lucias Empfehlung
+### **Software**
 
-## Analysepipelines
+-   AFNI: <https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/index.html>
+-   FSL (inkl. fsleyes für visuelle Prüfung): <https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation>
+-   MRIcron (3D-Rendering, ROIs, funktionelle Daten)
 
--   Im Bestfall: [NAMNIs: Neuromodulation And Multimodal NeuroImaging software](https://zenodo.org/record/3530897), Karali, T; Padberg, F; Kirsch, V; Stoecklein, S; Falkai, P; Keeser, D
--   https://zenodo.org/record/3530897/export/dcat#.ZEpxuS-228U
--   Alternativ gibt es Analysepipelines auf dem Mac im GCBS Raum für strukturelle, funktionelle, und E-Field Auswertung
--   hier \[Ordner\] auch die jeweiligen Scripte, die jedoch auf die jeweilige Datenstruktur angepasst werden müssen
+### Kurse & Tutorials
 
-## E-Field Analyse mit SIMNIBS 4.0
+-   [https://www.andysbrainblog.com](https://www.andysbrainblog.com/)
+-   FSL Online Course: <https://open.win.ox.ac.uk/pages/fslcourse/website/online_materials.html>
 
--   https://simnibs.github.io/simnibs/build/html/tutorial/tutorial.html
+### **Analysepipelines**
 
--   Speziell: Einlesen von Localaite Daten für automatische E-Field Analyse
+-   NAMNIs – Neuromodulation and Multimodal NeuroImaging Software\
+    (<https://zenodo.org/record/3530897>)
+-   Alternativ: Pipelines auf den Macs in A146 (strukturell, funktionell, E-Field). Skripte müssen an die jeweilige Datenstruktur angepasst werden.
 
--   https://simnibs.github.io/simnibs/build/html/documentation/neuronavigation/localite.html?highlight=localite
+### **E-Field-Analyse**
 
--   Hilfreich: in den Archives suchen oder eigene Frage reinstellen https://mailman.drcmr.dk/pipermail/simnibs-discuss/
+-   Mit *SIMNIBS 4.0*: <https://simnibs.github.io/simnibs/build/html/tutorial/tutorial.html>
+-   Für automatische Einbindung von Localite-Daten: <https://simnibs.github.io/simnibs/build/html/documentation/neuronavigation/localite.html>
+-   Bei Fragen: <https://mailman.drcmr.dk/pipermail/simnibs-discuss/>

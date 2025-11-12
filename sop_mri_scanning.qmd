@@ -1,48 +1,49 @@
 ---
-title: "MRI Scanning"
+title: "MRT Durchführung"
 ---
 
 ## MRT durchführen
 
--   Schlüssel auf *unlock* drehen -\> system on (click, click)
+1.  **System starten**
+    -   Schlüssel auf *unlock* drehen → *system on* (*click, click*)
+    -   MRT vorbereiten: Headcoil, Kissen, Ohrstöpsel,...
+2.  **Patient\*in vorbereiten**
+    -   Patient\*inhinlegen lassen *→* Home (Liege fährt auf)
+    -   Augen schließen lassen
+    -   Laser an → auf Höhe der Augenbrauen positionieren → Laser aus
+    -   Große runde Taste drücken → Isocenter
+3.  **Patient\*in am Computer laden**
+    -   *Patient* (oben links) → *Scheduler*
+    -   ID auswählen (bereits bei Terminierung angelegt)
+    -   Geschlecht, Gewicht, Größe, *head first supine* eintragen
+    -   *Exam* → *Choose protocol* → *Brain* → *Confirm*
+4.  **Aufnahmen starten**
+    -   *Localizer*: Bei grünem Haken *Confirm* → *OK*
+    -   Danach gelbes Feld positionieren (Größe **nicht** ändern) → T1 starten
+5.  **Weitere Sequenzen vorbereiten**
+    -   Doppelklick auf gewünschte Sequenz → gelbes Feld prüfen → grüner Haken
+    -   Auf „kleinen Mann“ klicken (verhindert automatischen Start)
+    -   Bei *Resting State*: Feld entlang der AC–PC-Linie neigen
+6.  **Resting State Scan**
+    -   Instruktionen an Patient\*in: Augen schließen, ruhig liegen, an nichts Bestimmtes denken, nicht einschlafen
+7.  **Daten exportieren**
+    -   *Patient → Browser* → alle Bilder markieren → *Transfer*.
+    -   *Export to offline* → Laufwerk H:/ (USB)
+    -   *Send to* → Visage
+    -   *Send to* → PACS (nur T1 + T2 für Kurzbefund)
+    -   Kontrolle: *Transfer → Local Job Status* (USB) / *Network Job Status* (Visage, PACS) → „0“ bei *Transfer completed*
+8.  **Abschluss**
+    -   Liege → *Home*
+    -   *System → End Session → Shut Down* auf beiden Computern
+    -   Auf *Approval* warten → *System off*
+    -   Schlüssel auf *lock* drehen
 
--   Alles im MRT vorbereiten: head coil, Kissen, Ohrstöpsel...
+Möchtest du, dass ich sie zusätzlich als **druckfertiges A4-Blatt** mit klaren Überschriften und Checklistenstruktur formatiere (z. B. für den MR-Raum)?
 
--   PatientIn hinlegen lassen -\> Home (Liege geht auf) -\> Augen zu -\> Laser anschalten und bis auf Höhe der Augenbrauen stellen -\> Laser ausschalten -\> drücken große runde Taste bis isocenter
+## MRT-Bilder aus Visage herunterladen
 
--   am Computer - Patient (oben links) -\> Scheduler, Pat-ID auswählen (hat Irmi schon geplant) -\> sex, weight, height, head first supine -\> exam -\> choose protocol, brain -\> confirm
-
--   Erste Aufnahmen (Localizer) laufen lassen bei "grüner check" zu drücken -\> confirm -\> ok
-
--   Danach gelbes Feld adjustieren (nicht Größe ändern!!!) -\> T1 laufen lassen
-
--   Die weitere Aufnahmen mit dem gelben Feld vorbereiten: doppelklicken auf die Aufnahme, die man vorbereiten will -\> gelbes Feld dann "grüner check" -\> dann nochmal auf "kleinem Mann" drücken, damit Aufnahme nicht direkt nach der Vorherigen läuft
-
--   Gelbes Feld bei resting state mit Neigung anhand der AC-PC-Linie (anterior/posterior commissura)
-
--   Resting state: Augen zu, an nichts besonders denken und nicht einschlafen
-
--   Am Ende: Patient -\> Browser -\> select images (ALLE!!! auswählen) -\> transfer
-
-    -\> export to offline -\> H:/ (usb)
-
-    -\> send to -\> Visage
-
-    -\> send to -\> PACS (only T1 and T2 für den Kurzbefund)
-
--   Kontrolle des Transfers: Transfer -\> local job status für usb / network job status für Visage und PACS -\> transfer completed bei 0
-
--   Alles aufräumen -\> Liege auf Home
-
-System -\> end session -\> shut down auf beiden Computer -\> warte auf approval -\> system off -\> Schlüssel auf lock drehen
-
-## MRT Bilder aus Visage herunterladen
-
--   Visage App aufmachen
--   Passwort xxx
--   PatientIn nach Name, Vorname/ Geburtstdatum/ Geschlecht suchen/ID/MRT-Datum (kreuzen den Kästchen unter ID) suchen; eventuell auf MRT kreuzen
--   Patienten Zeile markieren
--   Rechte Knopf drücken / Daten holen -\>rechte Knopf
--   Medienexport
--   USB wählen
--   Exportieren
+1.  Visage App öffnen und mit Passwort anmelden
+2.  Name, Vorname, Geburtsdatum, Geschlecht oder ID suchen. Falls nötig MRT-Datum ankreuzen, ggf. zusätzlich „MRT“ markieren.
+3.  Patientenzeile markieren
+4.  Rechtsklick → Daten holen -\> Medienexport
+5.  USB als Ziel wählen und auf Exportieren klicken

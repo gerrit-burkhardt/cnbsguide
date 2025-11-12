@@ -41,12 +41,13 @@ website:
           - href: home_code.qmd
       - section: "SOPs"
         contents:
-          - href: sop_datamanagement.qmd
-          - href: sop_publishing.qmd
+          - href: sop_rtms.qmd
           - href: sop_clipp.qmd
           - href: sop_mri_scanning.qmd
           - href: sop_neuronavigation.qmd
           - href: sop_mri_analysis.qmd
+          - href: sop_datamanagement.qmd
+          - href: sop_publishing.qmd
       - section: "Ressources"
         contents:
           - re_courses.qmd

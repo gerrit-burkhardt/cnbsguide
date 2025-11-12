@@ -98,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sop_datamanagement.html">SOPs</a></li><li class="breadcrumb-item"><a href="./sop_neuronavigation.html">Neuronavigation</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sop_rtms.html">SOPs</a></li><li class="breadcrumb-item"><a href="./sop_neuronavigation.html">Neuronavigation</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -156,14 +156,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sop_datamanagement.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data management &amp; analysis</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./sop_publishing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Publishing &amp; Dissemination</span></a>
+  <a href="./sop_rtms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Checkliste rTMS Behandlung</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -175,7 +169,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./sop_mri_scanning.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">MRI Scanning</span></a>
+ <span class="menu-text">MRT Durchführung</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -187,7 +181,19 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./sop_mri_analysis.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">MRI Analysis</span></a>
+ <span class="menu-text">MRT Analyse</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sop_datamanagement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data management &amp; analysis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sop_publishing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Publishing &amp; Dissemination</span></a>
   </div>
 </li>
       </ul>
@@ -231,17 +237,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#vorbereitung---run-script" id="toc-vorbereitung---run-script" class="nav-link active" data-scroll-target="#vorbereitung---run-script">Vorbereitung - “Run Script”</a></li>
-  <li><a href="#vorbereitung-localite-pc" id="toc-vorbereitung-localite-pc" class="nav-link" data-scroll-target="#vorbereitung-localite-pc">Vorbereitung “Localite PC”</a></li>
-  <li><a href="#am-tag-der-behandlung" id="toc-am-tag-der-behandlung" class="nav-link" data-scroll-target="#am-tag-der-behandlung">Am Tag der Behandlung</a></li>
-  <li><a href="#nur-koregistrierung" id="toc-nur-koregistrierung" class="nav-link" data-scroll-target="#nur-koregistrierung">nur Koregistrierung</a></li>
+  <li><a href="#vorbereitung-run-script" id="toc-vorbereitung-run-script" class="nav-link active" data-scroll-target="#vorbereitung-run-script">Vorbereitung („Run Script“)</a>
+  <ul class="collapse">
+  <li><a href="#troubleshooting" id="toc-troubleshooting" class="nav-link" data-scroll-target="#troubleshooting">Troubleshooting</a></li>
+  </ul></li>
+  <li><a href="#localite-pc-vorbereiten" id="toc-localite-pc-vorbereiten" class="nav-link" data-scroll-target="#localite-pc-vorbereiten"><strong>Localite-PC vorbereiten</strong></a></li>
+  <li><a href="#am-tag-der-behandlung" id="toc-am-tag-der-behandlung" class="nav-link" data-scroll-target="#am-tag-der-behandlung"><strong>Am Tag der Behandlung</strong></a></li>
+  <li><a href="#nur-koregistrierung" id="toc-nur-koregistrierung" class="nav-link" data-scroll-target="#nur-koregistrierung"><strong>Nur Koregistrierung</strong></a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sop_datamanagement.html">SOPs</a></li><li class="breadcrumb-item"><a href="./sop_neuronavigation.html">Neuronavigation</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sop_rtms.html">SOPs</a></li><li class="breadcrumb-item"><a href="./sop_neuronavigation.html">Neuronavigation</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Neuronavigation</h1>
 </div>
@@ -260,130 +269,90 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="vorbereitung---run-script" class="level2">
-<h2 class="anchored" data-anchor-id="vorbereitung---run-script">Vorbereitung - “Run Script”</h2>
+<section id="vorbereitung-run-script" class="level2">
+<h2 class="anchored" data-anchor-id="vorbereitung-run-script">Vorbereitung („Run Script“)</h2>
 <ul>
-<li>Passwort neuro: xxxxx (ask Lucia)</li>
-<li>USB-Stick hinten am PC einstecken</li>
-<li>Stick: <strong>PATDATA</strong> → Ordner NTMS_[Pat.Nr.]_[F oder M]_MDD auswählen</li>
-<li>Speicherort für den Ordner: Users → Shared → studies → nTMS</li>
-<li>Die MR Daten, die man vom Scanner herunterlädt, sind im DICOM Format (Endung .dcm oder .IMA)</li>
-<li>Um den Blumberger Punkt als Target in Localite einstellen zu können, müssen wir die Koordinaten aus dem Standard MNI Space in den subject-space umwandeln. Das machen wir mit dem “script_dlpfc_location”</li>
-<li>Das “script_dlpfc_location” besteht aus mehreren Teilen; zuerst werden die DICOM Dateien in das Nifti file format umgewandelt (dcm2niix), dann wird mit dem Befehl “fsl_anat” das MRT Bild normalisiert (die Aufnahmen sind nicht mehr im subject-space, sondern im standard MNI space). Die Transformationsmatrix dieser Umwandlung wird umgekehrt, und auf die MNI Koordinaten des Blumberger Punktes angewandt; so bekommt man den Blumberger Punkt im subject space und kann diese Datei in Localite hochladen. Praktisch muss man:</li>
-<li>Terminal öffnen und das Script im Text Programm öffnen, zum bearbeiten
+<li>Passwort xxxxx (bei Lucia erfragen)</li>
+<li>USB-Stick hinten am PC einstecken →&nbsp;<em>PATDATA</em>&nbsp;→ Ordner&nbsp;<code>NTMS_[Pat.Nr.]_[F/M]_MDD</code>&nbsp;wählen.</li>
+<li>Speicherort:&nbsp;<code>Users → Shared → studies → nTMS</code>.</li>
+<li>MR-Daten vom Scanner liegen im DICOM-Format (.dcm oder .IMA) vor.</li>
+<li>Für den Blumberger-Punkt: MNI-Koordinaten in Subject-Space umwandeln mit&nbsp;<code>script_dlpfc_location</code>.
 <ul>
-<li>(hinter lucia$ bzw neuro$ eintippen) <strong>run-script_dlpfc_location[leerzeichen]open[leerzeichen]-t</strong></li>
-<li>cmd + s speichert die Änderungen</li>
+<li>DICOM → NIfTI (dcm2niix).</li>
+<li>Normalisierung mit&nbsp;<code>fsl_anat</code>.</li>
+<li>Transformationsmatrix invertieren → auf Blumberger-Koordinaten anwenden.</li>
 </ul></li>
-<li>Fenster öffnet sich → Namen hinter <strong>set subjects</strong> ändern (Ordnername einfügen, dieser wird bearbeitet)</li>
-<li>In Terminal zum nTMS Ordner navigieren: neuro$ bzw. lucia$ cd [Ordner reinkopieren]</li>
-<li>Das Script laufen lassen - im Terminal: neuro$ bzw. lucia$ tcsh [run-script einfügen] &amp; Enter drücken -&gt; Script läuft, dauert 15-30 Minuten</li>
-<li><strong>Blumberger</strong> und <strong>T1_biascorr.nii</strong>.gz → Doppelklick zum Entpacken (nur Endung .nii)</li>
-<li>Dateien auf den Stick (PATDATA) kopieren und rüber zum Localite PC!</li>
+<li>Terminal öffnen → Script bearbeiten:<br>
+<code>run-script_dlpfc_location open -t</code><br>
+Änderungen speichern (cmd + s).<br>
+Hinter&nbsp;<code>set subjects</code>&nbsp;den Patientenordnernamen eintragen.</li>
+<li>Im Terminal in den Ordner navigieren:&nbsp;<code>cd [Pfad]</code>.</li>
+<li>Script starten:&nbsp;<code>tcsh [run-script] &amp;</code>&nbsp;→ Laufzeit 15–30 min.</li>
+<li>Nach Abschluss: Dateien&nbsp;<em>Blumberger</em>&nbsp;und&nbsp;<em>T1_biascorr.nii.gz</em>&nbsp;entpacken (.nii).</li>
+<li>Beide Dateien auf den Stick (PATDATA) kopieren → zum Localite-PC bringen.</li>
 </ul>
-<p>Troubleshooting</p>
+<section id="troubleshooting" class="level3">
+<h3 class="anchored" data-anchor-id="troubleshooting">Troubleshooting</h3>
 <ul>
-<li><p>Fehlermeldung - keine Berechtigung (no permission…)</p>
+<li><em>No permission</em>:&nbsp;<code>chmod 777 [Pfad]</code>&nbsp;oder&nbsp;<code>chown [nutzername] [Pfad]</code>.</li>
+<li>Befehle mit&nbsp;<code>sudo</code>&nbsp;ausführen, wenn Rechte fehlen.</li>
+<li><em>results dir already exists</em>: Ordner löschen oder umbenennen, Script neu starten.</li>
+<li><em>Cannot open volume…</em>: DICOM→NIfTI-Konvertierung prüfen, korrekte&nbsp;<em>t1_mprage</em>-Datei umbenennen.</li>
+<li>Falls bereits konvertiert:&nbsp;<code>#</code>&nbsp;vor dcm2niix-Zeile setzen,&nbsp;<code>.anat</code>-Ordner löschen, Script neu starten, Raute danach wieder entfernen.</li>
+<li>Nützliche Terminalbefehle:
 <ul>
-<li>chmod 777 [path-to-filename] ändert die Rechte sodass alle Nutzer eines PCs die Datei bearbeiten und ausführen können, alternativ kann man die Datei kopieren und bei der Kopie den Nutzer ändern: chown [nutzername also bsp. neuro] [path-to-filename]</li>
-<li>Wenn die Befehele nicht ausführbar sind, kann man sudo davor setzen, damit führt man Befehle als Administrator aus und kann meistens Rechte überschreiben; bsp: sudo chmod 777 [path-to-filename], danach wird man aufgefordert das Nutzerpasswort einzugeben</li>
-</ul></li>
-<li><p>Fehlermeldung: ** results dir already exists, skipping subject ntms_009_m_MDD</p>
-<ul>
-<li>Das Script ist bereits einmal gelaufen, überprüfe, ob du wirklich die Ergebnisse in dem Ordner Patientencode.anat (also bsp. ntms_009_m_MDD.anat) überschreiben möchtest, wenn ja, lösche den Ordner oder speichere ihn unter einem anderen Namen, und starte das Script nochmal</li>
-</ul></li>
-<li><p>Fehlermeldung: Cannot open volume ntms_009_m_MDD_t1_mprage_sag_0.8 for reading!</p>
-<ul>
-<li>Die Umwandlung der DICOM Dateien in das Nifty Format hat nicht ganz funktioniert, dies liegt meist daran, dass die Datei anders heißt, als im Script gefordert. Wir brauchen hier die t1_mprage Sequenz; wenn es eh nur eine t1_mprage Datei mit der Endung nii.gz (=NIFTI) gibt, ändere den Namen dieser Datei in das gewünschte Format (Patientencode_t1_mprage_sag_0.8.nii.gz, also bsp. ntms_009_m_MDD_t1_mprage_sag_0.8.nii.gz)</li>
-<li>Wenn es mehrere t1_mprage Dateien gibt, öffne jede im fsleyes (bsp. fsleyes ntms_009_m_MDD_t1_mprage_sag_0.8d.nii) und suche dir die aus, die dir von der Qualität am besten erscheint; benenne dann diese Datei wie oben beschrieben um (Patientencode_t1_mprage_sag_0.8a.nii.gz, also bsp. ntms_009_m_MDD_t1_mprage_sag_0.8.nii.gz)</li>
-<li>Danach kannst du das Script nochmal laufen lassen! Aber da der erste Schritt bereits gelaufen ist, vergiss nicht, die Umwandlung von DICOM zu NIFTY auszulassen, in dem du eine Raute # vor den dcm2niix command (dcm2niix -b y -f ${subj_id}_%p -o $data_root/$subj_id $data_root/$subj_id) setzst; vergiss nicht, den .anat Ordner zu löschen bevor du das Script nochmal laufen lässt, und am Ende diese eben gemachte Änderung rückgängig zu machen (also # vor dcm2niix weg, sonst läuft das Script das nächste Mal nicht durch!)</li>
+<li><p><code>cd</code>&nbsp;(Ordner wechseln),&nbsp;<code>cd ..</code>&nbsp;(Ordner hoch),&nbsp;<code>pwd</code>&nbsp;(aktueller Pfad),&nbsp;<code>ls</code>&nbsp;(Dateien anzeigen).</p></li>
+<li><p>Tab-Taste ergänzt Pfade automatisch.</p></li>
+<li><p>Drag&amp;Drop fügt Pfad direkt ein.</p></li>
 </ul></li>
 </ul>
-<p>Hilfreiche Tipps für die Arbeit mit dem Terminal:</p>
-<p>-&gt; Drag&amp;Drop kopiert dir immer den Pfad deines Ordners rein</p>
-<p>-&gt; cd bedeutet change directory, damit navigiert man durch die Ordnerstruktur des Computers, durch „cd” kommst du immer in den home Ordner (in diesem Fall /Users/neuro), „cd ..” Geht immer einen Ordner hoch (also aus dem home Ordner zB nach /Users), du kannst auch direkt cd „Pfad” eingeben (bsp cd /Users/Shared/studies/nTMS), dann gehst du direkt in den gewünschten Ordner</p>
-<p>-&gt; „pwd” zeigt dir, in welchem Pfad du dich aktuell befindest</p>
-<p>-&gt; „ls” zeigt alle Dateien an in dem Pfad, in dem du dich befindest</p>
-<p>-&gt; die Taste Tab füllt automatisch die Dateinamen auf, solange es nur eine Möglichkeit gibt; bei mehreren Möglichkeiten musst du etwas länger selber tippen und es nochmal mit Tab probieren</p>
 </section>
-<section id="vorbereitung-localite-pc" class="level2">
-<h2 class="anchored" data-anchor-id="vorbereitung-localite-pc">Vorbereitung “Localite PC”</h2>
+</section>
+<section id="localite-pc-vorbereiten" class="level2">
+<h2 class="anchored" data-anchor-id="localite-pc-vorbereiten"><strong>Localite-PC vorbereiten</strong></h2>
 <ul>
-<li>Passwort: xxxxx (ask Lucia)</li>
-<li>Programm <strong>LOCALITE TMS Navigator</strong> öffnen</li>
-<li>New Session (links oben) → Patientennamen mit Komma eintragen -&gt; auf ok klicken</li>
-<li><strong>T1_biascorr.nii</strong> auf dem Stick suchen</li>
-<li>Pat. ID (Ordnername) und Name eingeben</li>
-<li>Threshold einstellen (sagittal, erfahrungsgemäß bei 450)</li>
-<li><strong>Blumberger Datei</strong> vom Stick einfügen
+<li>Passwort: xxxxx (bei Lucia erfragen).</li>
+<li><em>LOCALITE TMS Navigator</em>&nbsp;öffnen.</li>
+<li><em>New Session</em>&nbsp;→ Patient: Nachname, Vorname →&nbsp;<em>OK</em>.</li>
+<li><em>T1_biascorr.nii</em>&nbsp;vom Stick laden → Pat.-ID und Name eintragen.</li>
+<li>Threshold einstellen (sagittal ≈ 450).</li>
+<li><em>Blumberger</em>-Datei laden:&nbsp;<em>File → Load functional data</em>.</li>
+<li><em>Planning</em>&nbsp;öffnen → Target auf Blumberger-Punkt setzen →&nbsp;<em>Set Target</em>.</li>
+<li>Rotation: 45° →&nbsp;<em>Calculate entry</em>.</li>
+<li>Description: „Blumberger“.</li>
+<li><em>Patient registration</em>:
 <ul>
-<li>File (links oben) → load functional data</li>
-<li>Blumberger Datei des Patienten auswählen</li>
+<li>Gelb = linkes Auge, Lila = rechtes Auge, Grün = Nasion.</li>
+<li>Punkte setzen →&nbsp;<em>Next</em>&nbsp;→ speichern.</li>
 </ul></li>
-<li><strong>Planning</strong> öffnen (rechte Spalte)
-<ul>
-<li>Target auf Blumberger Punkt im MRT einstellen -&gt; Set Target</li>
-<li>define rotation → <strong>45°</strong></li>
-<li>calculate entry</li>
-<li>Description umbennen: <strong>Blumberger</strong></li>
-</ul></li>
-<li><strong>Patient registration</strong> (links)
-<ul>
-<li>gelb: <strong>left eye</strong> einstellen → set marker (Auge am vorderen Rand des Knochens, ca. mittig, am Bild links oben orientieren)</li>
-<li>lila: <strong>right eye</strong> einstellen → set marker</li>
-<li>grün: <strong>nasion</strong> einstellen → set marker (mittig, tiefster Punkt im Nasenhügel)</li>
-<li>rechts unten auf <strong>next</strong> klicken, um zu speichern → Fenster schließen</li>
-</ul></li>
-<li>File → add bookmark (speichert den aktuellen FOrtschritt der Session, sollte automatisch erfolgen, aber sicherheitshalber auch manuell speichern)</li>
-<li>Exit</li>
+<li><em>File → Add bookmark</em>&nbsp;(automatisch oder manuell).</li>
+<li><em>Exit</em>.</li>
 </ul>
 </section>
 <section id="am-tag-der-behandlung" class="level2">
-<h2 class="anchored" data-anchor-id="am-tag-der-behandlung">Am Tag der Behandlung</h2>
+<h2 class="anchored" data-anchor-id="am-tag-der-behandlung"><strong>Am Tag der Behandlung</strong></h2>
 <ul>
-<li>Localite TMS Navigator öffnen, links oben über den Ordner Button eine neue Session öffnen und den jeweiligen Patienten auswählen</li>
-<li><u>Coil Registration</u>
-<ul>
-<li>Instrument (rechte Spalte) drücken</li>
-<li>No instrument -&gt; Coil 1</li>
-<li>Calibrate Coil 1</li>
-<li>Spule „MAG&amp;More PMD70-pcool” wählen</li>
-<li>Start Calibration Wizard</li>
-<li>A, B, C und D setzen („blaues Pedal” für messen, „grünes Pedal” für next, „gelbes Pedal” für zurück) -&gt; Werte sollen &lt; oder = 0.3 sein</li>
-</ul></li>
-<li><u>Patienten registrieren</u>
-<ul>
-<li>Check tracking system Reference (linke Spalte) aufmachen</li>
-<li>Tracking System auf Patienten Kopf kleben (einmal der Patienten schlucken lassen und dann fettige Haut auf Stirn kurz mit Tuchpapier entfernen) -&gt; rosarote Punkt muss in den grauen Felder sein</li>
-<li>Patient Registration (linke Spalte): lpa/linek Augenwinkel, rpa/rechte Augenwinkel und nasion messen -&gt; Werte sollen &lt; oder = 3.0 sein</li>
-<li>Next drücken</li>
-<li>Ausmessen ca. 300-400 Punkte auf dem Kopf mit blauem Pedal</li>
-<li>Wert &lt; oder = 3.0</li>
-</ul></li>
-<li>Behandlung mit dem Mag&amp;More Gerät starten oder…</li>
+<li><em>Localite TMS Navigator</em>&nbsp;öffnen →&nbsp;<em>New Session</em>&nbsp;→ Patient wählen.</li>
+<li><em>Instrument</em>&nbsp;(rechte Spalte):&nbsp;<em>No instrument → Coil 1 → Calibrate Coil 1</em>.</li>
+<li>Spule: „MAG&amp;More PMD70-pcool“.</li>
+<li><em>Start Calibration Wizard</em>&nbsp;→ A, B, C, D messen (Werte ≤ 0.3).</li>
+<li><em>Check tracking system reference</em>: Tracking-Frame auf Stirn befestigen.</li>
+<li><em>Patient registration</em>: LPA, RPA, Nasion (Werte ≤ 3.0) →&nbsp;<em>Next</em>.</li>
+<li>Kopf abtasten (~ 300–400 Punkte, Werte ≤ 3.0).</li>
 </ul>
 </section>
 <section id="nur-koregistrierung" class="level2">
-<h2 class="anchored" data-anchor-id="nur-koregistrierung">nur Koregistrierung</h2>
+<h2 class="anchored" data-anchor-id="nur-koregistrierung"><strong>Nur Koregistrierung</strong></h2>
 <ul>
-<li><u>Patient Coregistrieren ohne Stimulation:</u>
-<ul>
-<li>Navigation mode (rechte Spalte oben) drücken</li>
-<li>Stimulation mode (rechte Spalte unten) drücken</li>
-<li>Stimulationsmarker aufmachen -&gt; upldate during recording (damit wenn den Impuls ausgelöst wird kann man es direkt sehen)</li>
-<li>Start drücken (damit die Impulse gespeichert werden)</li>
-<li>TMS Stimulator auf Front Panel stellen -&gt; Intensity auf 0</li>
-<li>Mit „blauem Pedal” ein Impuls auslösen</li>
-<li>Stop drücken</li>
-</ul></li>
-<li><u>Stimulationskoordinate:</u>
-<ul>
-<li>Ein Stimulationsmarker markieren</li>
-<li>Transform selection (damit werden die Instrumetnmarker auf Localite Computer gespeichert)</li>
-<li>Open instrumentmarker (blaue T in der rechten Spalte): hier kann man den Punkt benennen und dessen Farbe ändern</li>
-<li>Ordner -&gt; Lokaler Datenträger -&gt; data-localite -&gt; patients -&gt; choose pat -&gt; session -&gt; instrumentmarker</li>
-<li>Falls man Koordinate von vorherigen Behandlungen nehmen will: Continue Session Ordner (linke Spalte oben) -&gt; Patienten auswählen -&gt; ok -&gt; yes -&gt; File (Zeile ganz oben, rechts) -&gt; Load bookmarks -&gt; Stop acquired -&gt; Stimulation mode -&gt; <u>Stimulationskoordinate</u> (s.o.)</li>
-</ul></li>
+<li><em>Navigation mode</em>&nbsp;→&nbsp;<em>Stimulation mode</em>.</li>
+<li><em>Stimulationsmarker → Update during recording</em>&nbsp;aktivieren.</li>
+<li><em>Start</em>&nbsp;drücken.</li>
+<li>TMS-Stimulator:&nbsp;<em>Front Panel</em>, Intensität = 0.</li>
+<li>Mit blauem Pedal Impuls auslösen →&nbsp;<em>Stop</em>.</li>
+<li>Stimulationsmarker markieren →&nbsp;<em>Transform selection</em>&nbsp;→ speichern.</li>
+<li><em>Open instrumentmarker</em>&nbsp;→ Punkt benennen, Farbe ändern.</li>
+<li>Speicherort:&nbsp;<code>data-localite → patients → [Patient] → session → instrumentmarker</code>.</li>
+<li>Vorherige Sitzungen:&nbsp;<em>Continue Session → Patient → OK → Yes → File → Load bookmarks → Stop acquired → Stimulation mode → Stimulationskoordinate</em>.</li>
 </ul>
 
 
@@ -809,13 +778,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./sop_mri_scanning.html" class="pagination-link" aria-label="MRI Scanning">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">MRI Scanning</span>
+      <a href="./sop_mri_scanning.html" class="pagination-link" aria-label="MRT Durchführung">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">MRT Durchführung</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./sop_mri_analysis.html" class="pagination-link" aria-label="MRI Analysis">
-        <span class="nav-page-text">MRI Analysis</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./sop_mri_analysis.html" class="pagination-link" aria-label="MRT Analyse">
+        <span class="nav-page-text">MRT Analyse</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

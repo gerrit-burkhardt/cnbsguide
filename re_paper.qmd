@@ -9,13 +9,20 @@ bibliography: references.bib
 
 -   [@barker1985]: Non-Invasive Magnetic Stimulation Of Human Motor Cortex
 -   [@siebner2022]: Transcranial magnetic stimulation of the brain: What is stimulated?
+-   [@cash2020]: Using Brain Imaging to Improve Spatial Targeting of TMS for Depression
+-   [@siddiqi2022]: Causal mapping of human brain function
 -   [@elbau2023]: Funtional Connectivity Mapping for rTMS Target selection in Depression
+
+### Reviews & Meta-Analysis
+
+-   [@chen2025]: Treating depression with rTMS
+-   [@mutz2018]: Meta-Analysis on brain stimulation interventions
 
 ### Clinical trials
 
 #### Multicenter RCTs
 
--   [@OReardon2007]: Multicenter study leading to the FDA approval of the "NeuroStar *TMS* Therapy system"
+-   [@OReardon2007]: Multicenter study leading to the FDA approval of the "NeuroStar TMS Therapy system"
 -   [@herwig2007]: Antidepressant effects of augmentative TMS (?)
 -   [@levkovitz2015]: Multicenter trial on "deep" TMS
 -   [@Blumberger2018]: THREE-D: Theta Burst is non-inferior to 10-Hz rTMS
@@ -25,14 +32,18 @@ bibliography: references.bib
 
 #### Influential single center RCTs
 
--   [@Pascual-Leone1996]: Rapid stimulation of the left prefrontal cortex.
+-   [@Pascual-Leone1996]: Rapid stimulation of the left prefrontal cortex
+-   [@hoffman2003]: TMS for acoustic hallucinations in schizophrenia
 -   [@Cole2022]: The "SAINT" paper: accelerated TBS
 -   [@cole2022]: TBS + Cycloserin
 -   [@morriss2024]: Connectivity-guided iTBS (DLPFC \<-\> AI) vs rTMS
+-   [@ramos2025]: "A little bit less accelerated" TBS
 
-### Safety & Best practice guidelines
+### Guidelines
 
--   [@rossi2021]: Safety and recommendations for TMS use in healthy subjects and patient populations
+-   [@rossi2021]: Safety recommendations for TMS use in healthy subjects and patient populations
+-   [@lefaucheur2020]: Evidence-based guidelines on the therapeutic use of rTMS
+-   [@mcclintock2018]: Consensus guidelines for the clinical application of rTMS
 
 ## tDCS
 
@@ -64,5 +75,12 @@ bibliography: references.bib
 
 ### Measurement
 
--   [@fried2022]: Revisiting the theoretical and methodological foundations of depression measurement
 -   [@dezwart2018]: Empirical evidence for definitions of episode, remission, recovery, relapse and recurrence in depression
+-   [@fried2022]: Revisiting the theoretical and methodological foundations of depression measurement
+-   [@veal2024]: Heterogenity of outcome measures in treatment trials
+
+### Treatment
+
+-   [@cipriani2018]: Meta-analysis of common antidepressants
+-   [@cuijpers2020]: Meta-analysis of evidence-based psychotherapy for depression
+-   [@karyotaki2021]: Meta-analysis of internet-based CBT for depression

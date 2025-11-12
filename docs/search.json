@@ -1,68 +1,354 @@
 [
   {
-    "objectID": "home_policies.html",
-    "href": "home_policies.html",
-    "title": "General Policies",
+    "objectID": "sop_rtms.html",
+    "href": "sop_rtms.html",
+    "title": "Checkliste rTMS Behandlung",
     "section": "",
-    "text": "Meetings\n\nRegular research group meetings\n\nMain research group meeting: Tuesdays 13 - 14:30 pm at Frank’s office.\nHSK (brain stimulation service) meeting: every two weeks on Friday 9:00 - 9:30 pm via Zoom (ask Esther for an invitation)\nPACTT (clinical trials) meeting: Fridays 13:00 - 14:30 pm via Zoom (ask Gerrit for an invitation)\n\n\n\n\nDeadlines\nMaintaining sanity in academic work requires a high level of organization. Disorganization not only affects you but also impacts your collaborators and those whose assistance you rely on. Here are some guidelines to help you stay organized and ensure smooth collaboration:\n\nDeadlines: Inform your collaborators about deadlines as soon as you know them, and remind them as the deadline approaches. Don’t hesitate to follow up, even if it means repeatedly reminding them (yes, this includes reminding Lucia, Gerrit and Frank).\nShort Tasks: For tasks with hard deadlines that don’t require much time (e.g., reviewing conference abstracts, filling out paperwork), give your supervisor at least one week’s notice.\nModerate Tasks: For tasks with hard deadlines that require a moderate amount of time (e.g., writing a letter of recommendation), provide at least two weeks’ notice, preferably more.\nComplex Tasks: For tasks requiring multiple back-and-forth interactions (e.g., feedback on research), give your supervisor as much time as possible, with a minimum of three weeks.\nManuscript Submissions and Revisions: For tasks with no hard deadline or a weak deadline, such as manuscript submissions and revisions, send drafts to your supervisor as soon as they are ready. If we do not respond within two weeks, follow up to request feedback—papers are important!\n\n\n\nPresentations\nWe strongly encourage you to seek opportunities to present your research, whether at research events at our department, at conferences, or to the general public. If you plan to give a presentation (poster or talk), prepare to give a practice presentation to the group at least one week in advance. Practice sessions will help you feel comfortable with your presentation and allow you to receive and incorporate feedback from the lab in advance.\n\nPlease use the Powerpoint and poster templates made available on the OSF repository (depending on the project, use either the LMU or DZPG templates).\nSome general guidelines for posters include:\n\nminimizing text (avoid paragraphs)\nmaking figures and text large and easily visible from a distance\nlabeling your axes\nensuring different colors are easily distinguishable and colorblind-friendly.\n\nPowerpoint slides should be polished and clear (we will be happy to share slides from our own talks if you would like to use a similar style). Beyond these basics, feel free to incorporate your own style.\n\n\n\nLetters of recommendation\nLetters of recommendation are crucial for securing new positions and grants. We are happy to provide you with a recommendation if you have been in the lab for at least six months, as this gives us enough time to truly get to know you. However, exceptions can be made for students or post-docs applying for fellowships shortly after joining the lab.\nIf you need a letter, please notify Lucia, Gerrit, and Frank as early as possible with the deadline, your CV, and any specific instructions for the letter’s content. In some cases, especially if the request is made on short notice, you may be asked to submit a draft of the letter. We will then modify this draft based on our experience with you, enhance it to highlight your strengths (as people often underestimate their own achievements), and add any additional important information. This process ensures the letter is comprehensive, accurate, and submitted on time.",
+    "text": "Aufklärungsbogen TMS sichten und einscannen\nEinverständnis NIBS-Studie (+ ggf. MRT Aufklärung) vorbereiten\nPat. in Access-Datenbank erfassen\nPat. in CLIPP registrieren\nBehandlungsübersicht aktualisieren\nTermine in Outlook einpflegen\n\n\n\n\n\nFragebögen durchführen: MADRS + nibs_phenotype (auch bei Pat., die bereits rTMS-Behandlungen bei uns erhalten haben)\nGgf. “MRT OK” von ÄrztIn einholen\nGgf. “EEG OK” von ÄrztIn einholen\nGgf. Neuronavigation vorbereiten",
+    "crumbs": [
+      "SOPs",
+      "Checkliste rTMS Behandlung"
+    ]
+  },
+  {
+    "objectID": "sop_rtms.html#vorbereitung",
+    "href": "sop_rtms.html#vorbereitung",
+    "title": "Checkliste rTMS Behandlung",
+    "section": "",
+    "text": "Aufklärungsbogen TMS sichten und einscannen\nEinverständnis NIBS-Studie (+ ggf. MRT Aufklärung) vorbereiten\nPat. in Access-Datenbank erfassen\nPat. in CLIPP registrieren\nBehandlungsübersicht aktualisieren\nTermine in Outlook einpflegen\n\n\n\n\n\nFragebögen durchführen: MADRS + nibs_phenotype (auch bei Pat., die bereits rTMS-Behandlungen bei uns erhalten haben)\nGgf. “MRT OK” von ÄrztIn einholen\nGgf. “EEG OK” von ÄrztIn einholen\nGgf. Neuronavigation vorbereiten",
+    "crumbs": [
+      "SOPs",
+      "Checkliste rTMS Behandlung"
+    ]
+  },
+  {
+    "objectID": "sop_rtms.html#rtms-sitzung",
+    "href": "sop_rtms.html#rtms-sitzung",
+    "title": "Checkliste rTMS Behandlung",
+    "section": "rTMS Sitzung",
+    "text": "rTMS Sitzung\n\nJeden Tag\n\nnibs_treatment anlegen\nGgf. Neuronavigation vorbereiten\nnibs-treatment: “Vor der Behandlung” (Selbstrating PatientIn)\nBehandlung durchführen\nnibs-treatment: “Nach der Behandlung” (Selbstrating PatientIn) + Eingangsfragen zur Sitzung (Operator)\nBehandlungsstuhl desinfizieren\nBehandlungssitzung im KAS dokumentieren\nGgf. Fehltermine im Outlook-Kalender dokumentieren\n\n\n\nFreitag Wochen 1,2,3 und 5\n\nFragebögen durchführen: nibs_treatment + nibs_rating (Selbstrating PatientIn) nach Ende der Behandlung\n\n\n\nFreitag Wochen 4 und 6\n\nFragebögen durchführen: nibs_treatment + nibs_rating_post (Selbstrating PatientIn) + MADRS nach Ende der Behandlung\nAccess-Datenbank aktualisieren\nBehandlungsübersicht aktualisieren\n\n\n\nNach der letzten Sitzung am Tag\n\nStimulator ausschalten\nLaptop herunterfahren\nStimulator an die Wand stellen\nLicht ausschalten 😊",
+    "crumbs": [
+      "SOPs",
+      "Checkliste rTMS Behandlung"
+    ]
+  },
+  {
+    "objectID": "sop_rtms.html#nachbereitung",
+    "href": "sop_rtms.html#nachbereitung",
+    "title": "Checkliste rTMS Behandlung",
+    "section": "Nachbereitung",
+    "text": "Nachbereitung\n\nKurzarztbrief anlegen (KAS)\nAccess-Datenbank aktualisieren\nBehandlungsübersicht aktualisieren\nGgf. Termin für 6 Monate Follow-Up vereinbaren und in Outlook eintragen\n\n\n6 Monate Follow-up\n\nFragebögen durchführen: nibs_rating_post (Selbstrating PatientIn) + MADRS",
+    "crumbs": [
+      "SOPs",
+      "Checkliste rTMS Behandlung"
+    ]
+  },
+  {
+    "objectID": "re_funding.html",
+    "href": "re_funding.html",
+    "title": "Individual funding",
+    "section": "",
+    "text": "Funding programs by the Medical Faculty of the LMU\nKongressreisestipendien des Deutschen Akademischen Austauschdiensts (DAAD)",
+    "crumbs": [
+      "Ressources",
+      "Individual funding"
+    ]
+  },
+  {
+    "objectID": "re_funding.html#postdocs",
+    "href": "re_funding.html#postdocs",
+    "title": "Individual funding",
+    "section": "",
+    "text": "Funding programs by the Medical Faculty of the LMU\nKongressreisestipendien des Deutschen Akademischen Austauschdiensts (DAAD)",
+    "crumbs": [
+      "Ressources",
+      "Individual funding"
+    ]
+  },
+  {
+    "objectID": "re_funding.html#doctoral-students",
+    "href": "re_funding.html#doctoral-students",
+    "title": "Individual funding",
+    "section": "Doctoral students",
+    "text": "Doctoral students\n\nFunding programs by the Medical Faculty of the LMU\nKongressreisestipendien des Deutschen Akademischen Austauschdiensts (DAAD)",
+    "crumbs": [
+      "Ressources",
+      "Individual funding"
+    ]
+  },
+  {
+    "objectID": "sop_publishing.html",
+    "href": "sop_publishing.html",
+    "title": "Publishing & Dissemination",
+    "section": "",
+    "text": "The affiliation listed for a publication should reflect any institutions where the work was conducted.\n\nFor work completed in our lab, our department’s affiliation must be included, even if the individual has since left the lab.\nIf the work was completed prior to joining our lab but published afterward, our affiliation is not required. However, it can be added alongside the original institution’s affiliation if significant contributions to the paper were made after joining the lab.\n\n\n\n\n\n\n\nNote\n\n\n\n\nPlease make sure to always use the correct affiliation of our department: Department of Psychiatry and Psychotherapy, LMU University Hospital, Munich, Germany\nIf your project has been conducted within the DZPG, please also add: German Center for Mental Health (DZPG), Partner Site Munich-Augsburg, Germany\n\n\n\n\nThe LMU Klinikum is registered at the Research Organization Registry with the following persistent identifier: https://ror.org/02jet3w32 (LMU: https://ror.org/05591te55)\n\n\n\n\nAll papers should be uploaded to an appropriate preprint archive either before or at the time of submission, unless the target journal explicitly prohibits preprint publication. Our general policy is to avoid submitting to journals that restrict preprint posting, except in cases where there is a compelling reason to do so.\nWhile there are numerous preprint servers available, the two listed below are among the most commonly used by psychologists and neuroscientists.\n\nbioRxiv (has been around longer, extends to all of bio-related disciplines)\nPsyArXiv (more recent, specifically for psychology)\n\n\n\n\nWhen selecting journals for publication, we prioritize those that offer an Open Access option. However, we recognize that in some cases, the most suitable journal for a specific paper may not provide this option.\nYou can use the Sherpa Services to find journals with open access options and get guidance on whether a journal complies with a funder’s open access policies.\nMoreover, any member of the LMU registered as the Corresponding Author of a publication can apply for a fixed grant from the LMU Open Access Fund, which is financed by the German Research Foundation, to cover the publication costs (APC) incurred in connection with the publication of an Open Access research work.\n\n\n\nIf an error is identified in a published paper from the lab, all authors should promptly convene to assess whether the error affects any of the paper’s conclusions. Most journals provide mechanisms for either issuing a correction when the main conclusions remain intact or retracting the paper if they are significantly impacted. All authors must reach a consensus on whether a correction or retraction is appropriate and promptly inform the journal of their decision and the nature of the error. If relevant, a corrected version should also be submitted to the preprint server, and internal copies of the paper should be updated and versioned accordingly.",
+    "crumbs": [
+      "SOPs",
+      "Publishing & Dissemination"
+    ]
+  },
+  {
+    "objectID": "sop_publishing.html#guidelines",
+    "href": "sop_publishing.html#guidelines",
+    "title": "Publishing & Dissemination",
+    "section": "",
+    "text": "The affiliation listed for a publication should reflect any institutions where the work was conducted.\n\nFor work completed in our lab, our department’s affiliation must be included, even if the individual has since left the lab.\nIf the work was completed prior to joining our lab but published afterward, our affiliation is not required. However, it can be added alongside the original institution’s affiliation if significant contributions to the paper were made after joining the lab.\n\n\n\n\n\n\n\nNote\n\n\n\n\nPlease make sure to always use the correct affiliation of our department: Department of Psychiatry and Psychotherapy, LMU University Hospital, Munich, Germany\nIf your project has been conducted within the DZPG, please also add: German Center for Mental Health (DZPG), Partner Site Munich-Augsburg, Germany\n\n\n\n\nThe LMU Klinikum is registered at the Research Organization Registry with the following persistent identifier: https://ror.org/02jet3w32 (LMU: https://ror.org/05591te55)\n\n\n\n\nAll papers should be uploaded to an appropriate preprint archive either before or at the time of submission, unless the target journal explicitly prohibits preprint publication. Our general policy is to avoid submitting to journals that restrict preprint posting, except in cases where there is a compelling reason to do so.\nWhile there are numerous preprint servers available, the two listed below are among the most commonly used by psychologists and neuroscientists.\n\nbioRxiv (has been around longer, extends to all of bio-related disciplines)\nPsyArXiv (more recent, specifically for psychology)\n\n\n\n\nWhen selecting journals for publication, we prioritize those that offer an Open Access option. However, we recognize that in some cases, the most suitable journal for a specific paper may not provide this option.\nYou can use the Sherpa Services to find journals with open access options and get guidance on whether a journal complies with a funder’s open access policies.\nMoreover, any member of the LMU registered as the Corresponding Author of a publication can apply for a fixed grant from the LMU Open Access Fund, which is financed by the German Research Foundation, to cover the publication costs (APC) incurred in connection with the publication of an Open Access research work.\n\n\n\nIf an error is identified in a published paper from the lab, all authors should promptly convene to assess whether the error affects any of the paper’s conclusions. Most journals provide mechanisms for either issuing a correction when the main conclusions remain intact or retracting the paper if they are significantly impacted. All authors must reach a consensus on whether a correction or retraction is appropriate and promptly inform the journal of their decision and the nature of the error. If relevant, a corrected version should also be submitted to the preprint server, and internal copies of the paper should be updated and versioned accordingly.",
+    "crumbs": [
+      "SOPs",
+      "Publishing & Dissemination"
+    ]
+  },
+  {
+    "objectID": "sop_clipp.html",
+    "href": "sop_clipp.html",
+    "title": "Clinical Phenotyping Platform (CLIPP)",
+    "section": "",
+    "text": "Das CLIPP ist ein Phänotypisierungs–Tool zur Erfassung von Patient*innen-Daten in der klinischen Versorgung.\nEntwickler: Gerrit Burkhardt, Janos Kalman, Clemens Scherer\nWesentliche Merkmale:\n\nIntegration mit dem KAS: Import von Stammdaten, Export eines Arztbriefs als .pdf\nAlle Daten werden im sogenannten FHIR-Format in einer gesicherten Datenbank gespeichert\nNutzung im Browser innerhalb des MedVer-Netzes (d.h. nicht von außerhalb der Klinik)",
+    "crumbs": [
+      "SOPs",
+      "Clinical Phenotyping Platform (CLIPP)"
+    ]
+  },
+  {
+    "objectID": "sop_clipp.html#basics",
+    "href": "sop_clipp.html#basics",
+    "title": "Clinical Phenotyping Platform (CLIPP)",
+    "section": "",
+    "text": "Das CLIPP ist ein Phänotypisierungs–Tool zur Erfassung von Patient*innen-Daten in der klinischen Versorgung.\nEntwickler: Gerrit Burkhardt, Janos Kalman, Clemens Scherer\nWesentliche Merkmale:\n\nIntegration mit dem KAS: Import von Stammdaten, Export eines Arztbriefs als .pdf\nAlle Daten werden im sogenannten FHIR-Format in einer gesicherten Datenbank gespeichert\nNutzung im Browser innerhalb des MedVer-Netzes (d.h. nicht von außerhalb der Klinik)",
+    "crumbs": [
+      "SOPs",
+      "Clinical Phenotyping Platform (CLIPP)"
+    ]
+  },
+  {
+    "objectID": "sop_clipp.html#fall-registrierung",
+    "href": "sop_clipp.html#fall-registrierung",
+    "title": "Clinical Phenotyping Platform (CLIPP)",
+    "section": "Fall-Registrierung",
+    "text": "Fall-Registrierung\nRegistrierung einer*s neuen Patient*in",
+    "crumbs": [
+      "SOPs",
+      "Clinical Phenotyping Platform (CLIPP)"
+    ]
+  },
+  {
+    "objectID": "sop_clipp.html#fragebogen-bibliothek",
+    "href": "sop_clipp.html#fragebogen-bibliothek",
+    "title": "Clinical Phenotyping Platform (CLIPP)",
+    "section": "Fragebogen-Bibliothek",
+    "text": "Fragebogen-Bibliothek\nAnlegen und Auswählen von Fragebögen",
+    "crumbs": [
+      "SOPs",
+      "Clinical Phenotyping Platform (CLIPP)"
+    ]
+  },
+  {
+    "objectID": "sop_clipp.html#vorgehen-am-cnslmu",
+    "href": "sop_clipp.html#vorgehen-am-cnslmu",
+    "title": "Clinical Phenotyping Platform (CLIPP)",
+    "section": "Vorgehen am CNSLMU",
+    "text": "Vorgehen am CNSLMU\nAm CNSLMU verwenden wir CLIPP für die wissenschaftlichen Begleitung der klinischen Hirnstimulations-Behandlungen.\nDie folgenden fett markierten Fragebögen sind im CLIPP hinterlegt und sollten nach dem hier aufgeführten Schema erfasst werden:",
+    "crumbs": [
+      "SOPs",
+      "Clinical Phenotyping Platform (CLIPP)"
+    ]
+  },
+  {
+    "objectID": "sop_datamanagement.html",
+    "href": "sop_datamanagement.html",
+    "title": "Data management & analysis",
+    "section": "",
+    "text": "We aim to efficiently manage our research data by following the FAIR (Findable, Accessible, Interoperable, Reusable) data principles: FAIR data is easy to find, contains information about how to gain access to them, is compatible with other data, and can be reused. For instance, ensuring your data is well-organized and documented can make it easier for humans and machines to find and understand it and enable better reuse of the data.\n\nIf this concept is new to you, check out this online workshop.\nAlso check out these slides to learn how to name your files so that they are machine readable, human readable and play well with default ordering.\nAnd work through this book chapter to learn tidy data conventions for tabular data.",
+    "crumbs": [
+      "SOPs",
+      "Data management & analysis"
+    ]
+  },
+  {
+    "objectID": "sop_datamanagement.html#data-management",
+    "href": "sop_datamanagement.html#data-management",
+    "title": "Data management & analysis",
+    "section": "",
+    "text": "We aim to efficiently manage our research data by following the FAIR (Findable, Accessible, Interoperable, Reusable) data principles: FAIR data is easy to find, contains information about how to gain access to them, is compatible with other data, and can be reused. For instance, ensuring your data is well-organized and documented can make it easier for humans and machines to find and understand it and enable better reuse of the data.\n\nIf this concept is new to you, check out this online workshop.\nAlso check out these slides to learn how to name your files so that they are machine readable, human readable and play well with default ordering.\nAnd work through this book chapter to learn tidy data conventions for tabular data.",
+    "crumbs": [
+      "SOPs",
+      "Data management & analysis"
+    ]
+  },
+  {
+    "objectID": "sop_datamanagement.html#data-analysis",
+    "href": "sop_datamanagement.html#data-analysis",
+    "title": "Data management & analysis",
+    "section": "Data analysis",
+    "text": "Data analysis\nOur group primarily uses the programming language R for data manipulation, statistical data analyses and plotting of data. It is open source, and has a big community, which facilitates the development of additional software packages for multiple different applications, but also makes it easy to get help if you are stuck at a particular problem. Moreover, it facilitates many workflow related tasks like automation, tracking changes with git, result preparation with markdown/latex and many more. This makes it easy to set up workflows, that can be later reproduced by other researchers.\nThe LMU Open Science Center offers a great online series of tutorials for a reproducible workflow in R:\n\nIntroduction to R\nIntroduction to version control within RStudio (version control - part 1)\nIntroduction to collaborative coding with Github (version control - part 2)\nIntroduction to literate programming with Quarto\nIntroduction to R package manager renv\nIntroduction to Zotero as reproducible citation management system\nWrap-up tutorial: publish your reproducible project",
+    "crumbs": [
+      "SOPs",
+      "Data management & analysis"
+    ]
+  },
+  {
+    "objectID": "sop_mri_analysis.html",
+    "href": "sop_mri_analysis.html",
+    "title": "MRT Analyse",
+    "section": "",
+    "text": "dcm2niix -b y -f [pat_id]_%p -o [output] [input]\nWeitere Optionen mit dcm2niix im Terminal abrufen (zeigt Hilfetext).\nBei Problemen oder unklarer Dateistruktur: DICOM-Dateien im DICOMBrowser einlesen, um Fehlerquelle (Export vs. Umwandlung) zu prüfen.\nCave: DICOM-Dateien enthalten Patientendaten und dürfen nur im klinischen Netzwerk verwendet werden.",
+    "crumbs": [
+      "SOPs",
+      "MRT Analyse"
+    ]
+  },
+  {
+    "objectID": "sop_mri_analysis.html#dicom-dateien-in-nifti-umwandeln",
+    "href": "sop_mri_analysis.html#dicom-dateien-in-nifti-umwandeln",
+    "title": "MRT Analyse",
+    "section": "",
+    "text": "dcm2niix -b y -f [pat_id]_%p -o [output] [input]\nWeitere Optionen mit dcm2niix im Terminal abrufen (zeigt Hilfetext).\nBei Problemen oder unklarer Dateistruktur: DICOM-Dateien im DICOMBrowser einlesen, um Fehlerquelle (Export vs. Umwandlung) zu prüfen.\nCave: DICOM-Dateien enthalten Patientendaten und dürfen nur im klinischen Netzwerk verwendet werden.",
+    "crumbs": [
+      "SOPs",
+      "MRT Analyse"
+    ]
+  },
+  {
+    "objectID": "sop_mri_analysis.html#quality-check",
+    "href": "sop_mri_analysis.html#quality-check",
+    "title": "MRT Analyse",
+    "section": "Quality Check",
+    "text": "Quality Check\n\nFür funktionelle Daten: mriqc nutzen, idealerweise über Docker (https://mriqc.readthedocs.io/en/latest/docker.html)\nEingabestruktur: BIDS.\nBIDS-Struktur kann mit der NICUMprep App (auf den Linux-PCs in A1.46 installiert) automatisch erzeugt werden.\nFehlerprüfung im Format: BIDS Validator (http://incf.github.io/bids-validator/)",
+    "crumbs": [
+      "SOPs",
+      "MRT Analyse"
+    ]
+  },
+  {
+    "objectID": "sop_mri_analysis.html#ressourcen",
+    "href": "sop_mri_analysis.html#ressourcen",
+    "title": "MRT Analyse",
+    "section": "Ressourcen",
+    "text": "Ressourcen\n\nSoftware\n\nAFNI: https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/index.html\nFSL (inkl. fsleyes für visuelle Prüfung): https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation\nMRIcron (3D-Rendering, ROIs, funktionelle Daten)\n\n\n\nKurse & Tutorials\n\nhttps://www.andysbrainblog.com\nFSL Online Course: https://open.win.ox.ac.uk/pages/fslcourse/website/online_materials.html\n\n\n\nAnalysepipelines\n\nNAMNIs – Neuromodulation and Multimodal NeuroImaging Software\n(https://zenodo.org/record/3530897)\nAlternativ: Pipelines auf den Macs in A146 (strukturell, funktionell, E-Field). Skripte müssen an die jeweilige Datenstruktur angepasst werden.\n\n\n\nE-Field-Analyse\n\nMit SIMNIBS 4.0: https://simnibs.github.io/simnibs/build/html/tutorial/tutorial.html\nFür automatische Einbindung von Localite-Daten: https://simnibs.github.io/simnibs/build/html/documentation/neuronavigation/localite.html\nBei Fragen: https://mailman.drcmr.dk/pipermail/simnibs-discuss/",
+    "crumbs": [
+      "SOPs",
+      "MRT Analyse"
+    ]
+  },
+  {
+    "objectID": "home_start.html",
+    "href": "home_start.html",
+    "title": "Getting started",
+    "section": "",
+    "text": "Welcome to our research group! We’re thrilled to have you with us and are committed to ensuring your experience here is enriching and enjoyable. During your time with us, we hope you’ll delve deeply into brain stimulation applications, clinical neuroscience, and mental health care. We also encourage you to build connections and friendships within the group, and, most importantly, have a lot of fun along the way.\nWelcome aboard!\nLucia, Gerrit & Frank",
     "crumbs": [
       "Home",
-      "General Policies"
+      "Getting started"
     ]
   },
   {
-    "objectID": "re_paper.html",
-    "href": "re_paper.html",
-    "title": "The essential reading list",
-    "section": "",
-    "text": "(Barker, Jalinous, and Freeston 1985): Non-Invasive Magnetic Stimulation Of Human Motor Cortex\n(Siebner et al. 2022): Transcranial magnetic stimulation of the brain: What is stimulated?\n(Elbau et al. 2023): Funtional Connectivity Mapping for rTMS Target selection in Depression\n\n\n\n\n\n\n\n(O’Reardon et al. 2007): Multicenter study leading to the FDA approval of the “NeuroStar TMS Therapy system”\n(Herwig et al. 2007): Antidepressant effects of augmentative TMS (?)\n(Levkovitz et al. 2015): Multicenter trial on “deep” TMS\n(Daniel M. Blumberger et al. 2018): THREE-D: Theta Burst is non-inferior to 10-Hz rTMS\n(Yesavage et al. 2018): Effect of rTMS on Treatment-Resistant Major Depression in US Veterans\n(Daniel M. Blumberger et al. 2022): FOUR-D: “THREE-D for older patients”\n(Papakostas et al. 2024): Effectiveness of augmentation with aripiprazole or rTMS versus switching to venlafaxine/duloxetine for treatment-resistant depression\n\n\n\n\n\n(Pascual-Leone et al. 1996): Rapid stimulation of the left prefrontal cortex.\n(E. J. Cole et al. 2022): The “SAINT” paper: accelerated TBS\n(J. Cole et al. 2022): TBS + Cycloserin\n(Morriss et al. 2024): Connectivity-guided iTBS (DLPFC &lt;-&gt; AI) vs rTMS\n\n\n\n\n\n\n(Rossi et al. 2021): Safety and recommendations for TMS use in healthy subjects and patient populations",
-    "crumbs": [
-      "Ressources",
-      "The essential reading list"
-    ]
-  },
-  {
-    "objectID": "re_paper.html#rtms",
-    "href": "re_paper.html#rtms",
-    "title": "The essential reading list",
-    "section": "",
-    "text": "(Barker, Jalinous, and Freeston 1985): Non-Invasive Magnetic Stimulation Of Human Motor Cortex\n(Siebner et al. 2022): Transcranial magnetic stimulation of the brain: What is stimulated?\n(Elbau et al. 2023): Funtional Connectivity Mapping for rTMS Target selection in Depression\n\n\n\n\n\n\n\n(O’Reardon et al. 2007): Multicenter study leading to the FDA approval of the “NeuroStar TMS Therapy system”\n(Herwig et al. 2007): Antidepressant effects of augmentative TMS (?)\n(Levkovitz et al. 2015): Multicenter trial on “deep” TMS\n(Daniel M. Blumberger et al. 2018): THREE-D: Theta Burst is non-inferior to 10-Hz rTMS\n(Yesavage et al. 2018): Effect of rTMS on Treatment-Resistant Major Depression in US Veterans\n(Daniel M. Blumberger et al. 2022): FOUR-D: “THREE-D for older patients”\n(Papakostas et al. 2024): Effectiveness of augmentation with aripiprazole or rTMS versus switching to venlafaxine/duloxetine for treatment-resistant depression\n\n\n\n\n\n(Pascual-Leone et al. 1996): Rapid stimulation of the left prefrontal cortex.\n(E. J. Cole et al. 2022): The “SAINT” paper: accelerated TBS\n(J. Cole et al. 2022): TBS + Cycloserin\n(Morriss et al. 2024): Connectivity-guided iTBS (DLPFC &lt;-&gt; AI) vs rTMS\n\n\n\n\n\n\n(Rossi et al. 2021): Safety and recommendations for TMS use in healthy subjects and patient populations",
-    "crumbs": [
-      "Ressources",
-      "The essential reading list"
-    ]
-  },
-  {
-    "objectID": "re_paper.html#tdcs",
-    "href": "re_paper.html#tdcs",
-    "title": "The essential reading list",
-    "section": "tDCS",
-    "text": "tDCS\n\nNeuroscientific background\n\n(Nitsche and Paulus 2000): Excitability Changes Induced in the Human Motor Cortex by Weak Transcranial Direct Current Stimulation\n(Liu et al. 2018): Immediate neurophysiological effects of tDCS\n\n\n\nClinical trials\n\nMulticenter RCTs\n\n(Loo et al. 2018): tDCS in depression (unipolar and bipolar)\n(Aust et al. 2022): tDCS combined with group psychotherapy\n(Burkhardt et al. 2023): tDCS as an additional treatment to SSRIs\n(Borrione et al. 2024): Home-use tDCS & a digital psychological intervention\n(Woodham et al. 2024): Home-use tDCS in unipolar depression\n\n\n\nInfluential single center RCTs\n\n(Brunoni et al. 2013): tDCS vs. Sertraline\n(Brunoni et al. 2017): tDCS vs. Escitalopram\n\n\n\n\nSafety & Best practice guidelines\n\n(Antal et al. 2017): Low intensity transcranial electric stimulation: Safety, ethical, legal regulatory and application guidelines",
-    "crumbs": [
-      "Ressources",
-      "The essential reading list"
-    ]
-  },
-  {
-    "objectID": "re_paper.html#depression",
-    "href": "re_paper.html#depression",
-    "title": "The essential reading list",
-    "section": "Depression",
-    "text": "Depression\n\nMeasurement\n\n(Fried, Flake, and Robinaugh 2022): Revisiting the theoretical and methodological foundations of depression measurement\n(Zwart, Jeronimus, and Jonge 2018): Empirical evidence for definitions of episode, remission, recovery, relapse and recurrence in depression",
-    "crumbs": [
-      "Ressources",
-      "The essential reading list"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to the Center for Neurostimulation!",
-    "section": "",
-    "text": "Hello! We are a clinical research group at the Department of Psychiatry and Psychotherapy at LMU University Hospital Munich.\nWe study the clinical, behavioral, and neurophysiological effects of non-invasive brain stimulation techniques, particularly focusing on transcranial direct current stimulation (tDCS) and transcranial magnetic stimulation (TMS). To this end, we employ multimodal imaging methodology, including resting-state functional magnetic resonance imaging, and advanced data modeling to explore and elucidate the underlying mechanisms of these brain stimulation techniques. Moreover, we specialize in conducting pilot and confirmatory randomized controlled treatment trials for people affected by mental health disorders to effectively translate our findings into clinical practice.\nFor more information about our group, read this lab guide, get familiar with our current projects at this OSF repository, and visit our website.",
+    "objectID": "home_start.html#footnotes",
+    "href": "home_start.html#footnotes",
+    "title": "Getting started",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nYour ORCID is an unique and persistent identifier that you yourself connect with your professional (scientific) information. This helps to recognize all your work, even if e.g., you change your name, one of your coauthors misspells it, or you move on to a new institution. Getting an ORCID is free and quick and meanwhile, several platforms, from grant application to manuscript submission and beyond, allow you to use your ORCID to log into their system. Note however, that this is a self-maintained identifier. It thus is only as up-to-date as you keep it.↩︎",
     "crumbs": [
       "Home",
-      "Welcome!"
+      "Getting started"
+    ]
+  },
+  {
+    "objectID": "home_code.html",
+    "href": "home_code.html",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "Harassment and Discrimination\n\nOur research group and department must be free from harassment and discrimination. All lab members must adhere to the LMU’s policies on discrimination and harassment, which you can and must read here.\nWe are committed to a safe, friendly, and inclusive environment for everyone. We do not tolerate verbal or physical harassment or discrimination based on gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, or religion. We also do not tolerate intimidation, stalking, unwanted photography or video recording, sustained disruptions, inappropriate physical contact, or unwelcome sexual attention. Lewd language and behavior are unacceptable in the lab and at any lab events.\nIf you experience or witness harassment, report it to Lucia, Gerrit and Frank immediately. If one of us is involved, contact the department’s director or the LMU’s contact point.\n\n\n\nWork/life balance\n\nWe aim to promote sustainable creativity and productivity for all of our members, which can’t be achieved without a healthy balance between work and personal life.\nNo lab member is expected to work in ways that interfere with a healthy life. Work should not be so excessive as to interfere with sleep, exercise, or family/personal time.\nLab members are expected to be proactive regarding deadlines, to avoid last-minute scrambles. We may decline to support submissions that are prepared with insufficient lead time.\nWe aim to promote an environment that is understanding and supportive of individuals with child care and adult care responsibilities. This includes but is not limited to offering flexible work hours to help individuals with familial responsibilities.\nThe lab is committed to fully supporting individuals with chronic physical and/or mental illnesses, as well as individuals with accessibility needs. No lab member will be discriminated against because of their chronic diagnosis or health-related limitations of their ability to work. Lab members are encouraged to prioritize their physical and mental health as much as possible, and the lab is prepared to support them in doing so.\nLab members who are seeking time off for health (including mental health) reasons are strongly encouraged, though absolutely not required, to speak with us about their concerns. We commit to approaching these conversations in a nonjudgmental and empathetic manner, and to working with all lab members to find a solution that works best for them.\n\n\n\nTaking Photos & Videos\n\nRespect the privacy and comfort of lab members by obtaining explicit consent before taking photos or videos, especially in situations where they might not be aware (e.g. during MRI scans). Always get consent before posting any images on social media. This ensures everyone feels comfortable and respected.\nDo not photograph participants during experiments without IRB approval. If you need a demonstration photo or video, ask a group member if they are comfortable being photographed.\n\n\n\nScientific Integrity\n\nResearch (Mis)conduct\n\nOur research group and department are committed to research integrity and will not tolerate fabrication, falsification, or plagiarism. Please read the LMU’s policies on good scientific practice here.\nIf you feel pressured to succeed, talk to your supervisor. Remember, the goal of science is to arrive at the truth. Misconduct not only disservices you and the field but also risks your career. It is never justified.\n\n\n\nReproducible Research\n\nReproducible research is essential. Others should be able to reproduce your results exactly using your raw data. Document each step of your analysis pipeline thoroughly, including pre-processing, model runs, and statistical tests. Comment your code clearly so it’s understandable to others, and use version control (e.g., Git and GitHub) to track changes.\nReproducibility is linked to replicability: your results should be consistent when the study is repeated with different data sets. Our goal is to produce research that is both reproducible and replicable.\n\n\n\nAuthorship\nThe DFG defines an authorship as follows:\n“Autorin oder Autor ist, wer einen genuinen, nachvollziehbaren Beitrag zu dem Inhalt einer wissenschaftlichen Text-, Daten- oder Softwarepublikation geleistet hat. Alle Autorinnen und Autoren stimmen der finalen Fassung des Werks, das publiziert werden soll, zu. Sie tragen für die Publikation die gemeinsame Verantwortung, es sei denn, es wird explizit anders ausgewiesen. Autorinnen und Autoren achten darauf und wirken, soweit möglich, darauf hin, dass ihre Forschungsbeiträge von den Verlagen beziehungsweise den Infrastrukturanbietern so gekennzeichnet werden, dass sie von Nutzerinnen und Nutzern korrekt zitiert werden können. (An author is someone who has made a genuine, identifiable contribution to the content of a scientific text, data, or software publication. All authors agree to the final version of the work to be published. They share joint responsibility for the publication unless explicitly stated otherwise. Authors ensure, as far as possible, that their research contributions are labeled by publishers or infrastructure providers in a way that allows users to cite them correctly.)”\nFor new projects, the lead student or post-doc is typically the first author. The direct supervisor (e.g. Lucia, Gerrit, Daniel or Frank) will usually be the last author. Contributions from other students or post-docs will determine their placement on the author list. If a project is handed off, the new lead may take first authorship unless co-first-authorship is appropriate. These issues will be discussed openly, and you should feel free to discuss authorship status if uncertain.\n\n\nOld Projects\nIf a dataset remains unanalyzed or unwritten three years after data collection ends, we will reassign the project to expedite publication. If a student or post-doc voluntarily relinquishes their rights before the three-year mark, the project will also be reassigned. This policy ensures valuable data, especially costly data like fMRI, gets published, prioritizing the original data collector.",
+    "crumbs": [
+      "Home",
+      "Code of Conduct"
+    ]
+  },
+  {
+    "objectID": "sop_mri_scanning.html",
+    "href": "sop_mri_scanning.html",
+    "title": "MRT Durchführung",
+    "section": "",
+    "text": "System starten\n\nSchlüssel auf unlock drehen → system on (click, click)\nMRT vorbereiten: Headcoil, Kissen, Ohrstöpsel,…\n\nPatient*in vorbereiten\n\nPatient*inhinlegen lassen → Home (Liege fährt auf)\nAugen schließen lassen\nLaser an → auf Höhe der Augenbrauen positionieren → Laser aus\nGroße runde Taste drücken → Isocenter\n\nPatient*in am Computer laden\n\nPatient (oben links) → Scheduler\nID auswählen (bereits bei Terminierung angelegt)\nGeschlecht, Gewicht, Größe, head first supine eintragen\nExam → Choose protocol → Brain → Confirm\n\nAufnahmen starten\n\nLocalizer: Bei grünem Haken Confirm → OK\nDanach gelbes Feld positionieren (Größe nicht ändern) → T1 starten\n\nWeitere Sequenzen vorbereiten\n\nDoppelklick auf gewünschte Sequenz → gelbes Feld prüfen → grüner Haken\nAuf „kleinen Mann“ klicken (verhindert automatischen Start)\nBei Resting State: Feld entlang der AC–PC-Linie neigen\n\nResting State Scan\n\nInstruktionen an Patient*in: Augen schließen, ruhig liegen, an nichts Bestimmtes denken, nicht einschlafen\n\nDaten exportieren\n\nPatient → Browser → alle Bilder markieren → Transfer.\nExport to offline → Laufwerk H:/ (USB)\nSend to → Visage\nSend to → PACS (nur T1 + T2 für Kurzbefund)\nKontrolle: Transfer → Local Job Status (USB) / Network Job Status (Visage, PACS) → „0“ bei Transfer completed\n\nAbschluss\n\nLiege → Home\nSystem → End Session → Shut Down auf beiden Computern\nAuf Approval warten → System off\nSchlüssel auf lock drehen\n\n\nMöchtest du, dass ich sie zusätzlich als druckfertiges A4-Blatt mit klaren Überschriften und Checklistenstruktur formatiere (z. B. für den MR-Raum)?",
+    "crumbs": [
+      "SOPs",
+      "MRT Durchführung"
+    ]
+  },
+  {
+    "objectID": "sop_mri_scanning.html#mrt-durchführen",
+    "href": "sop_mri_scanning.html#mrt-durchführen",
+    "title": "MRT Durchführung",
+    "section": "",
+    "text": "System starten\n\nSchlüssel auf unlock drehen → system on (click, click)\nMRT vorbereiten: Headcoil, Kissen, Ohrstöpsel,…\n\nPatient*in vorbereiten\n\nPatient*inhinlegen lassen → Home (Liege fährt auf)\nAugen schließen lassen\nLaser an → auf Höhe der Augenbrauen positionieren → Laser aus\nGroße runde Taste drücken → Isocenter\n\nPatient*in am Computer laden\n\nPatient (oben links) → Scheduler\nID auswählen (bereits bei Terminierung angelegt)\nGeschlecht, Gewicht, Größe, head first supine eintragen\nExam → Choose protocol → Brain → Confirm\n\nAufnahmen starten\n\nLocalizer: Bei grünem Haken Confirm → OK\nDanach gelbes Feld positionieren (Größe nicht ändern) → T1 starten\n\nWeitere Sequenzen vorbereiten\n\nDoppelklick auf gewünschte Sequenz → gelbes Feld prüfen → grüner Haken\nAuf „kleinen Mann“ klicken (verhindert automatischen Start)\nBei Resting State: Feld entlang der AC–PC-Linie neigen\n\nResting State Scan\n\nInstruktionen an Patient*in: Augen schließen, ruhig liegen, an nichts Bestimmtes denken, nicht einschlafen\n\nDaten exportieren\n\nPatient → Browser → alle Bilder markieren → Transfer.\nExport to offline → Laufwerk H:/ (USB)\nSend to → Visage\nSend to → PACS (nur T1 + T2 für Kurzbefund)\nKontrolle: Transfer → Local Job Status (USB) / Network Job Status (Visage, PACS) → „0“ bei Transfer completed\n\nAbschluss\n\nLiege → Home\nSystem → End Session → Shut Down auf beiden Computern\nAuf Approval warten → System off\nSchlüssel auf lock drehen\n\n\nMöchtest du, dass ich sie zusätzlich als druckfertiges A4-Blatt mit klaren Überschriften und Checklistenstruktur formatiere (z. B. für den MR-Raum)?",
+    "crumbs": [
+      "SOPs",
+      "MRT Durchführung"
+    ]
+  },
+  {
+    "objectID": "sop_mri_scanning.html#mrt-bilder-aus-visage-herunterladen",
+    "href": "sop_mri_scanning.html#mrt-bilder-aus-visage-herunterladen",
+    "title": "MRT Durchführung",
+    "section": "MRT-Bilder aus Visage herunterladen",
+    "text": "MRT-Bilder aus Visage herunterladen\n\nVisage App öffnen und mit Passwort anmelden\nName, Vorname, Geburtsdatum, Geschlecht oder ID suchen. Falls nötig MRT-Datum ankreuzen, ggf. zusätzlich „MRT“ markieren.\nPatientenzeile markieren\nRechtsklick → Daten holen -&gt; Medienexport\nUSB als Ziel wählen und auf Exportieren klicken",
+    "crumbs": [
+      "SOPs",
+      "MRT Durchführung"
+    ]
+  },
+  {
+    "objectID": "sop_neuronavigation.html",
+    "href": "sop_neuronavigation.html",
+    "title": "Neuronavigation",
+    "section": "",
+    "text": "Passwort xxxxx (bei Lucia erfragen)\nUSB-Stick hinten am PC einstecken → PATDATA → Ordner NTMS_[Pat.Nr.]_[F/M]_MDD wählen.\nSpeicherort: Users → Shared → studies → nTMS.\nMR-Daten vom Scanner liegen im DICOM-Format (.dcm oder .IMA) vor.\nFür den Blumberger-Punkt: MNI-Koordinaten in Subject-Space umwandeln mit script_dlpfc_location.\n\nDICOM → NIfTI (dcm2niix).\nNormalisierung mit fsl_anat.\nTransformationsmatrix invertieren → auf Blumberger-Koordinaten anwenden.\n\nTerminal öffnen → Script bearbeiten:\nrun-script_dlpfc_location open -t\nÄnderungen speichern (cmd + s).\nHinter set subjects den Patientenordnernamen eintragen.\nIm Terminal in den Ordner navigieren: cd [Pfad].\nScript starten: tcsh [run-script] & → Laufzeit 15–30 min.\nNach Abschluss: Dateien Blumberger und T1_biascorr.nii.gz entpacken (.nii).\nBeide Dateien auf den Stick (PATDATA) kopieren → zum Localite-PC bringen.\n\n\n\n\nNo permission: chmod 777 [Pfad] oder chown [nutzername] [Pfad].\nBefehle mit sudo ausführen, wenn Rechte fehlen.\nresults dir already exists: Ordner löschen oder umbenennen, Script neu starten.\nCannot open volume…: DICOM→NIfTI-Konvertierung prüfen, korrekte t1_mprage-Datei umbenennen.\nFalls bereits konvertiert: # vor dcm2niix-Zeile setzen, .anat-Ordner löschen, Script neu starten, Raute danach wieder entfernen.\nNützliche Terminalbefehle:\n\ncd (Ordner wechseln), cd .. (Ordner hoch), pwd (aktueller Pfad), ls (Dateien anzeigen).\nTab-Taste ergänzt Pfade automatisch.\nDrag&Drop fügt Pfad direkt ein.",
+    "crumbs": [
+      "SOPs",
+      "Neuronavigation"
+    ]
+  },
+  {
+    "objectID": "sop_neuronavigation.html#vorbereitung-run-script",
+    "href": "sop_neuronavigation.html#vorbereitung-run-script",
+    "title": "Neuronavigation",
+    "section": "",
+    "text": "Passwort xxxxx (bei Lucia erfragen)\nUSB-Stick hinten am PC einstecken → PATDATA → Ordner NTMS_[Pat.Nr.]_[F/M]_MDD wählen.\nSpeicherort: Users → Shared → studies → nTMS.\nMR-Daten vom Scanner liegen im DICOM-Format (.dcm oder .IMA) vor.\nFür den Blumberger-Punkt: MNI-Koordinaten in Subject-Space umwandeln mit script_dlpfc_location.\n\nDICOM → NIfTI (dcm2niix).\nNormalisierung mit fsl_anat.\nTransformationsmatrix invertieren → auf Blumberger-Koordinaten anwenden.\n\nTerminal öffnen → Script bearbeiten:\nrun-script_dlpfc_location open -t\nÄnderungen speichern (cmd + s).\nHinter set subjects den Patientenordnernamen eintragen.\nIm Terminal in den Ordner navigieren: cd [Pfad].\nScript starten: tcsh [run-script] & → Laufzeit 15–30 min.\nNach Abschluss: Dateien Blumberger und T1_biascorr.nii.gz entpacken (.nii).\nBeide Dateien auf den Stick (PATDATA) kopieren → zum Localite-PC bringen.\n\n\n\n\nNo permission: chmod 777 [Pfad] oder chown [nutzername] [Pfad].\nBefehle mit sudo ausführen, wenn Rechte fehlen.\nresults dir already exists: Ordner löschen oder umbenennen, Script neu starten.\nCannot open volume…: DICOM→NIfTI-Konvertierung prüfen, korrekte t1_mprage-Datei umbenennen.\nFalls bereits konvertiert: # vor dcm2niix-Zeile setzen, .anat-Ordner löschen, Script neu starten, Raute danach wieder entfernen.\nNützliche Terminalbefehle:\n\ncd (Ordner wechseln), cd .. (Ordner hoch), pwd (aktueller Pfad), ls (Dateien anzeigen).\nTab-Taste ergänzt Pfade automatisch.\nDrag&Drop fügt Pfad direkt ein.",
+    "crumbs": [
+      "SOPs",
+      "Neuronavigation"
+    ]
+  },
+  {
+    "objectID": "sop_neuronavigation.html#localite-pc-vorbereiten",
+    "href": "sop_neuronavigation.html#localite-pc-vorbereiten",
+    "title": "Neuronavigation",
+    "section": "Localite-PC vorbereiten",
+    "text": "Localite-PC vorbereiten\n\nPasswort: xxxxx (bei Lucia erfragen).\nLOCALITE TMS Navigator öffnen.\nNew Session → Patient: Nachname, Vorname → OK.\nT1_biascorr.nii vom Stick laden → Pat.-ID und Name eintragen.\nThreshold einstellen (sagittal ≈ 450).\nBlumberger-Datei laden: File → Load functional data.\nPlanning öffnen → Target auf Blumberger-Punkt setzen → Set Target.\nRotation: 45° → Calculate entry.\nDescription: „Blumberger“.\nPatient registration:\n\nGelb = linkes Auge, Lila = rechtes Auge, Grün = Nasion.\nPunkte setzen → Next → speichern.\n\nFile → Add bookmark (automatisch oder manuell).\nExit.",
+    "crumbs": [
+      "SOPs",
+      "Neuronavigation"
+    ]
+  },
+  {
+    "objectID": "sop_neuronavigation.html#am-tag-der-behandlung",
+    "href": "sop_neuronavigation.html#am-tag-der-behandlung",
+    "title": "Neuronavigation",
+    "section": "Am Tag der Behandlung",
+    "text": "Am Tag der Behandlung\n\nLocalite TMS Navigator öffnen → New Session → Patient wählen.\nInstrument (rechte Spalte): No instrument → Coil 1 → Calibrate Coil 1.\nSpule: „MAG&More PMD70-pcool“.\nStart Calibration Wizard → A, B, C, D messen (Werte ≤ 0.3).\nCheck tracking system reference: Tracking-Frame auf Stirn befestigen.\nPatient registration: LPA, RPA, Nasion (Werte ≤ 3.0) → Next.\nKopf abtasten (~ 300–400 Punkte, Werte ≤ 3.0).",
+    "crumbs": [
+      "SOPs",
+      "Neuronavigation"
+    ]
+  },
+  {
+    "objectID": "sop_neuronavigation.html#nur-koregistrierung",
+    "href": "sop_neuronavigation.html#nur-koregistrierung",
+    "title": "Neuronavigation",
+    "section": "Nur Koregistrierung",
+    "text": "Nur Koregistrierung\n\nNavigation mode → Stimulation mode.\nStimulationsmarker → Update during recording aktivieren.\nStart drücken.\nTMS-Stimulator: Front Panel, Intensität = 0.\nMit blauem Pedal Impuls auslösen → Stop.\nStimulationsmarker markieren → Transform selection → speichern.\nOpen instrumentmarker → Punkt benennen, Farbe ändern.\nSpeicherort: data-localite → patients → [Patient] → session → instrumentmarker.\nVorherige Sitzungen: Continue Session → Patient → OK → Yes → File → Load bookmarks → Stop acquired → Stimulation mode → Stimulationskoordinate.",
+    "crumbs": [
+      "SOPs",
+      "Neuronavigation"
     ]
   },
   {
@@ -143,333 +429,69 @@
     ]
   },
   {
-    "objectID": "sop_neuronavigation.html",
-    "href": "sop_neuronavigation.html",
-    "title": "Neuronavigation",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the Center for Neurostimulation!",
     "section": "",
-    "text": "Passwort neuro: xxxxx (ask Lucia)\nUSB-Stick hinten am PC einstecken\nStick: PATDATA → Ordner NTMS_[Pat.Nr.]_[F oder M]_MDD auswählen\nSpeicherort für den Ordner: Users → Shared → studies → nTMS\nDie MR Daten, die man vom Scanner herunterlädt, sind im DICOM Format (Endung .dcm oder .IMA)\nUm den Blumberger Punkt als Target in Localite einstellen zu können, müssen wir die Koordinaten aus dem Standard MNI Space in den subject-space umwandeln. Das machen wir mit dem “script_dlpfc_location”\nDas “script_dlpfc_location” besteht aus mehreren Teilen; zuerst werden die DICOM Dateien in das Nifti file format umgewandelt (dcm2niix), dann wird mit dem Befehl “fsl_anat” das MRT Bild normalisiert (die Aufnahmen sind nicht mehr im subject-space, sondern im standard MNI space). Die Transformationsmatrix dieser Umwandlung wird umgekehrt, und auf die MNI Koordinaten des Blumberger Punktes angewandt; so bekommt man den Blumberger Punkt im subject space und kann diese Datei in Localite hochladen. Praktisch muss man:\nTerminal öffnen und das Script im Text Programm öffnen, zum bearbeiten\n\n(hinter lucia$ bzw neuro$ eintippen) run-script_dlpfc_location[leerzeichen]open[leerzeichen]-t\ncmd + s speichert die Änderungen\n\nFenster öffnet sich → Namen hinter set subjects ändern (Ordnername einfügen, dieser wird bearbeitet)\nIn Terminal zum nTMS Ordner navigieren: neuro$ bzw. lucia$ cd [Ordner reinkopieren]\nDas Script laufen lassen - im Terminal: neuro$ bzw. lucia$ tcsh [run-script einfügen] & Enter drücken -&gt; Script läuft, dauert 15-30 Minuten\nBlumberger und T1_biascorr.nii.gz → Doppelklick zum Entpacken (nur Endung .nii)\nDateien auf den Stick (PATDATA) kopieren und rüber zum Localite PC!\n\nTroubleshooting\n\nFehlermeldung - keine Berechtigung (no permission…)\n\nchmod 777 [path-to-filename] ändert die Rechte sodass alle Nutzer eines PCs die Datei bearbeiten und ausführen können, alternativ kann man die Datei kopieren und bei der Kopie den Nutzer ändern: chown [nutzername also bsp. neuro] [path-to-filename]\nWenn die Befehele nicht ausführbar sind, kann man sudo davor setzen, damit führt man Befehle als Administrator aus und kann meistens Rechte überschreiben; bsp: sudo chmod 777 [path-to-filename], danach wird man aufgefordert das Nutzerpasswort einzugeben\n\nFehlermeldung: ** results dir already exists, skipping subject ntms_009_m_MDD\n\nDas Script ist bereits einmal gelaufen, überprüfe, ob du wirklich die Ergebnisse in dem Ordner Patientencode.anat (also bsp. ntms_009_m_MDD.anat) überschreiben möchtest, wenn ja, lösche den Ordner oder speichere ihn unter einem anderen Namen, und starte das Script nochmal\n\nFehlermeldung: Cannot open volume ntms_009_m_MDD_t1_mprage_sag_0.8 for reading!\n\nDie Umwandlung der DICOM Dateien in das Nifty Format hat nicht ganz funktioniert, dies liegt meist daran, dass die Datei anders heißt, als im Script gefordert. Wir brauchen hier die t1_mprage Sequenz; wenn es eh nur eine t1_mprage Datei mit der Endung nii.gz (=NIFTI) gibt, ändere den Namen dieser Datei in das gewünschte Format (Patientencode_t1_mprage_sag_0.8.nii.gz, also bsp. ntms_009_m_MDD_t1_mprage_sag_0.8.nii.gz)\nWenn es mehrere t1_mprage Dateien gibt, öffne jede im fsleyes (bsp. fsleyes ntms_009_m_MDD_t1_mprage_sag_0.8d.nii) und suche dir die aus, die dir von der Qualität am besten erscheint; benenne dann diese Datei wie oben beschrieben um (Patientencode_t1_mprage_sag_0.8a.nii.gz, also bsp. ntms_009_m_MDD_t1_mprage_sag_0.8.nii.gz)\nDanach kannst du das Script nochmal laufen lassen! Aber da der erste Schritt bereits gelaufen ist, vergiss nicht, die Umwandlung von DICOM zu NIFTY auszulassen, in dem du eine Raute # vor den dcm2niix command (dcm2niix -b y -f ${subj_id}_%p -o $data_root/$subj_id $data_root/$subj_id) setzst; vergiss nicht, den .anat Ordner zu löschen bevor du das Script nochmal laufen lässt, und am Ende diese eben gemachte Änderung rückgängig zu machen (also # vor dcm2niix weg, sonst läuft das Script das nächste Mal nicht durch!)\n\n\nHilfreiche Tipps für die Arbeit mit dem Terminal:\n-&gt; Drag&Drop kopiert dir immer den Pfad deines Ordners rein\n-&gt; cd bedeutet change directory, damit navigiert man durch die Ordnerstruktur des Computers, durch „cd” kommst du immer in den home Ordner (in diesem Fall /Users/neuro), „cd ..” Geht immer einen Ordner hoch (also aus dem home Ordner zB nach /Users), du kannst auch direkt cd „Pfad” eingeben (bsp cd /Users/Shared/studies/nTMS), dann gehst du direkt in den gewünschten Ordner\n-&gt; „pwd” zeigt dir, in welchem Pfad du dich aktuell befindest\n-&gt; „ls” zeigt alle Dateien an in dem Pfad, in dem du dich befindest\n-&gt; die Taste Tab füllt automatisch die Dateinamen auf, solange es nur eine Möglichkeit gibt; bei mehreren Möglichkeiten musst du etwas länger selber tippen und es nochmal mit Tab probieren",
-    "crumbs": [
-      "SOPs",
-      "Neuronavigation"
-    ]
-  },
-  {
-    "objectID": "sop_neuronavigation.html#vorbereitung---run-script",
-    "href": "sop_neuronavigation.html#vorbereitung---run-script",
-    "title": "Neuronavigation",
-    "section": "",
-    "text": "Passwort neuro: xxxxx (ask Lucia)\nUSB-Stick hinten am PC einstecken\nStick: PATDATA → Ordner NTMS_[Pat.Nr.]_[F oder M]_MDD auswählen\nSpeicherort für den Ordner: Users → Shared → studies → nTMS\nDie MR Daten, die man vom Scanner herunterlädt, sind im DICOM Format (Endung .dcm oder .IMA)\nUm den Blumberger Punkt als Target in Localite einstellen zu können, müssen wir die Koordinaten aus dem Standard MNI Space in den subject-space umwandeln. Das machen wir mit dem “script_dlpfc_location”\nDas “script_dlpfc_location” besteht aus mehreren Teilen; zuerst werden die DICOM Dateien in das Nifti file format umgewandelt (dcm2niix), dann wird mit dem Befehl “fsl_anat” das MRT Bild normalisiert (die Aufnahmen sind nicht mehr im subject-space, sondern im standard MNI space). Die Transformationsmatrix dieser Umwandlung wird umgekehrt, und auf die MNI Koordinaten des Blumberger Punktes angewandt; so bekommt man den Blumberger Punkt im subject space und kann diese Datei in Localite hochladen. Praktisch muss man:\nTerminal öffnen und das Script im Text Programm öffnen, zum bearbeiten\n\n(hinter lucia$ bzw neuro$ eintippen) run-script_dlpfc_location[leerzeichen]open[leerzeichen]-t\ncmd + s speichert die Änderungen\n\nFenster öffnet sich → Namen hinter set subjects ändern (Ordnername einfügen, dieser wird bearbeitet)\nIn Terminal zum nTMS Ordner navigieren: neuro$ bzw. lucia$ cd [Ordner reinkopieren]\nDas Script laufen lassen - im Terminal: neuro$ bzw. lucia$ tcsh [run-script einfügen] & Enter drücken -&gt; Script läuft, dauert 15-30 Minuten\nBlumberger und T1_biascorr.nii.gz → Doppelklick zum Entpacken (nur Endung .nii)\nDateien auf den Stick (PATDATA) kopieren und rüber zum Localite PC!\n\nTroubleshooting\n\nFehlermeldung - keine Berechtigung (no permission…)\n\nchmod 777 [path-to-filename] ändert die Rechte sodass alle Nutzer eines PCs die Datei bearbeiten und ausführen können, alternativ kann man die Datei kopieren und bei der Kopie den Nutzer ändern: chown [nutzername also bsp. neuro] [path-to-filename]\nWenn die Befehele nicht ausführbar sind, kann man sudo davor setzen, damit führt man Befehle als Administrator aus und kann meistens Rechte überschreiben; bsp: sudo chmod 777 [path-to-filename], danach wird man aufgefordert das Nutzerpasswort einzugeben\n\nFehlermeldung: ** results dir already exists, skipping subject ntms_009_m_MDD\n\nDas Script ist bereits einmal gelaufen, überprüfe, ob du wirklich die Ergebnisse in dem Ordner Patientencode.anat (also bsp. ntms_009_m_MDD.anat) überschreiben möchtest, wenn ja, lösche den Ordner oder speichere ihn unter einem anderen Namen, und starte das Script nochmal\n\nFehlermeldung: Cannot open volume ntms_009_m_MDD_t1_mprage_sag_0.8 for reading!\n\nDie Umwandlung der DICOM Dateien in das Nifty Format hat nicht ganz funktioniert, dies liegt meist daran, dass die Datei anders heißt, als im Script gefordert. Wir brauchen hier die t1_mprage Sequenz; wenn es eh nur eine t1_mprage Datei mit der Endung nii.gz (=NIFTI) gibt, ändere den Namen dieser Datei in das gewünschte Format (Patientencode_t1_mprage_sag_0.8.nii.gz, also bsp. ntms_009_m_MDD_t1_mprage_sag_0.8.nii.gz)\nWenn es mehrere t1_mprage Dateien gibt, öffne jede im fsleyes (bsp. fsleyes ntms_009_m_MDD_t1_mprage_sag_0.8d.nii) und suche dir die aus, die dir von der Qualität am besten erscheint; benenne dann diese Datei wie oben beschrieben um (Patientencode_t1_mprage_sag_0.8a.nii.gz, also bsp. ntms_009_m_MDD_t1_mprage_sag_0.8.nii.gz)\nDanach kannst du das Script nochmal laufen lassen! Aber da der erste Schritt bereits gelaufen ist, vergiss nicht, die Umwandlung von DICOM zu NIFTY auszulassen, in dem du eine Raute # vor den dcm2niix command (dcm2niix -b y -f ${subj_id}_%p -o $data_root/$subj_id $data_root/$subj_id) setzst; vergiss nicht, den .anat Ordner zu löschen bevor du das Script nochmal laufen lässt, und am Ende diese eben gemachte Änderung rückgängig zu machen (also # vor dcm2niix weg, sonst läuft das Script das nächste Mal nicht durch!)\n\n\nHilfreiche Tipps für die Arbeit mit dem Terminal:\n-&gt; Drag&Drop kopiert dir immer den Pfad deines Ordners rein\n-&gt; cd bedeutet change directory, damit navigiert man durch die Ordnerstruktur des Computers, durch „cd” kommst du immer in den home Ordner (in diesem Fall /Users/neuro), „cd ..” Geht immer einen Ordner hoch (also aus dem home Ordner zB nach /Users), du kannst auch direkt cd „Pfad” eingeben (bsp cd /Users/Shared/studies/nTMS), dann gehst du direkt in den gewünschten Ordner\n-&gt; „pwd” zeigt dir, in welchem Pfad du dich aktuell befindest\n-&gt; „ls” zeigt alle Dateien an in dem Pfad, in dem du dich befindest\n-&gt; die Taste Tab füllt automatisch die Dateinamen auf, solange es nur eine Möglichkeit gibt; bei mehreren Möglichkeiten musst du etwas länger selber tippen und es nochmal mit Tab probieren",
-    "crumbs": [
-      "SOPs",
-      "Neuronavigation"
-    ]
-  },
-  {
-    "objectID": "sop_neuronavigation.html#vorbereitung-localite-pc",
-    "href": "sop_neuronavigation.html#vorbereitung-localite-pc",
-    "title": "Neuronavigation",
-    "section": "Vorbereitung “Localite PC”",
-    "text": "Vorbereitung “Localite PC”\n\nPasswort: xxxxx (ask Lucia)\nProgramm LOCALITE TMS Navigator öffnen\nNew Session (links oben) → Patientennamen mit Komma eintragen -&gt; auf ok klicken\nT1_biascorr.nii auf dem Stick suchen\nPat. ID (Ordnername) und Name eingeben\nThreshold einstellen (sagittal, erfahrungsgemäß bei 450)\nBlumberger Datei vom Stick einfügen\n\nFile (links oben) → load functional data\nBlumberger Datei des Patienten auswählen\n\nPlanning öffnen (rechte Spalte)\n\nTarget auf Blumberger Punkt im MRT einstellen -&gt; Set Target\ndefine rotation → 45°\ncalculate entry\nDescription umbennen: Blumberger\n\nPatient registration (links)\n\ngelb: left eye einstellen → set marker (Auge am vorderen Rand des Knochens, ca. mittig, am Bild links oben orientieren)\nlila: right eye einstellen → set marker\ngrün: nasion einstellen → set marker (mittig, tiefster Punkt im Nasenhügel)\nrechts unten auf next klicken, um zu speichern → Fenster schließen\n\nFile → add bookmark (speichert den aktuellen FOrtschritt der Session, sollte automatisch erfolgen, aber sicherheitshalber auch manuell speichern)\nExit",
-    "crumbs": [
-      "SOPs",
-      "Neuronavigation"
-    ]
-  },
-  {
-    "objectID": "sop_neuronavigation.html#am-tag-der-behandlung",
-    "href": "sop_neuronavigation.html#am-tag-der-behandlung",
-    "title": "Neuronavigation",
-    "section": "Am Tag der Behandlung",
-    "text": "Am Tag der Behandlung\n\nLocalite TMS Navigator öffnen, links oben über den Ordner Button eine neue Session öffnen und den jeweiligen Patienten auswählen\nCoil Registration\n\nInstrument (rechte Spalte) drücken\nNo instrument -&gt; Coil 1\nCalibrate Coil 1\nSpule „MAG&More PMD70-pcool” wählen\nStart Calibration Wizard\nA, B, C und D setzen („blaues Pedal” für messen, „grünes Pedal” für next, „gelbes Pedal” für zurück) -&gt; Werte sollen &lt; oder = 0.3 sein\n\nPatienten registrieren\n\nCheck tracking system Reference (linke Spalte) aufmachen\nTracking System auf Patienten Kopf kleben (einmal der Patienten schlucken lassen und dann fettige Haut auf Stirn kurz mit Tuchpapier entfernen) -&gt; rosarote Punkt muss in den grauen Felder sein\nPatient Registration (linke Spalte): lpa/linek Augenwinkel, rpa/rechte Augenwinkel und nasion messen -&gt; Werte sollen &lt; oder = 3.0 sein\nNext drücken\nAusmessen ca. 300-400 Punkte auf dem Kopf mit blauem Pedal\nWert &lt; oder = 3.0\n\nBehandlung mit dem Mag&More Gerät starten oder…",
-    "crumbs": [
-      "SOPs",
-      "Neuronavigation"
-    ]
-  },
-  {
-    "objectID": "sop_neuronavigation.html#nur-koregistrierung",
-    "href": "sop_neuronavigation.html#nur-koregistrierung",
-    "title": "Neuronavigation",
-    "section": "nur Koregistrierung",
-    "text": "nur Koregistrierung\n\nPatient Coregistrieren ohne Stimulation:\n\nNavigation mode (rechte Spalte oben) drücken\nStimulation mode (rechte Spalte unten) drücken\nStimulationsmarker aufmachen -&gt; upldate during recording (damit wenn den Impuls ausgelöst wird kann man es direkt sehen)\nStart drücken (damit die Impulse gespeichert werden)\nTMS Stimulator auf Front Panel stellen -&gt; Intensity auf 0\nMit „blauem Pedal” ein Impuls auslösen\nStop drücken\n\nStimulationskoordinate:\n\nEin Stimulationsmarker markieren\nTransform selection (damit werden die Instrumetnmarker auf Localite Computer gespeichert)\nOpen instrumentmarker (blaue T in der rechten Spalte): hier kann man den Punkt benennen und dessen Farbe ändern\nOrdner -&gt; Lokaler Datenträger -&gt; data-localite -&gt; patients -&gt; choose pat -&gt; session -&gt; instrumentmarker\nFalls man Koordinate von vorherigen Behandlungen nehmen will: Continue Session Ordner (linke Spalte oben) -&gt; Patienten auswählen -&gt; ok -&gt; yes -&gt; File (Zeile ganz oben, rechts) -&gt; Load bookmarks -&gt; Stop acquired -&gt; Stimulation mode -&gt; Stimulationskoordinate (s.o.)",
-    "crumbs": [
-      "SOPs",
-      "Neuronavigation"
-    ]
-  },
-  {
-    "objectID": "sop_mri_scanning.html",
-    "href": "sop_mri_scanning.html",
-    "title": "MRI Scanning",
-    "section": "",
-    "text": "Schlüssel auf unlock drehen -&gt; system on (click, click)\nAlles im MRT vorbereiten: head coil, Kissen, Ohrstöpsel…\nPatientIn hinlegen lassen -&gt; Home (Liege geht auf) -&gt; Augen zu -&gt; Laser anschalten und bis auf Höhe der Augenbrauen stellen -&gt; Laser ausschalten -&gt; drücken große runde Taste bis isocenter\nam Computer - Patient (oben links) -&gt; Scheduler, Pat-ID auswählen (hat Irmi schon geplant) -&gt; sex, weight, height, head first supine -&gt; exam -&gt; choose protocol, brain -&gt; confirm\nErste Aufnahmen (Localizer) laufen lassen bei “grüner check” zu drücken -&gt; confirm -&gt; ok\nDanach gelbes Feld adjustieren (nicht Größe ändern!!!) -&gt; T1 laufen lassen\nDie weitere Aufnahmen mit dem gelben Feld vorbereiten: doppelklicken auf die Aufnahme, die man vorbereiten will -&gt; gelbes Feld dann “grüner check” -&gt; dann nochmal auf “kleinem Mann” drücken, damit Aufnahme nicht direkt nach der Vorherigen läuft\nGelbes Feld bei resting state mit Neigung anhand der AC-PC-Linie (anterior/posterior commissura)\nResting state: Augen zu, an nichts besonders denken und nicht einschlafen\nAm Ende: Patient -&gt; Browser -&gt; select images (ALLE!!! auswählen) -&gt; transfer\n-&gt; export to offline -&gt; H:/ (usb)\n-&gt; send to -&gt; Visage\n-&gt; send to -&gt; PACS (only T1 and T2 für den Kurzbefund)\nKontrolle des Transfers: Transfer -&gt; local job status für usb / network job status für Visage und PACS -&gt; transfer completed bei 0\nAlles aufräumen -&gt; Liege auf Home\n\nSystem -&gt; end session -&gt; shut down auf beiden Computer -&gt; warte auf approval -&gt; system off -&gt; Schlüssel auf lock drehen",
-    "crumbs": [
-      "SOPs",
-      "MRI Scanning"
-    ]
-  },
-  {
-    "objectID": "sop_mri_scanning.html#mrt-durchführen",
-    "href": "sop_mri_scanning.html#mrt-durchführen",
-    "title": "MRI Scanning",
-    "section": "",
-    "text": "Schlüssel auf unlock drehen -&gt; system on (click, click)\nAlles im MRT vorbereiten: head coil, Kissen, Ohrstöpsel…\nPatientIn hinlegen lassen -&gt; Home (Liege geht auf) -&gt; Augen zu -&gt; Laser anschalten und bis auf Höhe der Augenbrauen stellen -&gt; Laser ausschalten -&gt; drücken große runde Taste bis isocenter\nam Computer - Patient (oben links) -&gt; Scheduler, Pat-ID auswählen (hat Irmi schon geplant) -&gt; sex, weight, height, head first supine -&gt; exam -&gt; choose protocol, brain -&gt; confirm\nErste Aufnahmen (Localizer) laufen lassen bei “grüner check” zu drücken -&gt; confirm -&gt; ok\nDanach gelbes Feld adjustieren (nicht Größe ändern!!!) -&gt; T1 laufen lassen\nDie weitere Aufnahmen mit dem gelben Feld vorbereiten: doppelklicken auf die Aufnahme, die man vorbereiten will -&gt; gelbes Feld dann “grüner check” -&gt; dann nochmal auf “kleinem Mann” drücken, damit Aufnahme nicht direkt nach der Vorherigen läuft\nGelbes Feld bei resting state mit Neigung anhand der AC-PC-Linie (anterior/posterior commissura)\nResting state: Augen zu, an nichts besonders denken und nicht einschlafen\nAm Ende: Patient -&gt; Browser -&gt; select images (ALLE!!! auswählen) -&gt; transfer\n-&gt; export to offline -&gt; H:/ (usb)\n-&gt; send to -&gt; Visage\n-&gt; send to -&gt; PACS (only T1 and T2 für den Kurzbefund)\nKontrolle des Transfers: Transfer -&gt; local job status für usb / network job status für Visage und PACS -&gt; transfer completed bei 0\nAlles aufräumen -&gt; Liege auf Home\n\nSystem -&gt; end session -&gt; shut down auf beiden Computer -&gt; warte auf approval -&gt; system off -&gt; Schlüssel auf lock drehen",
-    "crumbs": [
-      "SOPs",
-      "MRI Scanning"
-    ]
-  },
-  {
-    "objectID": "sop_mri_scanning.html#mrt-bilder-aus-visage-herunterladen",
-    "href": "sop_mri_scanning.html#mrt-bilder-aus-visage-herunterladen",
-    "title": "MRI Scanning",
-    "section": "MRT Bilder aus Visage herunterladen",
-    "text": "MRT Bilder aus Visage herunterladen\n\nVisage App aufmachen\nPasswort xxx\nPatientIn nach Name, Vorname/ Geburtstdatum/ Geschlecht suchen/ID/MRT-Datum (kreuzen den Kästchen unter ID) suchen; eventuell auf MRT kreuzen\nPatienten Zeile markieren\nRechte Knopf drücken / Daten holen -&gt;rechte Knopf\nMedienexport\nUSB wählen\nExportieren",
-    "crumbs": [
-      "SOPs",
-      "MRI Scanning"
-    ]
-  },
-  {
-    "objectID": "home_code.html",
-    "href": "home_code.html",
-    "title": "Code of Conduct",
-    "section": "",
-    "text": "Harassment and Discrimination\n\nOur research group and department must be free from harassment and discrimination. All lab members must adhere to the LMU’s policies on discrimination and harassment, which you can and must read here.\nWe are committed to a safe, friendly, and inclusive environment for everyone. We do not tolerate verbal or physical harassment or discrimination based on gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, or religion. We also do not tolerate intimidation, stalking, unwanted photography or video recording, sustained disruptions, inappropriate physical contact, or unwelcome sexual attention. Lewd language and behavior are unacceptable in the lab and at any lab events.\nIf you experience or witness harassment, report it to Lucia, Gerrit and Frank immediately. If one of us is involved, contact the department’s director or the LMU’s contact point.\n\n\n\nWork/life balance\n\nWe aim to promote sustainable creativity and productivity for all of our members, which can’t be achieved without a healthy balance between work and personal life.\nNo lab member is expected to work in ways that interfere with a healthy life. Work should not be so excessive as to interfere with sleep, exercise, or family/personal time.\nLab members are expected to be proactive regarding deadlines, to avoid last-minute scrambles. We may decline to support submissions that are prepared with insufficient lead time.\nWe aim to promote an environment that is understanding and supportive of individuals with child care and adult care responsibilities. This includes but is not limited to offering flexible work hours to help individuals with familial responsibilities.\nThe lab is committed to fully supporting individuals with chronic physical and/or mental illnesses, as well as individuals with accessibility needs. No lab member will be discriminated against because of their chronic diagnosis or health-related limitations of their ability to work. Lab members are encouraged to prioritize their physical and mental health as much as possible, and the lab is prepared to support them in doing so.\nLab members who are seeking time off for health (including mental health) reasons are strongly encouraged, though absolutely not required, to speak with us about their concerns. We commit to approaching these conversations in a nonjudgmental and empathetic manner, and to working with all lab members to find a solution that works best for them.\n\n\n\nTaking Photos & Videos\n\nRespect the privacy and comfort of lab members by obtaining explicit consent before taking photos or videos, especially in situations where they might not be aware (e.g. during MRI scans). Always get consent before posting any images on social media. This ensures everyone feels comfortable and respected.\nDo not photograph participants during experiments without IRB approval. If you need a demonstration photo or video, ask a group member if they are comfortable being photographed.\n\n\n\nScientific Integrity\n\nResearch (Mis)conduct\n\nOur research group and department are committed to research integrity and will not tolerate fabrication, falsification, or plagiarism. Please read the LMU’s policies on good scientific practice here.\nIf you feel pressured to succeed, talk to your supervisor. Remember, the goal of science is to arrive at the truth. Misconduct not only disservices you and the field but also risks your career. It is never justified.\n\n\n\nReproducible Research\n\nReproducible research is essential. Others should be able to reproduce your results exactly using your raw data. Document each step of your analysis pipeline thoroughly, including pre-processing, model runs, and statistical tests. Comment your code clearly so it’s understandable to others, and use version control (e.g., Git and GitHub) to track changes.\nReproducibility is linked to replicability: your results should be consistent when the study is repeated with different data sets. Our goal is to produce research that is both reproducible and replicable.\n\n\n\nAuthorship\nThe DFG defines an authorship as follows:\n“Autorin oder Autor ist, wer einen genuinen, nachvollziehbaren Beitrag zu dem Inhalt einer wissenschaftlichen Text-, Daten- oder Softwarepublikation geleistet hat. Alle Autorinnen und Autoren stimmen der finalen Fassung des Werks, das publiziert werden soll, zu. Sie tragen für die Publikation die gemeinsame Verantwortung, es sei denn, es wird explizit anders ausgewiesen. Autorinnen und Autoren achten darauf und wirken, soweit möglich, darauf hin, dass ihre Forschungsbeiträge von den Verlagen beziehungsweise den Infrastrukturanbietern so gekennzeichnet werden, dass sie von Nutzerinnen und Nutzern korrekt zitiert werden können. (An author is someone who has made a genuine, identifiable contribution to the content of a scientific text, data, or software publication. All authors agree to the final version of the work to be published. They share joint responsibility for the publication unless explicitly stated otherwise. Authors ensure, as far as possible, that their research contributions are labeled by publishers or infrastructure providers in a way that allows users to cite them correctly.)”\nFor new projects, the lead student or post-doc is typically the first author. The direct supervisor (e.g. Lucia, Gerrit, Daniel or Frank) will usually be the last author. Contributions from other students or post-docs will determine their placement on the author list. If a project is handed off, the new lead may take first authorship unless co-first-authorship is appropriate. These issues will be discussed openly, and you should feel free to discuss authorship status if uncertain.\n\n\nOld Projects\nIf a dataset remains unanalyzed or unwritten three years after data collection ends, we will reassign the project to expedite publication. If a student or post-doc voluntarily relinquishes their rights before the three-year mark, the project will also be reassigned. This policy ensures valuable data, especially costly data like fMRI, gets published, prioritizing the original data collector.",
+    "text": "Hello! We are a clinical research group at the Department of Psychiatry and Psychotherapy at LMU University Hospital Munich.\nWe study the clinical, behavioral, and neurophysiological effects of non-invasive brain stimulation techniques, particularly focusing on transcranial direct current stimulation (tDCS) and transcranial magnetic stimulation (TMS). To this end, we employ multimodal imaging methodology, including resting-state functional magnetic resonance imaging, and advanced data modeling to explore and elucidate the underlying mechanisms of these brain stimulation techniques. Moreover, we specialize in conducting pilot and confirmatory randomized controlled treatment trials for people affected by mental health disorders to effectively translate our findings into clinical practice.\nFor more information about our group, read this lab guide, get familiar with our current projects at this OSF repository, and visit our website.",
     "crumbs": [
       "Home",
-      "Code of Conduct"
+      "Welcome!"
     ]
   },
   {
-    "objectID": "home_start.html",
-    "href": "home_start.html",
-    "title": "Getting started",
+    "objectID": "re_paper.html",
+    "href": "re_paper.html",
+    "title": "The essential reading list",
     "section": "",
-    "text": "Welcome to our research group! We’re thrilled to have you with us and are committed to ensuring your experience here is enriching and enjoyable. During your time with us, we hope you’ll delve deeply into brain stimulation applications, clinical neuroscience, and mental health care. We also encourage you to build connections and friendships within the group, and, most importantly, have a lot of fun along the way.\nWelcome aboard!\nLucia, Gerrit & Frank",
+    "text": "(Barker, Jalinous, and Freeston 1985): Non-Invasive Magnetic Stimulation Of Human Motor Cortex\n(Siebner et al. 2022): Transcranial magnetic stimulation of the brain: What is stimulated?\n(Cash et al. 2020): Using Brain Imaging to Improve Spatial Targeting of TMS for Depression\n(Siddiqi et al. 2022): Causal mapping of human brain function\n(Elbau et al. 2023): Funtional Connectivity Mapping for rTMS Target selection in Depression\n\n\n\n\n\n(Chen et al. 2025): Treating depression with rTMS\n(Mutz et al. 2018): Meta-Analysis on brain stimulation interventions\n\n\n\n\n\n\n\n(O’Reardon et al. 2007): Multicenter study leading to the FDA approval of the “NeuroStar TMS Therapy system”\n(Herwig et al. 2007): Antidepressant effects of augmentative TMS (?)\n(Levkovitz et al. 2015): Multicenter trial on “deep” TMS\n(Daniel M. Blumberger et al. 2018): THREE-D: Theta Burst is non-inferior to 10-Hz rTMS\n(Yesavage et al. 2018): Effect of rTMS on Treatment-Resistant Major Depression in US Veterans\n(Daniel M. Blumberger et al. 2022): FOUR-D: “THREE-D for older patients”\n(Papakostas et al. 2024): Effectiveness of augmentation with aripiprazole or rTMS versus switching to venlafaxine/duloxetine for treatment-resistant depression\n\n\n\n\n\n(Pascual-Leone et al. 1996): Rapid stimulation of the left prefrontal cortex\n(Hoffman et al. 2003): TMS for acoustic hallucinations in schizophrenia\n(E. J. Cole et al. 2022): The “SAINT” paper: accelerated TBS\n(J. Cole et al. 2022): TBS + Cycloserin\n(Morriss et al. 2024): Connectivity-guided iTBS (DLPFC &lt;-&gt; AI) vs rTMS\n(Ramos et al. 2025): “A little bit less accelerated” TBS\n\n\n\n\n\n\n(Rossi et al. 2021): Safety recommendations for TMS use in healthy subjects and patient populations\n(Lefaucheur et al. 2020): Evidence-based guidelines on the therapeutic use of rTMS\n(McClintock et al. 2018): Consensus guidelines for the clinical application of rTMS",
+    "crumbs": [
+      "Ressources",
+      "The essential reading list"
+    ]
+  },
+  {
+    "objectID": "re_paper.html#rtms",
+    "href": "re_paper.html#rtms",
+    "title": "The essential reading list",
+    "section": "",
+    "text": "(Barker, Jalinous, and Freeston 1985): Non-Invasive Magnetic Stimulation Of Human Motor Cortex\n(Siebner et al. 2022): Transcranial magnetic stimulation of the brain: What is stimulated?\n(Cash et al. 2020): Using Brain Imaging to Improve Spatial Targeting of TMS for Depression\n(Siddiqi et al. 2022): Causal mapping of human brain function\n(Elbau et al. 2023): Funtional Connectivity Mapping for rTMS Target selection in Depression\n\n\n\n\n\n(Chen et al. 2025): Treating depression with rTMS\n(Mutz et al. 2018): Meta-Analysis on brain stimulation interventions\n\n\n\n\n\n\n\n(O’Reardon et al. 2007): Multicenter study leading to the FDA approval of the “NeuroStar TMS Therapy system”\n(Herwig et al. 2007): Antidepressant effects of augmentative TMS (?)\n(Levkovitz et al. 2015): Multicenter trial on “deep” TMS\n(Daniel M. Blumberger et al. 2018): THREE-D: Theta Burst is non-inferior to 10-Hz rTMS\n(Yesavage et al. 2018): Effect of rTMS on Treatment-Resistant Major Depression in US Veterans\n(Daniel M. Blumberger et al. 2022): FOUR-D: “THREE-D for older patients”\n(Papakostas et al. 2024): Effectiveness of augmentation with aripiprazole or rTMS versus switching to venlafaxine/duloxetine for treatment-resistant depression\n\n\n\n\n\n(Pascual-Leone et al. 1996): Rapid stimulation of the left prefrontal cortex\n(Hoffman et al. 2003): TMS for acoustic hallucinations in schizophrenia\n(E. J. Cole et al. 2022): The “SAINT” paper: accelerated TBS\n(J. Cole et al. 2022): TBS + Cycloserin\n(Morriss et al. 2024): Connectivity-guided iTBS (DLPFC &lt;-&gt; AI) vs rTMS\n(Ramos et al. 2025): “A little bit less accelerated” TBS\n\n\n\n\n\n\n(Rossi et al. 2021): Safety recommendations for TMS use in healthy subjects and patient populations\n(Lefaucheur et al. 2020): Evidence-based guidelines on the therapeutic use of rTMS\n(McClintock et al. 2018): Consensus guidelines for the clinical application of rTMS",
+    "crumbs": [
+      "Ressources",
+      "The essential reading list"
+    ]
+  },
+  {
+    "objectID": "re_paper.html#tdcs",
+    "href": "re_paper.html#tdcs",
+    "title": "The essential reading list",
+    "section": "tDCS",
+    "text": "tDCS\n\nNeuroscientific background\n\n(Nitsche and Paulus 2000): Excitability Changes Induced in the Human Motor Cortex by Weak Transcranial Direct Current Stimulation\n(Liu et al. 2018): Immediate neurophysiological effects of tDCS\n\n\n\nClinical trials\n\nMulticenter RCTs\n\n(Loo et al. 2018): tDCS in depression (unipolar and bipolar)\n(Aust et al. 2022): tDCS combined with group psychotherapy\n(Burkhardt et al. 2023): tDCS as an additional treatment to SSRIs\n(Borrione et al. 2024): Home-use tDCS & a digital psychological intervention\n(Woodham et al. 2024): Home-use tDCS in unipolar depression\n\n\n\nInfluential single center RCTs\n\n(Brunoni et al. 2013): tDCS vs. Sertraline\n(Brunoni et al. 2017): tDCS vs. Escitalopram\n\n\n\n\nSafety & Best practice guidelines\n\n(Antal et al. 2017): Low intensity transcranial electric stimulation: Safety, ethical, legal regulatory and application guidelines",
+    "crumbs": [
+      "Ressources",
+      "The essential reading list"
+    ]
+  },
+  {
+    "objectID": "re_paper.html#depression",
+    "href": "re_paper.html#depression",
+    "title": "The essential reading list",
+    "section": "Depression",
+    "text": "Depression\n\nMeasurement\n\n(Zwart, Jeronimus, and Jonge 2018): Empirical evidence for definitions of episode, remission, recovery, relapse and recurrence in depression\n(Fried, Flake, and Robinaugh 2022): Revisiting the theoretical and methodological foundations of depression measurement\n(Veal et al. 2024): Heterogenity of outcome measures in treatment trials\n\n\n\nTreatment\n\n(Cipriani et al. 2018): Meta-analysis of common antidepressants\n(Cuijpers et al. 2020): Meta-analysis of evidence-based psychotherapy for depression\n(Karyotaki et al. 2021): Meta-analysis of internet-based CBT for depression",
+    "crumbs": [
+      "Ressources",
+      "The essential reading list"
+    ]
+  },
+  {
+    "objectID": "home_policies.html",
+    "href": "home_policies.html",
+    "title": "General Policies",
+    "section": "",
+    "text": "Meetings\n\nRegular research group meetings\n\nMain research group meeting: Tuesdays 13 - 14:30 pm at Frank’s office.\nHSK (brain stimulation service) meeting: every two weeks on Friday 9:00 - 9:30 pm via Zoom (ask Esther for an invitation)\nPACTT (clinical trials) meeting: Fridays 13:00 - 14:30 pm via Zoom (ask Gerrit for an invitation)\n\n\n\n\nDeadlines\nMaintaining sanity in academic work requires a high level of organization. Disorganization not only affects you but also impacts your collaborators and those whose assistance you rely on. Here are some guidelines to help you stay organized and ensure smooth collaboration:\n\nDeadlines: Inform your collaborators about deadlines as soon as you know them, and remind them as the deadline approaches. Don’t hesitate to follow up, even if it means repeatedly reminding them (yes, this includes reminding Lucia, Gerrit and Frank).\nShort Tasks: For tasks with hard deadlines that don’t require much time (e.g., reviewing conference abstracts, filling out paperwork), give your supervisor at least one week’s notice.\nModerate Tasks: For tasks with hard deadlines that require a moderate amount of time (e.g., writing a letter of recommendation), provide at least two weeks’ notice, preferably more.\nComplex Tasks: For tasks requiring multiple back-and-forth interactions (e.g., feedback on research), give your supervisor as much time as possible, with a minimum of three weeks.\nManuscript Submissions and Revisions: For tasks with no hard deadline or a weak deadline, such as manuscript submissions and revisions, send drafts to your supervisor as soon as they are ready. If we do not respond within two weeks, follow up to request feedback—papers are important!\n\n\n\nPresentations\nWe strongly encourage you to seek opportunities to present your research, whether at research events at our department, at conferences, or to the general public. If you plan to give a presentation (poster or talk), prepare to give a practice presentation to the group at least one week in advance. Practice sessions will help you feel comfortable with your presentation and allow you to receive and incorporate feedback from the lab in advance.\n\nPlease use the Powerpoint and poster templates made available on the OSF repository (depending on the project, use either the LMU or DZPG templates).\nSome general guidelines for posters include:\n\nminimizing text (avoid paragraphs)\nmaking figures and text large and easily visible from a distance\nlabeling your axes\nensuring different colors are easily distinguishable and colorblind-friendly.\n\nPowerpoint slides should be polished and clear (we will be happy to share slides from our own talks if you would like to use a similar style). Beyond these basics, feel free to incorporate your own style.\n\n\n\nLetters of recommendation\nLetters of recommendation are crucial for securing new positions and grants. We are happy to provide you with a recommendation if you have been in the lab for at least six months, as this gives us enough time to truly get to know you. However, exceptions can be made for students or post-docs applying for fellowships shortly after joining the lab.\nIf you need a letter, please notify Lucia, Gerrit, and Frank as early as possible with the deadline, your CV, and any specific instructions for the letter’s content. In some cases, especially if the request is made on short notice, you may be asked to submit a draft of the letter. We will then modify this draft based on our experience with you, enhance it to highlight your strengths (as people often underestimate their own achievements), and add any additional important information. This process ensures the letter is comprehensive, accurate, and submitted on time.",
     "crumbs": [
       "Home",
-      "Getting started"
-    ]
-  },
-  {
-    "objectID": "home_start.html#footnotes",
-    "href": "home_start.html#footnotes",
-    "title": "Getting started",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nYour ORCID is an unique and persistent identifier that you yourself connect with your professional (scientific) information. This helps to recognize all your work, even if e.g., you change your name, one of your coauthors misspells it, or you move on to a new institution. Getting an ORCID is free and quick and meanwhile, several platforms, from grant application to manuscript submission and beyond, allow you to use your ORCID to log into their system. Note however, that this is a self-maintained identifier. It thus is only as up-to-date as you keep it.↩︎",
-    "crumbs": [
-      "Home",
-      "Getting started"
-    ]
-  },
-  {
-    "objectID": "sop_mri_analysis.html",
-    "href": "sop_mri_analysis.html",
-    "title": "MRI Analysis",
-    "section": "",
-    "text": "Vorschlag: dcm2niix -b y -f [pat_id]_%p -o [output] [input]\nErklärung und weitere Möglichkeiten gibt es, wenn man dcm2niix im Terminal eingibt - das öffnet die Hilfsinfos\nBei Problemen mit DICOM Dateien bzw. Erkennung ob Fehler durch die Umwandlung zu Nifti entstehen oder bereits im DICOM Export enthalten sind - DICOM Dateien im DICOMBrowser einlesen\nCave - DICOM Dateien können Patientenidentifier enthalten, sind somit nicht anonym und sollten nur im klinischen Netzwerk verwendet werden",
-    "crumbs": [
-      "SOPs",
-      "MRI Analysis"
-    ]
-  },
-  {
-    "objectID": "sop_mri_analysis.html#dicom-zu-nifti-umwandeln",
-    "href": "sop_mri_analysis.html#dicom-zu-nifti-umwandeln",
-    "title": "MRI Analysis",
-    "section": "",
-    "text": "Vorschlag: dcm2niix -b y -f [pat_id]_%p -o [output] [input]\nErklärung und weitere Möglichkeiten gibt es, wenn man dcm2niix im Terminal eingibt - das öffnet die Hilfsinfos\nBei Problemen mit DICOM Dateien bzw. Erkennung ob Fehler durch die Umwandlung zu Nifti entstehen oder bereits im DICOM Export enthalten sind - DICOM Dateien im DICOMBrowser einlesen\nCave - DICOM Dateien können Patientenidentifier enthalten, sind somit nicht anonym und sollten nur im klinischen Netzwerk verwendet werden",
-    "crumbs": [
-      "SOPs",
-      "MRI Analysis"
-    ]
-  },
-  {
-    "objectID": "sop_mri_analysis.html#quality-check-vor-allem-für-funktionelle-daten-wichtig",
-    "href": "sop_mri_analysis.html#quality-check-vor-allem-für-funktionelle-daten-wichtig",
-    "title": "MRI Analysis",
-    "section": "Quality Check (vor allem für funktionelle Daten wichtig)",
-    "text": "Quality Check (vor allem für funktionelle Daten wichtig)\n\nmriqc, präferentiell über docker laufen lassen\nhttps://mriqc.readthedocs.io/en/latest/docker.html\nerfordert Dateien in bids Struktur, und die folgenden Analyseschritte gehen auch von der bids Struktur aus\nNICUMprep App (gibt es von Dani, ist auf den zwei Linux PCs im GCBS Raum installiert) wandelt Dateien automatisch in die bids Struktur um\nbids validator entdeckt Fehler im bids file format http://incf.github.io/bids-validator/",
-    "crumbs": [
-      "SOPs",
-      "MRI Analysis"
-    ]
-  },
-  {
-    "objectID": "sop_mri_analysis.html#benötigte-programme",
-    "href": "sop_mri_analysis.html#benötigte-programme",
-    "title": "MRI Analysis",
-    "section": "Benötigte Programme",
-    "text": "Benötigte Programme\n\nAFNI https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/index.html\nFSL https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation\nkommt mit fsleyes -&gt; visual check der Daten\nEmpfehlung: Youtube Videos von https://www.andysbrainblog.com zu fast allen Anfängerthemen, auch https://andysbrainbook.readthedocs.io/en/latest/index.html\nFSL Course https://open.win.ox.ac.uk/pages/fslcourse/website/online_materials.html\nMRIcron für 3D Rendering von ROIs und funktionellen Daten - Lucias Empfehlung",
-    "crumbs": [
-      "SOPs",
-      "MRI Analysis"
-    ]
-  },
-  {
-    "objectID": "sop_mri_analysis.html#analysepipelines",
-    "href": "sop_mri_analysis.html#analysepipelines",
-    "title": "MRI Analysis",
-    "section": "Analysepipelines",
-    "text": "Analysepipelines\n\nIm Bestfall: NAMNIs: Neuromodulation And Multimodal NeuroImaging software, Karali, T; Padberg, F; Kirsch, V; Stoecklein, S; Falkai, P; Keeser, D\nhttps://zenodo.org/record/3530897/export/dcat#.ZEpxuS-228U\nAlternativ gibt es Analysepipelines auf dem Mac im GCBS Raum für strukturelle, funktionelle, und E-Field Auswertung\nhier [Ordner] auch die jeweiligen Scripte, die jedoch auf die jeweilige Datenstruktur angepasst werden müssen",
-    "crumbs": [
-      "SOPs",
-      "MRI Analysis"
-    ]
-  },
-  {
-    "objectID": "sop_mri_analysis.html#e-field-analyse-mit-simnibs-4.0",
-    "href": "sop_mri_analysis.html#e-field-analyse-mit-simnibs-4.0",
-    "title": "MRI Analysis",
-    "section": "E-Field Analyse mit SIMNIBS 4.0",
-    "text": "E-Field Analyse mit SIMNIBS 4.0\n\nhttps://simnibs.github.io/simnibs/build/html/tutorial/tutorial.html\nSpeziell: Einlesen von Localaite Daten für automatische E-Field Analyse\nhttps://simnibs.github.io/simnibs/build/html/documentation/neuronavigation/localite.html?highlight=localite\nHilfreich: in den Archives suchen oder eigene Frage reinstellen https://mailman.drcmr.dk/pipermail/simnibs-discuss/",
-    "crumbs": [
-      "SOPs",
-      "MRI Analysis"
-    ]
-  },
-  {
-    "objectID": "sop_datamanagement.html",
-    "href": "sop_datamanagement.html",
-    "title": "Data management & analysis",
-    "section": "",
-    "text": "We aim to efficiently manage our research data by following the FAIR (Findable, Accessible, Interoperable, Reusable) data principles: FAIR data is easy to find, contains information about how to gain access to them, is compatible with other data, and can be reused. For instance, ensuring your data is well-organized and documented can make it easier for humans and machines to find and understand it and enable better reuse of the data.\n\nIf this concept is new to you, check out this online workshop.\nAlso check out these slides to learn how to name your files so that they are machine readable, human readable and play well with default ordering.\nAnd work through this book chapter to learn tidy data conventions for tabular data.",
-    "crumbs": [
-      "SOPs",
-      "Data management & analysis"
-    ]
-  },
-  {
-    "objectID": "sop_datamanagement.html#data-management",
-    "href": "sop_datamanagement.html#data-management",
-    "title": "Data management & analysis",
-    "section": "",
-    "text": "We aim to efficiently manage our research data by following the FAIR (Findable, Accessible, Interoperable, Reusable) data principles: FAIR data is easy to find, contains information about how to gain access to them, is compatible with other data, and can be reused. For instance, ensuring your data is well-organized and documented can make it easier for humans and machines to find and understand it and enable better reuse of the data.\n\nIf this concept is new to you, check out this online workshop.\nAlso check out these slides to learn how to name your files so that they are machine readable, human readable and play well with default ordering.\nAnd work through this book chapter to learn tidy data conventions for tabular data.",
-    "crumbs": [
-      "SOPs",
-      "Data management & analysis"
-    ]
-  },
-  {
-    "objectID": "sop_datamanagement.html#data-analysis",
-    "href": "sop_datamanagement.html#data-analysis",
-    "title": "Data management & analysis",
-    "section": "Data analysis",
-    "text": "Data analysis\nOur group primarily uses the programming language R for data manipulation, statistical data analyses and plotting of data. It is open source, and has a big community, which facilitates the development of additional software packages for multiple different applications, but also makes it easy to get help if you are stuck at a particular problem. Moreover, it facilitates many workflow related tasks like automation, tracking changes with git, result preparation with markdown/latex and many more. This makes it easy to set up workflows, that can be later reproduced by other researchers.\nThe LMU Open Science Center offers a great online series of tutorials for a reproducible workflow in R:\n\nIntroduction to R\nIntroduction to version control within RStudio (version control - part 1)\nIntroduction to collaborative coding with Github (version control - part 2)\nIntroduction to literate programming with Quarto\nIntroduction to R package manager renv\nIntroduction to Zotero as reproducible citation management system\nWrap-up tutorial: publish your reproducible project",
-    "crumbs": [
-      "SOPs",
-      "Data management & analysis"
-    ]
-  },
-  {
-    "objectID": "sop_clipp.html",
-    "href": "sop_clipp.html",
-    "title": "Clinical Phenotyping Platform (CLIPP)",
-    "section": "",
-    "text": "Das CLIPP ist ein Phänotypisierungs–Tool zur Erfassung von Patient*innen-Daten in der klinischen Versorgung.\nEntwickler: Gerrit Burkhardt, Janos Kalman, Clemens Scherer\nWesentliche Merkmale:\n\nIntegration mit dem KAS: Import von Stammdaten, Export eines Arztbriefs als .pdf\nAlle Daten werden im sogenannten FHIR-Format in einer gesicherten Datenbank gespeichert\nNutzung im Browser innerhalb des MedVer-Netzes (d.h. nicht von außerhalb der Klinik)",
-    "crumbs": [
-      "SOPs",
-      "Clinical Phenotyping Platform (CLIPP)"
-    ]
-  },
-  {
-    "objectID": "sop_clipp.html#basics",
-    "href": "sop_clipp.html#basics",
-    "title": "Clinical Phenotyping Platform (CLIPP)",
-    "section": "",
-    "text": "Das CLIPP ist ein Phänotypisierungs–Tool zur Erfassung von Patient*innen-Daten in der klinischen Versorgung.\nEntwickler: Gerrit Burkhardt, Janos Kalman, Clemens Scherer\nWesentliche Merkmale:\n\nIntegration mit dem KAS: Import von Stammdaten, Export eines Arztbriefs als .pdf\nAlle Daten werden im sogenannten FHIR-Format in einer gesicherten Datenbank gespeichert\nNutzung im Browser innerhalb des MedVer-Netzes (d.h. nicht von außerhalb der Klinik)",
-    "crumbs": [
-      "SOPs",
-      "Clinical Phenotyping Platform (CLIPP)"
-    ]
-  },
-  {
-    "objectID": "sop_clipp.html#fall-registrierung",
-    "href": "sop_clipp.html#fall-registrierung",
-    "title": "Clinical Phenotyping Platform (CLIPP)",
-    "section": "Fall-Registrierung",
-    "text": "Fall-Registrierung\nRegistrierung einer*s neuen Patient*in",
-    "crumbs": [
-      "SOPs",
-      "Clinical Phenotyping Platform (CLIPP)"
-    ]
-  },
-  {
-    "objectID": "sop_clipp.html#fragebogen-bibliothek",
-    "href": "sop_clipp.html#fragebogen-bibliothek",
-    "title": "Clinical Phenotyping Platform (CLIPP)",
-    "section": "Fragebogen-Bibliothek",
-    "text": "Fragebogen-Bibliothek\nAnlegen und Auswählen von Fragebögen",
-    "crumbs": [
-      "SOPs",
-      "Clinical Phenotyping Platform (CLIPP)"
-    ]
-  },
-  {
-    "objectID": "sop_clipp.html#vorgehen-am-cnslmu",
-    "href": "sop_clipp.html#vorgehen-am-cnslmu",
-    "title": "Clinical Phenotyping Platform (CLIPP)",
-    "section": "Vorgehen am CNSLMU",
-    "text": "Vorgehen am CNSLMU\nAm CNSLMU verwenden wir CLIPP für die wissenschaftlichen Begleitung der klinischen Hirnstimulations-Behandlungen.\nDie folgenden fett markierten Fragebögen sind im CLIPP hinterlegt und sollten nach dem hier aufgeführten Schema erfasst werden:",
-    "crumbs": [
-      "SOPs",
-      "Clinical Phenotyping Platform (CLIPP)"
-    ]
-  },
-  {
-    "objectID": "sop_publishing.html",
-    "href": "sop_publishing.html",
-    "title": "Publishing & Dissemination",
-    "section": "",
-    "text": "The affiliation listed for a publication should reflect any institutions where the work was conducted.\n\nFor work completed in our lab, our department’s affiliation must be included, even if the individual has since left the lab.\nIf the work was completed prior to joining our lab but published afterward, our affiliation is not required. However, it can be added alongside the original institution’s affiliation if significant contributions to the paper were made after joining the lab.\n\n\n\n\n\n\n\nNote\n\n\n\n\nPlease make sure to always use the correct affiliation of our department: Department of Psychiatry and Psychotherapy, LMU University Hospital, Munich, Germany\nIf your project has been conducted within the DZPG, please also add: German Center for Mental Health (DZPG), Partner Site Munich-Augsburg, Germany\n\n\n\n\nThe LMU Klinikum is registered at the Research Organization Registry with the following persistent identifier: https://ror.org/02jet3w32 (LMU: https://ror.org/05591te55)\n\n\n\n\nAll papers should be uploaded to an appropriate preprint archive either before or at the time of submission, unless the target journal explicitly prohibits preprint publication. Our general policy is to avoid submitting to journals that restrict preprint posting, except in cases where there is a compelling reason to do so.\nWhile there are numerous preprint servers available, the two listed below are among the most commonly used by psychologists and neuroscientists.\n\nbioRxiv (has been around longer, extends to all of bio-related disciplines)\nPsyArXiv (more recent, specifically for psychology)\n\n\n\n\nWhen selecting journals for publication, we prioritize those that offer an Open Access option. However, we recognize that in some cases, the most suitable journal for a specific paper may not provide this option.\nYou can use the Sherpa Services to find journals with open access options and get guidance on whether a journal complies with a funder’s open access policies.\nMoreover, any member of the LMU registered as the Corresponding Author of a publication can apply for a fixed grant from the LMU Open Access Fund, which is financed by the German Research Foundation, to cover the publication costs (APC) incurred in connection with the publication of an Open Access research work.\n\n\n\nIf an error is identified in a published paper from the lab, all authors should promptly convene to assess whether the error affects any of the paper’s conclusions. Most journals provide mechanisms for either issuing a correction when the main conclusions remain intact or retracting the paper if they are significantly impacted. All authors must reach a consensus on whether a correction or retraction is appropriate and promptly inform the journal of their decision and the nature of the error. If relevant, a corrected version should also be submitted to the preprint server, and internal copies of the paper should be updated and versioned accordingly.",
-    "crumbs": [
-      "SOPs",
-      "Publishing & Dissemination"
-    ]
-  },
-  {
-    "objectID": "sop_publishing.html#guidelines",
-    "href": "sop_publishing.html#guidelines",
-    "title": "Publishing & Dissemination",
-    "section": "",
-    "text": "The affiliation listed for a publication should reflect any institutions where the work was conducted.\n\nFor work completed in our lab, our department’s affiliation must be included, even if the individual has since left the lab.\nIf the work was completed prior to joining our lab but published afterward, our affiliation is not required. However, it can be added alongside the original institution’s affiliation if significant contributions to the paper were made after joining the lab.\n\n\n\n\n\n\n\nNote\n\n\n\n\nPlease make sure to always use the correct affiliation of our department: Department of Psychiatry and Psychotherapy, LMU University Hospital, Munich, Germany\nIf your project has been conducted within the DZPG, please also add: German Center for Mental Health (DZPG), Partner Site Munich-Augsburg, Germany\n\n\n\n\nThe LMU Klinikum is registered at the Research Organization Registry with the following persistent identifier: https://ror.org/02jet3w32 (LMU: https://ror.org/05591te55)\n\n\n\n\nAll papers should be uploaded to an appropriate preprint archive either before or at the time of submission, unless the target journal explicitly prohibits preprint publication. Our general policy is to avoid submitting to journals that restrict preprint posting, except in cases where there is a compelling reason to do so.\nWhile there are numerous preprint servers available, the two listed below are among the most commonly used by psychologists and neuroscientists.\n\nbioRxiv (has been around longer, extends to all of bio-related disciplines)\nPsyArXiv (more recent, specifically for psychology)\n\n\n\n\nWhen selecting journals for publication, we prioritize those that offer an Open Access option. However, we recognize that in some cases, the most suitable journal for a specific paper may not provide this option.\nYou can use the Sherpa Services to find journals with open access options and get guidance on whether a journal complies with a funder’s open access policies.\nMoreover, any member of the LMU registered as the Corresponding Author of a publication can apply for a fixed grant from the LMU Open Access Fund, which is financed by the German Research Foundation, to cover the publication costs (APC) incurred in connection with the publication of an Open Access research work.\n\n\n\nIf an error is identified in a published paper from the lab, all authors should promptly convene to assess whether the error affects any of the paper’s conclusions. Most journals provide mechanisms for either issuing a correction when the main conclusions remain intact or retracting the paper if they are significantly impacted. All authors must reach a consensus on whether a correction or retraction is appropriate and promptly inform the journal of their decision and the nature of the error. If relevant, a corrected version should also be submitted to the preprint server, and internal copies of the paper should be updated and versioned accordingly.",
-    "crumbs": [
-      "SOPs",
-      "Publishing & Dissemination"
-    ]
-  },
-  {
-    "objectID": "re_funding.html",
-    "href": "re_funding.html",
-    "title": "Individual funding",
-    "section": "",
-    "text": "Funding programs by the Medical Faculty of the LMU\nKongressreisestipendien des Deutschen Akademischen Austauschdiensts (DAAD)",
-    "crumbs": [
-      "Ressources",
-      "Individual funding"
-    ]
-  },
-  {
-    "objectID": "re_funding.html#postdocs",
-    "href": "re_funding.html#postdocs",
-    "title": "Individual funding",
-    "section": "",
-    "text": "Funding programs by the Medical Faculty of the LMU\nKongressreisestipendien des Deutschen Akademischen Austauschdiensts (DAAD)",
-    "crumbs": [
-      "Ressources",
-      "Individual funding"
-    ]
-  },
-  {
-    "objectID": "re_funding.html#doctoral-students",
-    "href": "re_funding.html#doctoral-students",
-    "title": "Individual funding",
-    "section": "Doctoral students",
-    "text": "Doctoral students\n\nFunding programs by the Medical Faculty of the LMU\nKongressreisestipendien des Deutschen Akademischen Austauschdiensts (DAAD)",
-    "crumbs": [
-      "Ressources",
-      "Individual funding"
+      "General Policies"
     ]
   }
 ]

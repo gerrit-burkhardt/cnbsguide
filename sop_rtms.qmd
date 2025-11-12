@@ -1,0 +1,62 @@
+---
+title: "Checkliste rTMS Behandlung"
+---
+
+## Vorbereitung
+
+### Patientenaufnahme und Dokumentation
+
+-   [ ] Aufklärungsbogen TMS sichten und einscannen
+-   [ ] Einverständnis NIBS-Studie (+ ggf. MRT Aufklärung) vorbereiten
+-   [ ] Pat. in Access-Datenbank erfassen
+-   [ ] Pat. in CLIPP registrieren
+-   [ ] Behandlungsübersicht aktualisieren
+-   [ ] Termine in Outlook einpflegen
+
+### Voruntersuchungen
+
+-   [ ] Fragebögen durchführen: MADRS + *nibs_phenotype* (auch bei Pat., die bereits rTMS-Behandlungen bei uns erhalten haben)
+-   [ ] Ggf. "MRT OK" von ÄrztIn einholen
+-   [ ] Ggf. "EEG OK" von ÄrztIn einholen
+-   [ ] Ggf. Neuronavigation vorbereiten
+
+## rTMS Sitzung
+
+### Jeden Tag
+
+-   [ ] *nibs_treatment* anlegen
+-   [ ] Ggf. Neuronavigation vorbereiten
+-   [ ] *nibs-treatment*: "Vor der Behandlung" (Selbstrating PatientIn)
+-   [ ] Behandlung durchführen
+-   [ ] *nibs-treatment:* "Nach der Behandlung" (Selbstrating PatientIn) + Eingangsfragen zur Sitzung (Operator)
+-   [ ] Behandlungsstuhl desinfizieren
+-   [ ] Behandlungssitzung im KAS dokumentieren
+-   [ ] Ggf. Fehltermine im Outlook-Kalender dokumentieren
+
+### Freitag Wochen 1,2,3 und 5
+
+-   [ ] Fragebögen durchführen: *nibs_treatment* + *nibs_rating* (Selbstrating PatientIn) nach Ende der Behandlung
+
+### Freitag Wochen 4 und 6
+
+-   [ ] Fragebögen durchführen: *nibs_treatment* + *nibs_rating_post* (Selbstrating PatientIn) + MADRS nach Ende der Behandlung
+-   [ ] Access-Datenbank aktualisieren
+-   [ ] Behandlungsübersicht aktualisieren
+
+### Nach der letzten Sitzung am Tag
+
+-   [ ] Stimulator ausschalten
+-   [ ] Laptop herunterfahren
+-   [ ] Stimulator an die Wand stellen
+-   [ ] Licht ausschalten 😊
+
+## Nachbereitung
+
+-   [ ] Kurzarztbrief anlegen (KAS)
+-   [ ] Access-Datenbank aktualisieren
+-   [ ] Behandlungsübersicht aktualisieren
+-   [ ] Ggf. Termin für 6 Monate Follow-Up vereinbaren und in Outlook eintragen
+
+### 6 Monate Follow-up
+
+-   [ ] Fragebögen durchführen: nibs_rating_post (Selbstrating PatientIn) + MADRS
